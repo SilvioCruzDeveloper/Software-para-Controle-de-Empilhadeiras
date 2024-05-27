@@ -1,0 +1,76 @@
+0;"GASPOTI_MAX";3;"Calibrated max. rated speed of gas pedal on A1-X3/9-11, usually indicating forward travel";"1";0;65535;1;"INC";0;1;0
+1;"GASPOTI_MIN";3;"Calibrated min. rated speed of gas pedal on A1-X3/9-11, usually indicating reverse travel";"1";0;65535;1;"INC";0;1;0
+2;"GASPOTI_ZERO";3;"Calibrated stop value of released gas pedal connected to A1-X3/9-11";"1";0;65535;1;"INC";0;1;0
+3;"SAUG_NACHLAUF";3;"Lag time of vacuum motor (BR) or filter shaker motor (KM) connected to A1-X15/X16";"1";0;50;1;"s";0;1;1
+4;"MAX_R_SITZ";3;"Resistance threshold of seat sensor which indicates occupancy if underceeded (A1-X4/3-4)";"1";0;65535;1;"Ohm";0;1;0
+5;"SITZ_TIMEOUT";3;"Delay time between seat left open and braking of machine";"0.001";0;5000;1;"s";0;1;0
+6;"MAX_SROM_SAUG";3;"Current limitation of vacuum motor/filter shaker motor connected to A1-X15/X16";"0.1";100;300;1;"A";0;1;1
+7;"R_SAUG";3;"Resistance of vacuum motor/filter shaker motor connected to A1-X15/X16";"1";0;1000;1;"mOhm";0;1;0
+8;"R_BUERST";3;"Resistance of brush motor(s) connected to A1-X19/X20";"1";0;1000;1;"mOhm";0;1;0
+9;"MAX_STROM_BUERST";3;"Current limitation of brush motor(s) connected to A1-X19/X20";"0.1";100;800;1;"A";0;1;1
+10;"MAX_SPEED_FORW";3;"Max. forward speed of traction motor at 24V, connected to  A1-X17/X18";"163840";0;6;1;"km/h";0;1;1
+11;"MAX_SPEED_BACK";3;"Max. reverse speed of traction motor at 24V, connected to  A1-X17/X18";"163840";0;6;1;"km/h";0;1;1
+12;"CREEP_SPEED";3;"Creep speed of traction motor at 24V, connected to A1-X17/X18 when touching gas pedal";"163840";0;6;1;"km/h";0;1;1
+13;"MAX_SPEED_WORK";3;"Max. forward speed of traction motor at 24V, connected to  A1-X17/X18 during cleaning";"163840";0;6;1;"km/h";0;1;1
+14;"RELEASE_BRAKING";3;"Deceleration ramp of traction motor, connected to A1-X17/X18";"1";10;20;1;"%";0;1;1
+15;"ACCEL_RAMP";3;"Acceleration ramp of traction motor, connected to A1-X17/X18";"1";0;20;1;"%";0;1;1
+16;"R_FAHR";3;"Resistance of traction motor connected to  A1-X17/X18";"1";0;1000;1;"mOhm";0;1;0
+17;"MAX_STROM_FAHR";3;"Current limitation of traction motor connected to A1-X17/X18 during driving";"0.1";100;800;1;"A";0;1;1
+18;"MAX_STROM_BRAKE";3;"Current limitation of traction motor connected to A1-X17/X18 during braking";"0.1";100;800;1;"A";0;1;1
+19;"TIEFENTLADESCHUTZ";3;"Depth of discharge voltage (All loads except traction motor are switched off, Battery-LED: red)";"0.01";2100;3000;1;"V";0;1;1
+20;"BAT_1";3;"Ubatt < Ut0%20% sets battery capacity to 0%..20% (Battery-LED: red flashing)";"0.01";2100;3000;1;"V";0;1;0
+21;"BAT_2";3;"Ubatt < Ut20%40% sets battery capacity to 20%..40% (Battery-LED: yellow)";"0.01";2100;3000;1;"V";0;1;0
+22;"BAT_3";3;"Ubatt < Ut40%60% sets battery capacity to 40%..60% (Battery-LED: green)";"0.01";2100;3000;1;"V";0;1;0
+23;"BAT_4";3;"Ubatt < Ut60%80% sets battery capacity to 60%..80% (Battery-LED:green)";"0.01";2100;3000;1;"V";0;1;0
+24;"BAT_FULL";3;"Minimum voltage to reset battery capacity to 100% (All loads can be switched on)";"0.01";2100;3000;1;"V";0;1;1
+25;"DOSIERMENGE";3;"Rated dosage value for optional cleaning agent pump, connected to A1-X3/3-5";"0.00025";0;12000;1;"%";0;1;1
+26;"LADEZUSTAND";3;"Charging state of battery (Number of 20%-windows = Number of display bars)";"1";0;5;1;;0;1;0
+27;"SPANN_TIMEOUT";3;"Minimum time Ubatt must remain below Utx to set battery capacity to corresponding window";"0.007";24;1429;1;"min";0;1;1
+28;"SPANN_TIMER";3;"Remaining seconds before changing to next charging phase";"0.04";0;1475;1;"s";0;1;0
+29;"BUERST_NACHLAUF";3;"Lag time of brush motor(s) connected to A1-X19/X20";"1";0;10;1;"s";0;1;1
+30;"SPEED_REFERENZ";3;"Factor to calculate traction velocity in km/h for display output";"1";0;65535;1;"INC";0;1;0
+31;"MIN_SPEED_WORK";3;"Min. forward speed during cleaning operation while gas pedal is fully activated";"163840";0;6;1;"km/h";0;1;1
+32;"UI_SPEED_WORK";3;"Forward speed defined by operator during cleaning operation while gas pedal is fully activated";"163840";0;6;1;"km/h";0;1;1
+33;"U_FLAGS";3;"16bit command word to control menue options in display (for development purposes only!)";"1";0;65535;1;"INC";0;1;0
+34;"STANDBYTIME";3;"Standby timer to switch off machine if no load is active";"1";1;60;1;"min";0;1;1
+35;"LANGUAGE";3;"Selected language for display texts  (119=german,120=english bis 136=turkish)";"1";119;136;1;;0;1;1
+36;"BUERST_A_RAMPE";3;"Acceleration of brush motor(s) connected to A1-X19/X20";"1";0;20;1;"%";0;1;1
+37;"SAUG_A_RAMPE";3;"Acceleration of vacuum/filter shaker motor connected to A1-X15/X16";"1";0;20;1;"%";0;1;1
+38;"MAX_SPEED_BRUSH";3;"Max. speed of roller brush motor(s) connected to A1-X19/X20";"1";10;150;1;"% vma";0;1;1
+39;"MAX_SPEEDBRUSH_BD";3;"Max. speed of disk brush motor(s) connected to A1-X19/X20";"1";10;150;1;"% vma";0;1;1
+40;"MAX_SPEED_BLOWER";3;"Max. speed of vacuum/filter shaker motor connected to A1-X15/X16";"1";10;150;1;"% vma";0;1;1
+41;"PROTOCOL_DELTA_T";3;"Time increment to store event/measurment data to flash (for development purposes only!)";"1";1;3600;1;"s";0;1;0
+42;"ERROR_HISTORY_NR0";3;"Error archive: Number of last error event t-0";"1";0;65535;1;;0;1;1
+43;"ERROR_HISTORY_NR1";3;"Error archive: Number of error event  t-1";"1";0;65535;1;;0;1;1
+44;"ERROR_HISTORY_NR2";3;"Error archive: Number of error event  t-2";"1";0;65535;1;;0;1;1
+45;"ERROR_HISTORY_NR3";3;"Error archive: Number of error event  t-3";"1";0;65535;1;;0;1;1
+46;"ERROR_HISTORY_OP0_L";3;"Error archive: Operating minute, error event  t-0 occured";"0.004";0;14750;1;"min";0;1;1
+47;"ERROR_HISTORY_OP0_H";3;"Error archive: Operating hour, error event t-0 occured";"1";0;65535;1;"h";0;1;1
+48;"ERROR_HISTORY_OP1_L";3;"Error archive: Operating minute, error event  t-1 occured";"0.004";0;14750;1;"min";0;1;1
+49;"ERROR_HISTORY_OP1_H";3;"Error archive: Operating hour, error event t-1 occured";"1";0;65535;1;"h";0;1;1
+50;"ERROR_HISTORY_OP2_L";3;"Error archive: Operating minute, error event  t-2 occured";"0.004";0;14750;1;"min";0;1;1
+51;"ERROR_HISTORY_OP2_H";3;"Error archive: Operating hour, error event t-2 occured";"1";0;65535;1;"h";0;1;1
+52;"ERROR_HISTORY_OP3_L";3;"Error archive: Operating minute, error event  t-3 occured";"0.004";0;14750;1;"min";0;1;1
+53;"ERROR_HISTORY_OP3_H";3;"Error archive: Operating hour, error event t-3 occured";"1";0;65535;1;"h";0;1;1
+54;"FUELL_20";3;"Value of analog sensor, connected to X4/10 assigning 20% water level";"1";0;65535;1;"INC";0;1;0
+55;"FUELL_40";3;"Value of analog sensor, connected to X4/10 assigning 40% water level";"1";0;65535;1;"INC";0;1;0
+56;"FUELL_60";3;"Value of analog sensor, connected to X4/10 assigning 60% water level";"1";0;65535;1;"INC";0;1;0
+57;"FUELL_80";3;"Value of analog sensor, connected to X4/10 assigning 80% water level";"1";0;65535;1;"INC";0;1;0
+58;"FUELL_100";3;"Value of analog sensor, connected to X4/10 assigning 100% water level";"1";0;65535;1;"INC";0;1;0
+59;"BRUSH_OVERLOAD_TIME";3;"Max. duration of overload condition on A1-X19/X20, before turning off load";"0.005";0;12000;1;"s";0;1;1
+60;"SAUG_OVERLOAD_TIME";3;"Max. duration of overload condition on A1-X15/X16, bevor turning off load";"0.005";0;12000;1;"s";0;1;1
+61;"FAHR_KI_KP";3;"P+I-amplification factor of speed controller for traction motor connected to A1-X17/X18";"1";0;65535;1;"INC";0;1;0
+62;"FAHR_KP";3;"P-amplification factor of speed controller for traction motor connected to A1-X17/X18";"1";0;65535;1;"INC";0;1;0
+63;"BUERST_KI_KP";3;"P+I-amplification factor of speed controller for brush motor(s) connected to A1-X19/X20";"1";0;65535;1;"INC";0;1;0
+64;"BUERST_KP";3;"P-amplification factor of speed controller for brush motor(s) connected to A1-X19/X20";"1";0;65535;1;"INC";0;1;0
+65;"BAT_KAPAZITAET";3;"Nominal battery capacity in terms of C5 (5h discharge current) - CURRENTLY NOT USED";"1";0;255;1;"Ah";0;1;0
+66;"VALVE_NACHLAUF";3;"Lag time for pneumatic valves controlling lowering/lifting of side brooms connected to X2/6-7";"1";0;10;1;"s";0;1;0
+67;"FAHR_OVERLOAD_TIME";3;"Max. duration of overload condition on A1-X17/X18, before turing off load";"0.005";0;18000;1;"s";0;1;1
+68;"U_DOD_MIN";3;"Minimum depth of discharge voltage to shut off traction motor";"0.01";255;3000;1;"V";0;1;0
+69;"WHISPER_SPEED_BRUSH";3;"Speed of brush motor(s) connected to A1-X19/X20 in Whisper scrub mode";"1";10;150;1;"% vma";0;1;1
+70;"FINE_SPEED_BRUSH";3;"Speed of brush motor(s) connected to A1-X19/X20 in Fine scrub mode";"1";10;150;1;"% vma";0;1;1
+71;"LOW_NOISE_SPEED_BLOWER";3;"Speed of vacuum motor connected to  A1-X15/X16 in Whisper suction mode";"1";10;150;1;"% vma";0;1;1
+72;"GELB_ABGLEICH";4;"Adapting saturation and color of YELLOW battery-LED (+ = more green, - = more red)";"1";240;16;1;"INC";0;1;1
+73;"BRUSH_SPEED_FILTER_CLEAN";3;"Speed of brush motor(s) during filter shaker activity (Sweeper only!)";"1";10;150;1;"% vma";0;1;0
+74;"ARBEITSBREITE";3;"Working width of brush head on scrubbers to adapt display text for machine model";"1";30;150;1;"cm";0;1;1
+75;"RUETTELAUTOM_TRP";3;"Duration of no filter shaker activity  (Sweeper only!)  (0= Automatic shaker cycle deactivated!)";"0.017";0;3471;1;"min";0;1;1

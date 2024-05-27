@@ -1,0 +1,265 @@
+0;"KENNUNG";1;"Toggelkennzeichen: 0x55 / 0xAA";"1";0;255;0;;0;0;0
+1;"STEUERUNGS-TYP";1;"Kopf-Cpu mit STM 32 immer Typ=5";"1";0;255;0;;0;0;0
+2;"STEUERUNGS-VARIANTE";1;"Modulsteuerung = 1; MFM-BAT = 2  ; MFM-Verbrenner = 3";"1";0;255;0;;0;0;0
+3;"STEUERUNGS_OPTION";1;"Bit0=Batt; Bit1=RFID; Bit2=EOB; Bit3=Touch; Bit4=Folie; Bit5=Grafik; Bit6=alpha2x16; Bit7=8MBitFlash";"1";0;255;0;;0;0;0
+4;"MASCHINENTYP";1;"MaschinennummerKM-Mediumrange:100-111(115=Touch) /  150=B150C; 151=B150A";"1";0;255;0;;0;0;1
+5;"MASCHINEN_OPTION_1";1;"Bit0=Walze; Bit1=Disk; Bit2=Saugbalken; Bit3=Wasser; Bit4=Trac-Standard; Bit5=Trac-Dual Pm";"1";0;255;0;;0;0;1
+6;"MASCHINEN_OPTION_2";1;"Bit0=Seitenbesen; Bit1=Chemie; Bit2=Rundumleuchte, Bit3=Sprühsaugen, Bit4=Tankspülung";"1";0;255;0;;0;0;1
+7;"MASCHINEN_OPTION_3";1;"Bit0=ES Mode Hubmotor";"1";0;255;0;;0;0;1
+8;"MASCHINEN_OPTION_4";1;;"1";0;255;0;;0;0;0
+9;"MASCHINEN_OPTION_5";1;;"1";0;255;0;;0;0;0
+10;"KALIBRIER_MERKER";1;"Bit0=Gas; Bit1=Touch; Bit2=Lenkpoti; Bit3=KW; Bit4=SB-Re;Bit5=SB-Li;Bit6=KSB; Bit7=Standardparam.";"1";0;255;0;;0;0;1
+11;"SYSTEMINIT";1;"Bit0 = Modulparameter laden";"1";0;255;0;;0;0;0
+12;"COUNTRY_CODE";1;"Eingestellte Displaysprache (0=englisch; 1=deutsch…)";"1";0;19;0;;0;0;1
+13;"STANDBY_DELAY";1;"Standby Zeit der Maschine bis Power-down in min";"1";1;255;0;"min";0;0;1
+14;"SERVICE_STD_RESET";3;"Rücksetzwert des Servicezählers in Stunden.";"1";0;1270;0;"h";0;0;1
+15;;0;;;;;;;;0;
+16;"TAGES_ZAEHLER_STD";1;"Inhalt Tageszähler (Stunden)";"1";0;99;0;"h";0;0;1
+17;"TAGES_ZAEHLER_MIN";1;"Inhalt Tageszähler (Minuten)";"1";0;59;0;"m";0;0;1
+18;"SERV_MIN_CHECKWERT";1;"Kontrollwert zum Gegenchecken des Servicezähler Flashpuffers (softwareintern)";"1";0;255;0;;0;0;0
+19;"SERV_STD_CHECKWERT";3;;"1";0;1270;0;;0;0;0
+20;;0;;;0;;0;;0;0;0
+21;"BS_MIN_CHECKWERT";1;"Kontrollwert zum Gegenchecken des BS-Zählers im Flashpuffer (softwareintern)";"1";0;255;0;;0;0;0
+22;"BS_STD_CHECKWERT";3;;"1";0;65535;0;;0;0;0
+23;;0;;;0;;0;;0;0;0
+24;;0;;;0;;0;;0;0;
+25;;0;;;;;0;;0;0;0
+26;;0;;;;;0;;0;0;
+27;;0;;;;;;;0;0;
+28;;0;;;;;0;;0;0;
+29;;0;;;;;0;;0;0;
+30;;0;;;;;0;;0;0;
+31;;0;;;0;;0;;0;0;0
+32;;0;;;0;;0;;0;0;0
+33;;0;;;0;;0;;0;0;0
+34;;0;;;0;;0;;0;0;0
+35;;0;;;0;;0;;0;0;0
+36;;0;;;0;;0;;0;0;0
+37;;0;;;0;;0;;0;0;0
+38;;0;;;0;;0;;0;0;0
+39;;0;;;0;;0;;0;0;0
+40;;0;;;0;;0;;0;0;0
+41;;0;;;0;;0;;0;0;0
+42;;0;;;0;;0;;0;0;0
+43;;0;;;0;;0;;0;0;0
+44;;0;;;0;;0;;0;0;0
+45;;0;;;0;;0;;0;0;0
+46;;0;;;0;;0;;0;0;0
+47;;0;;;0;;0;;0;0;0
+48;;0;;;0;;0;;0;0;0
+49;;0;;;0;;0;;0;0;0
+50;;0;;;0;;0;;0;0;0
+51;;0;;;0;;0;;0;0;0
+52;;0;;;0;;0;;0;0;0
+53;;0;;;0;;0;;0;0;0
+54;;0;;;0;;0;;0;0;0
+55;;0;;;0;;0;;0;0;0
+56;;0;;;0;;0;;0;0;0
+57;;0;;;0;;0;;0;0;0
+58;"INIT_KONTRAST";1;"Displaykontrast";"1";0;63;0;;0;0;1
+59;"INIT_BIAS";1;"Display BIAS";"1";80;87;0;;0;0;1
+60;"INIT_RESISTOR";1;"Display interne Widerstand";"1";32;39;0;;0;0;1
+61;;0;;;0;;0;;0;0;
+62;;0;;"0";0;255;0;;0;0;0
+63;;0;;"0";0;255;0;;0;0;0
+64;;0;;"0";0;255;0;;0;0;0
+65;;0;;"0";0;255;0;;0;0;0
+66;;0;;"0";0;255;0;;0;0;0
+67;;0;;"0";0;255;0;;0;0;0
+68;;0;;"0";0;255;0;;0;0;0
+69;;0;;"0";0;255;0;;0;0;0
+70;;0;;"0";0;255;0;;0;0;0
+71;;0;;"0";0;255;0;;0;0;0
+72;;0;;"0";0;255;0;;0;0;0
+73;;0;;"0";0;255;0;;0;0;0
+74;;0;;"0";0;255;0;;0;0;0
+75;;0;;"0";0;255;0;;0;0;0
+76;;0;;"0";0;255;0;;0;0;0
+77;;0;;"0";0;255;0;;0;0;0
+78;;0;;"0";0;255;0;;0;0;0
+79;;0;;"0";0;255;0;;0;0;0
+80;;0;;"0";0;255;0;;0;0;0
+81;;0;;"0";0;255;0;;0;0;0
+82;;0;;"0";0;255;0;;0;0;0
+83;;0;;"0";0;255;0;;0;0;0
+84;;0;;"0";0;255;0;;0;0;0
+85;;0;;"0";0;255;0;;0;0;0
+86;;0;;"0";0;255;0;;0;0;0
+87;;0;;"0";0;255;0;;0;0;0
+88;;0;;"0";0;255;0;;0;0;0
+89;;0;;"0";0;255;0;;0;0;0
+90;;0;;"0";0;255;0;;0;0;0
+91;;0;;"0";0;255;0;;0;0;0
+92;;0;;"0";0;255;0;;0;0;0
+93;;0;;"0";0;255;0;;0;0;0
+94;;0;;"0";0;255;0;;0;0;0
+95;;0;;"0";0;255;0;;0;0;0
+96;;0;;"0";0;255;0;;0;0;0
+97;;0;;"0";0;255;0;;0;0;0
+98;;0;;"0";0;255;0;;0;0;0
+99;;0;;"0";0;255;0;;0;0;0
+100;;0;;"0";0;255;0;;0;0;0
+101;;0;;"0";0;255;0;;0;0;0
+102;;0;;"0";0;255;0;;0;0;0
+103;;0;;"0";0;255;0;;0;0;0
+104;;0;;"00";0;255;0;;0;0;0
+105;;0;;"0";0;255;0;;0;0;0
+106;;0;;"0";0;255;0;;0;0;0
+107;;0;;"0";0;255;0;;0;0;0
+108;;0;;"0";0;255;0;;0;0;0
+109;;0;;"0";0;255;0;;0;0;0
+110;;0;;"0";0;255;0;;0;0;0
+111;;0;;"0";0;255;0;;0;0;0
+112;;0;;"0";0;255;0;;0;0;0
+113;;0;;"0";0;255;0;;0;0;0
+114;;0;;"0";0;255;0;;0;0;0
+115;;0;;"0";0;255;0;;0;0;0
+116;;0;;"0";0;255;0;;0;0;0
+117;;0;;"0";0;255;0;;0;0;0
+118;;0;;"0";0;255;0;;0;0;0
+119;;0;;"0";0;255;0;;0;0;0
+120;;0;;"0";0;255;0;;0;0;0
+121;;0;;"0";0;255;0;;0;0;0
+122;;0;;"0";0;255;0;;0;0;0
+123;;0;;"0";0;255;0;;0;0;0
+124;;0;;"0";0;255;0;;0;0;0
+125;;0;;"0";0;255;0;;0;0;0
+126;;0;;"0";0;255;0;;0;0;0
+127;;0;;"0";0;255;0;;0;0;0
+128;;0;;"0";0;255;0;;0;0;0
+129;;0;;"0";0;255;0;;0;0;0
+130;;0;;"0";0;255;0;;0;0;0
+131;;0;;"0";0;255;0;;0;0;0
+132;;0;;"0";0;255;0;;0;0;0
+133;;0;;"0";0;255;0;;0;0;0
+134;;0;;"0";0;255;0;;0;0;0
+135;;0;;"0";0;255;0;;0;0;0
+136;;0;;"0";0;255;0;;0;0;0
+137;;0;;"0";0;255;0;;0;0;0
+138;;0;;"0";0;255;0;;0;0;0
+139;;0;;"0";0;255;0;;0;0;0
+140;;0;;"0";0;255;0;;0;0;0
+141;;0;;"0";0;255;0;;0;0;0
+142;;0;;"0";0;255;0;;0;0;0
+143;;0;;"0";0;255;0;;0;0;0
+144;;0;;"0";0;255;0;;0;0;0
+145;;0;;"0";0;255;0;;0;0;0
+146;;0;;"0";0;255;0;;0;0;0
+147;;0;;"0";0;255;0;;0;0;0
+148;;0;;"0";0;255;0;;0;0;0
+149;;0;;"0";0;255;0;;0;0;0
+150;;0;;"0";0;255;0;;0;0;0
+151;;0;;"0";0;255;0;;0;0;0
+152;;0;;"0";0;255;0;;0;0;0
+153;;0;;"0";0;255;0;;0;0;0
+154;;0;;"0";0;255;0;;0;0;0
+155;;0;;"0";0;255;0;;0;0;0
+156;;0;;"0";0;255;0;;0;0;0
+157;;0;;"0";0;255;0;;0;0;0
+158;;0;;"0";0;255;0;;0;0;0
+159;;0;;"0";0;255;0;;0;0;0
+160;;0;;"0";0;255;0;;0;0;0
+161;;0;;"0";0;255;0;;0;0;0
+162;;0;;"0";0;255;0;;0;0;0
+163;;0;;"0";0;255;0;;0;0;0
+164;;0;;"0";0;255;0;;0;0;0
+165;;0;;"0";0;255;0;;0;0;0
+166;;0;;"0";0;255;0;;0;0;0
+167;;0;;"0";0;255;0;;0;0;0
+168;;0;;"0";0;255;0;;0;0;0
+169;;0;;"0";0;255;0;;0;0;0
+170;;0;;"0";0;255;0;;0;0;0
+171;;0;;"0";0;255;0;;0;0;0
+172;;0;;"0";0;255;0;;0;0;0
+173;;0;;"0";0;255;0;;0;0;0
+174;;0;;"0";0;255;0;;0;0;0
+175;;0;;"0";0;255;0;;0;0;0
+176;;0;;"0";0;255;0;;0;0;0
+177;;0;;"0";0;255;0;;0;0;0
+178;;0;;"0";0;255;0;;0;0;0
+179;;0;;"0";0;255;0;;0;0;0
+180;;0;;"0";0;255;0;;0;0;0
+181;;0;;"0";0;255;0;;0;0;0
+182;;0;;"0";0;255;0;;0;0;0
+183;;0;;"0";0;255;0;;0;0;0
+184;;0;;"0";0;255;0;;0;0;0
+185;;0;;"0";0;255;0;;0;0;0
+186;;0;;"0";0;255;0;;0;0;0
+187;;0;;"0";0;255;0;;0;0;0
+188;;0;;"0";0;255;0;;0;0;0
+189;;0;;"0";0;255;0;;0;0;0
+190;"STAT_REM_OP_CALCULATION";1;"Status der Reichweitenkalkulation: 0 = aktiv, 1 = deaktiviert";"1";0;1;0;;0;0;1
+191;"AV_DISCH_CURRENT";1;"Durchschnittlicher Entladestrom der B150R.";"1";1;254;0;"A";0;1;1
+192;"DISCH_CURRENT_THRESH";1;"Stromschwelle ab der die Reichweitenkalkulation aktiv ist.";"1";1;254;0;"A";0;0;1
+193;"TIME_TO_SHOW_MIN";1;"Anzeige der Restlaufzeit in Minuten anstatt des Ladebalkens. 0/ 255: Minutenanzeige deaktiviert";"1";0;255;0;"min";0;0;1
+194;"TIME_TO_SHOW_CHARGE_REQ";1;"Start der Anzeige des Ladeanforderungssymbols. 0/255: Ladeanforderungsanzeige deaktiviert";"1";0;255;0;"min";0;0;1
+195;"DYNAMIC_V_BASED_BAR";1;"Dynamik der spannungsbasierten Batterieanzeige. 10% Änderung in x Sekunden.";"1";1;254;0;"s";0;1;1
+196;"OFFSET_CUTOFF_V";1;"Offset Spannung als Zielwert für die Reichweitenkalkulation. Ziel: 0% Füllstand bei Ucutoff + Offset";"1";1;254;0;"mV";0;1;1
+197;"CORR_FACTOR";1;"Korrekturfaktor für Batteriebilanzierung. Entladestrom wird mit dem Faktor multipliziert.";"0.01";50;200;0;;0;0;1
+198;;0;;"0";0;255;0;;0;0;0
+199;;0;;"0";0;255;0;;0;0;0
+200;;0;;"0";0;255;0;;0;0;0
+201;"WORKSPEED_P2";1;"Arbeitsgeschwindigkeit Programmwahlschalterstellung 2";"1";0;255;0;;0;0;0
+202;"WORKSPEED_P3";1;"Arbeitsgeschwindigkeit Programmwahlschalterstellung 3";"1";0;255;0;;0;0;0
+203;"WORKSPEED_P4";1;"Arbeitsgeschwindigkeit Programmwahlschalterstellung 4";"1";0;255;0;;0;0;0
+204;"WORKSPEED_P5";1;"Arbeitsgeschwindigkeit Programmwahlschalterstellung 5";"1";0;255;0;;0;0;0
+205;"WORKSPEED_P6";1;"Arbeitsgeschwindigkeit Programmwahlschalterstellung 6";"1";0;255;0;;0;0;0
+206;"WORKSPEED_P7";1;"Arbeitsgeschwindigkeit Programmwahlschalterstellung 7";"1";0;255;0;;0;0;0
+207;"BRUSSPEED_P2";1;"Bürstengeschwindigkeit Programmwahlschalterstellung 2";"1";0;255;0;;0;0;0
+208;"BRUSSPEED_P3";1;"Bürstengeschwindigkeit Programmwahlschalterstellung 3";"1";0;255;0;;0;0;0
+209;"BRUSSPEED_P4";1;"Bürstengeschwindigkeit Programmwahlschalterstellung 4";"1";0;255;0;;0;0;0
+210;"BRUSSPEED_P5";1;"Bürstengeschwindigkeit Programmwahlschalterstellung 5";"1";0;255;0;;0;0;0
+211;"BRUSSPEED_P7";1;"Bürstengeschwindigkeit Programmwahlschalterstellung 7";"1";0;255;0;;0;0;0
+212;"SUCTIONSPEED_P2";1;"Sauggeschwindigkeit Programmwahlschalterstellung 2. 0=off, 1=whisper, 1=power";"1";0;255;0;;0;0;0
+213;"SUCTIONSPEED_P3";1;"Sauggeschwindigkeit Programmwahlschalterstellung 3. 0=off, 1=whisper, 1=power";"1";0;255;0;;0;0;0
+214;"SUCTIONSPEED_P4";1;"Sauggeschwindigkeit Programmwahlschalterstellung 4. 0=off, 1=whisper, 1=power";"1";0;255;0;;0;0;0
+215;"SUCTIONSPEED_P6";1;"Sauggeschwindigkeit Programmwahlschalterstellung 6. 0=off, 1=whisper, 1=power";"1";0;255;0;;0;0;0
+216;"WASSERDOSI_P2";1;"Wasserdosierung Programmwahlschalterstellung 2";"1";0;255;0;;0;0;0
+217;"WASSERDOSI_P3";1;"Wasserdosierung Programmwahlschalterstellung 3";"1";0;255;0;;0;0;0
+218;"WASSERDOSI_P4";1;"Wasserdosierung Programmwahlschalterstellung 4";"1";0;255;0;;0;0;0
+219;"WASSERDOSI_P5";1;"Wasserdosierung Programmwahlschalterstellung 5";"1";0;255;0;;0;0;0
+220;"DOSE_P2";1;"Chemiedosierung Programmwahlschalterstellung 2";"1";0;255;0;;0;0;0
+221;"DOSE_P3";1;"Chemiedosierung Programmwahlschalterstellung 3";"1";0;255;0;;0;0;0
+222;"DOSE_P4";1;"Chemiedosierung Programmwahlschalterstellung 4";"1";0;255;0;;0;0;0
+223;"DOSE_P5";1;"Chemiedosierung Programmwahlschalterstellung 5";"1";0;255;0;;0;0;0
+224;"BRUSHSPEED_DISC";1;"Bürstengeschwindigkeit Disc";"1";0;255;0;;0;0;0
+225;"BRUSHPRESSURE_P2";1;"Bürstenanpressdruck Programmwahlschalterstellung 2";"1";0;255;0;;0;0;0
+226;"BRUSHPRESSURE_P3";1;"Bürstenanpressdruck Programmwahlschalterstellung 3";"1";0;255;0;;0;0;0
+227;"BRUSHPRESSURE_P4";1;"Bürstenanpressdruck Programmwahlschalterstellung 4";"1";0;255;0;;0;0;0
+228;"BRUSHPRESSURE_P5";1;"Bürstenanpressdruck Programmwahlschalterstellung 5";"1";0;255;0;;0;0;0
+229;"BRUSHPRESSURE_P7";1;"Bürstenanpressdruck Programmwahlschalterstellung 7";"1";0;255;0;;0;0;0
+230;"HYSTERESE";1;"Hysterese für Bürstenstromregelung";"1";0;255;0;;0;0;0
+231;"MAX_BRUSH_STROM";1;"Maximaler Bürstenstrom";"1";0;255;0;;0;0;0
+232;"WOKRSPEED_P2_ZAPI";1;"Arbeitsgeschwindigkeit Programmwahlschalterstellung 2 dual PM Fahrmodul";"1";0;255;0;;0;0;0
+233;"WOKRSPEED_P3_ZAPI";1;"Arbeitsgeschwindigkeit Programmwahlschalterstellung 3 dual PM Fahrmodul";"1";0;255;0;;0;0;0
+234;"WOKRSPEED_P4_ZAPI";1;"Arbeitsgeschwindigkeit Programmwahlschalterstellung 4 dual PM Fahrmodul";"1";0;255;0;;0;0;0
+235;"WOKRSPEED_P5_ZAPI";1;"Arbeitsgeschwindigkeit Programmwahlschalterstellung 5 dual PM Fahrmodul";"1";0;255;0;;0;0;0
+236;"WOKRSPEED_P6_ZAPI";1;"Arbeitsgeschwindigkeit Programmwahlschalterstellung 6 dual PM Fahrmodul";"1";0;255;0;;0;0;0
+237;"WOKRSPEED_P7_ZAPI";1;"Arbeitsgeschwindigkeit Programmwahlschalterstellung 7 dual PM Fahrmodul";"1";0;255;0;;0;0;0
+238;"BEACON_P1_P7";1;"Status der optionalen Rundumleuchte: Bit 0: 1=ein EOB1";"1";0;255;0;;0;0;0
+239;"BROOM_P1_P7";1;"Status des optionalen Seitenbesens: Bit 0: 1=ein EOB1";"1";0;255;0;;0;0;0
+240;"STRAIGTH_ANGLE";1;"Lenkpotiwert bei geradem Lenkeinschlag";"1";0;255;0;;0;0;0
+241;"NLZ_TURBINE";1;"Nachlaufzeit der Turbine, in 100ms Schritten";"1";0;255;0;"0,1s";0;0;1
+242;"NLZ_BRUSH";1;"Nachlaufzeit der Bürsten, in 100ms Schritten";"1";0;255;0;"0,1s";0;0;1
+243;"NLZ_BROOM";1;"Nachlaufzeit der Seitenbesen, in 100ms Schritten";"1";0;255;0;"0,1s";0;0;1
+244;"BATT_STATUS";1;"Status Batterie: Bit0: Batterieentlademerker(Kapazitätserkennung), Bit1: Batteriekapazität bekannt";"1";0;255;0;;0;0;0
+245;"MAX_BATT_CAPACITY";3;"maximale Batteriekapazität, wird ermittelt durch komplettes entladen und darauffolgendes Laden.";"1";0;65535;0;"Amin";0;1;0
+246;;0;;"1";0;0;0;;0;0;0
+247;"ACT_BATT_CAPACITY";3;"aktuelle Batterieladung in Amin";"1";0;65535;0;"Amin";0;1;0
+248;;0;;"1";0;0;0;;0;0;0
+249;"HUPE";1;"Piepfunktion der Hupe bei Vorwärtsfahrt: 0 = aus, 1 = ein";"1";0;255;0;;0;0;0
+250;"STEMPEL_TAGESZAEHLER_0";1;"Byte 0 des Zeitstempels für den Tageszähler. In Sekunden";"1";0;255;0;"s";0;1;0
+251;"STEMPEL_TAGESZAEHLER_1";1;"Byte 1 des Zeitstempels für den Tageszähler. In Sekunden";"1";0;255;0;"s";0;1;0
+252;"STEMPEL_TAGESZAEHLER_2";1;"Byte 2 des Zeitstempels für den Tageszähler. In Sekunden";"1";0;255;0;"s";0;1;0
+253;"STEMPEL_TAGESZAEHLER_3";1;"Byte 3 des Zeitstempels für den Tageszähler. In Sekunden";"1";0;255;0;"s";0;1;0
+254;"ZEIT_TEMP_SCHUTZ_0";3;"Verbleibende Arbeitszeit bis zur aktivierung des Temperaturschutzes in Sekunden.";"1";0;65535;0;"s";0;1;0
+255;;0;;"1";0;255;0;;0;;0
+256;"STATUS_TEMP_SCHUTZ";1;"Status des Temperaturschutzalgorithmus.";"1";0;255;0;;0;1;0
+257;"ANZAHL_LADEZYKLEN";3;"Anzahl der Ladezyklen der aktuellen Batterie.";"1";0;65535;0;;0;1;0
+258;;0;;"1";0;255;0;;0;0;0
+259;;1;;"1";0;255;0;;0;0;0
+260;;1;;"1";0;255;0;;0;0;0
+261;;1;;"1";0;255;0;;0;0;0
+262;;1;;"1";0;255;0;;0;0;0
+263;"CRC_KOPF";1;"CRC über Byte 0-262";"1";0;255;0;;0;0;0
+999;"00.0001.00";1;"Version KSIP: Liste Modul-ID .Version KSIP-Liste .Reserve  (Hexdarstellung , Offset 999 geswitcht)";;0;0;0;;0;0;0

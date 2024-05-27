@@ -1,0 +1,234 @@
+\\ WinZapi Language File\\
+
+WinZapiLanguage =Franzoesisch
+LanguageVersionNum=French 0.1
+1=Connexion
+2=Fin
+3=Var. Traction
+4=Display
+5=Var. Direction
+6=Autre
+7=Enregistrer
+8=Restaurer
+9=Visualiser
+10=Info
+11=Relancer
+12=Fichier
+13=Porgramme serviec
+14=Configurer
+15=Special
+16=Langue
+17=Modif. Paramètres
+18=Programme Vacc
+19=Diagnostic
+20=Lecture défaut mémorisés
+21=Effacement défauts
+22=Données moteur
+23=Effacer heures entretien
+24=Effacer horamètre
+25=Horamètre
+26=Réglage modèle
+27=Options
+28=Réglages
+29=Réglages spéciaux
+30=Réglage hardware
+31=Sauvegarde paramètres
+32=Lire la RAM
+33=Lire l'EEPROM 
+34=Effacer l'EEPROM 
+35=Aide
+36=Réglage
+37=Modèle:
+38=Type:
+39=Heures de service
+40=Défauts:
+41=BP Inconnu
+42=Sauvegarder
+43=Fin
+44=Interrompre
+45=Répéter
+46=Continuer
+47=Info
+48=Oui
+49=Non
+50=Encore
+51=Inaccéssible
+52=Heures de service
+53=Pas de paramètres
+54=Accéssible
+55=Pas de diagnostic
+56=Réglage paramètres
+57=Tester variateur
+58=Configurer
+59=Menu Zapi
+60=Etes vous sûr?
+61=Modif. permanente
+62=Paramètre modifiés
+63=DEFAUT
+64=Memoire de pannes
+65=Programme Vacc
+66=Choisir fichier
+67=Choix
+68=Actuel….
+69=Chercher…
+70=Effacer les pannes ?
+71=Effacer l'EEPROM variateur
+72=Mettre hors puis en service
+73=Charger les valeurs par défaut
+74=Sauvegarder les valeurs
+75=Recharger les valeurs
+76=Nommer le fichier
+77=Indiquer un N° de variateur
+78=Valeur horamètre (0-30000):
+79=Valeur traction (0-30000):
+80=Valeur odomètre (0-500000 Km):
+81=Indiquer un commentaire
+82=Mot
+83=Adresse de départ (HEX):
+84=Lire mémoire
+85=Fichier variateur incorrect
+86=Fichier incorrect ou endommagé
+87=Paramètre variateur sauvegardés
+88=Valeurs rechargées
+89=Fichier existant
+90=Fichier introuvable
+91=Variateur non supporté
+92=Version variateur
+93=Type variateur
+94=Horamètre
+95=Etat alarme
+96=Etat programme
+97=Inaccéssible
+98=Pas d'aide pour ce variateur
+99=Pas d'aide à ce point
+100=Aide
+101=[ voir aide ]
+102=Non sélectionné
+103=OK
+104=Interrompre
+105=Indiquer heures de service
+106=Charger un autre variateur
+107=Choisir la langue
+108=Langue programme
+109=Port
+110=Voir fichier a*.par
+111=Fichier :
+112=Date :
+113=Variateur :
+114=Commentaire :
+115=Détail fichier
+116=Détails
+117=Fermer
+118=Relancer la connexion
+119=WinZapi Version
+120=Installer WinZapi
+121=Paramètres
+122=Valeurs rechargées
+123=Unités
+124=Cliquer pour paramètrage
+125=Lancer le diagnostic
+126=Terminer le diagnostic
+127=Diagnostic paramètres
+128=Plein écran
+129=Options
+130=Cliquer pour options
+131=Cliquer pour installer
+132=Défauts
+133=Mémoire défauts
+134=Lancer
+135=Terminer 
+136=Update permanent
+137=Accés installation
+138=Accésréglages spéciaux
+139=Accés réglages sauvegardés
+140=Nouvelle installation
+141=Installation actuelle
+142=Sens de marche
+143=nouvelle valeur
+144=Max:
+145=Min:
+146=Av
+147=Ar
+148=Programmer
+149=Démarrer
+150=Sauvegarde valeurs
+151=Accés horamètre
+152=Ecrire heures de service
+153=Variateur
+154=Autres
+155=Pas de connexion au variateur
+156=Essai de connexion
+157=Défaut de connexion
+158=En liaison
+159=Paramètre sauvés modifiés.
+160=Modif des paramètres sauvés
+161=Réinstallation des paramètres sauvegardés
+162=Chargement paramètre sauvegardés
+163=Réglages spéciaux changés
+164=Changement réglages spéciaux
+165=Choix des réglages spéciaux
+166=Charger réglages spéciaux
+167=Modification reglage hardware
+168=Modifier reglage hardware
+169=Choix réglage hardware
+170=Charger réglage hardware
+171=Charger réglages
+172=Modification reglage 
+173=Modifier reglage 
+174=Choisir réglage
+175=Charger info diagnostic
+176=Choix info diagnostic
+177=Rechercher données
+178=Fin de recherche
+179=Attente de connexion
+180=Diagnostic arrété
+181=Diagnostic en cours
+182=Charger les options
+183=Ré-installer les options
+184=Modifier options
+185=Modifier paramètres
+186=Fichier Ini introuvable
+187=Fichier langue introuvable
+188=Variateur introuvable Relancer?
+189=Mot de passe incorrect démarrage impossible
+190=Valeurs (Vacc) ne peuvent être sauvegardées
+191=FLB
+192=Ecrire dans fichier
+193=Tout enregistrer
+194=Details appareil
+195=Recharger paramètres d'origine
+196=Rechargement paramètres d'origine
+197=Variateur introuvable
+198=Se deconnecter de l'appareil pour accés au réglages
+199=Niveau d'accés non autorisé (réservé usine)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,140 @@
+0;"ACCELRAMP_1A";1;"Beschleunigungs-/Bremsrampe der Last an A2-3/X2:4+6 (KM: Hubmotor M4)";"1";0;10;1;"%/xms";0;0;0
+1;"MOTRESISTANCE_1A";1;"Innenwiderstand der Last A2-3/X2:4+6 (KM: Hubmotor M4)";"0.05";0;200;1;"Ohm";0;0;0
+2;"MAXSPEED_UP_1A";1;"Geschwindigkeit der Last A2-3/X2:4+6 (KM: Aufwärtsfahrt Hubmotor M4)";"1";10;125;1;"%";0;0;1
+3;"MAXSPEED_DN_1A";1;"Geschwindigkeit Last der A2-3/X2:4+6 (KM: Abwärtsfahrt Hubmotor M4)";"1";10;125;1;"%";0;0;1
+4;"CURRENTCTRL_1A";1;"Strombegrenzung der Last A2-3/X2:4+6 (KM: Hubmotor M4)";"0.1";0;50;1;"A";0;0;1
+5;"ACCELRAMP_1C";1;"Beschleunigungs-/Bremsrampe der Last an A2-3/X3:4+6 (KM: Hubmotor M6)";"1";0;10;1;"%/xms";0;0;0
+6;"MOTRESISTANCE_1C";1;"Innenwiderstand der Last A2-3/X3:4+6 (KM: Hubmotor M6)";"0.05";0;200;1;"Ohm";0;0;0
+7;"MAXSPEED_UP_1C";1;"Geschwindigkeit der Last A2-3/X3:4+6 (KM: Aufwärtsfahrt Hubmotor M6)";"1";10;125;1;"%";0;0;1
+8;"MAXSPEED_DN_1C";1;"Geschwindigkeit Last der A2-3/X3:4+6 (KM: Abwärtsfahrt Hubmotor M6)";"1";10;125;1;"%";0;0;1
+9;"CURRENTCTRL_1C";1;"Strombegrenzung der Last A2-3/X3:4+6 (KM: Hubmotor M6)";"0.1";0;50;1;"A";0;0;1
+10;"ACCELRAMP_2A";1;"Beschleunigungs-/Bremsrampe der Last an A2-3/X4:4+6 (KM: Hubmotor M5)";"1";0;10;1;"%/xms";0;0;0
+11;"MOTRESISTANCE_2A";1;"Innenwiderstand der Last A2-3/X4:4+6 (KM: Hubmotor M5)";"0.05";0;200;1;"Ohm";0;0;0
+12;"MAXSPEED_UP_2A";1;"Geschwindigkeit der Last A2-3/X4:4+6 (KM: Aufwärtsfahrt Hubmotor M5)";"1";10;125;1;"%";0;0;1
+13;"MAXSPEED_DN_2A";1;"Geschwindigkeit Last der A2-3/X4:4+6 (KM: Abwärtsfahrt Hubmotor M5)";"1";10;125;1;"%";0;0;1
+14;"CURRENTCTRL_2A";1;"Strombegrenzung der Last A2-3/X4:4+6 (KM: Hubmotor M5)";"0.1";0;50;1;"A";0;0;1
+15;"ACCELRAMP_2C";1;"Beschleunigungs-/Bremsrampe der Last an A2-3/X5:4+6 (KM VM: Hubmotor M7)";"1";0;10;1;"%/xms";0;0;0
+16;"MOTRESISTANCE_2C";1;"Innenwiderstand der Last A2-3/X5:4+6 (KM VM: Hubmotor M7)";"0.05";0;200;1;"Ohm";0;0;0
+17;"MAXSPEED_UP_2C";1;"Geschwindigkeit der Last A2-3/X5:4+6 (KM VM: Aufwärtsfahrt Hubmotor M7)";"1";10;125;1;"%";0;0;1
+18;"MAXSPEED_DN_2C";1;"Geschwindigkeit Last der A2-3/X5:4+6 (KM VM: Abwärtsfahrt Hubmotor M7)";"1";10;125;1;"%";0;0;1
+19;"CURRENTCTRL_2C";1;"Strombegrenzung der Last A2-3/X5:4+6 (KM VM: Hubmotor M7)";"0.1";0;50;1;"A";0;0;1
+20;"ACCELRAMP_3A";1;"Beschleunigungs-/Bremsrampe der Last an A2-3/X6,X7 (KM VM: Hubmotor M9)";"1";0;10;1;"%/xms";0;0;0
+21;"MOTRESISTANCE_3A";1;"Innenwiderstand der Last A2-3/X6,X7 (KM VM: Hubmotor M9)";"0.05";0;200;1;"Ohm";0;0;0
+22;"MAXSPEED_UP_3A";1;"Geschwindigkeit der Last A2-3/X6,X7 (KM VM: Aufwärtsfahrt Hubmotor M9)";"1";10;125;1;"%";0;0;1
+23;"MAXSPEED_DN_3A";1;"Geschwindigkeit Last der A2-3/X6,X7 (KM VM: Abwärtsfahrt Hubmotor M9)";"1";10;125;1;"%";0;0;1
+24;"CURRENTCTRL_3A";1;"Strombegrenzung der Last A2-3/X6,X7 (KM, VM: Hubmotor M9)";"0.1";0;200;1;"A";0;0;1
+25;"RESERVED";0;;"1";0;10;1;;0;0;0
+26;"RESERVED";0;;"0.05";0;200;1;"Ohm";0;0;0
+27;"RESERVED";0;;"1";10;125;1;"%";0;0;0
+28;"RESERVED";0;;"1";10;125;1;"%";0;0;0
+29;"RESERVED";0;;"0.1";0;200;1;"A";0;0;0
+30;"STOPMODE";1;"Abschaltart der Lasten  (Bit 0:M4, Bit1:M7, Bit2:M5, Bit3:M6, Bit4:M9)  1=Blockade; 0= Endschalter";"1";0;255;1;"Bit";0;0;0
+31;"RESERVED";0;;"1";0;255;2;;0;0;0
+32;"CRC";1;"CRC";"1";0;255;3;;0;0;0
+33;"RESERVED";0;;"1";0;255;3;;0;0;0
+34;"RESERVED";0;;"1";0;255;3;;0;0;0
+35;"RESERVED";0;;"1";0;255;3;;0;0;0
+36;"MIN_COUNTER_1A_SEC";0;"Betriebssekunden der Last A2-3/X2:4+6 (KM: M4, Hubmotor rechter Besen)";"1";0;255;3;"s";0;0;1
+37;"MIN_COUNTER_1A_MIN";1;"Betriebsminuten der Last A2-3/X2:4+6 (KM: M4,  Hubmotor rechter Besen)";"1";0;255;2;"min";0;0;1
+38;"MIN_COUNTER_1A_STD";3;"Betriebsstunden der Last A2-3/X2:4+6 (KM: M4, Hubmotor rechter Besen)";"1";0;65535;2;"h";0;0;1
+39;;0;;"1";0;255;2;;0;0;0
+40;"MIN_COUNTER_1C_SEC";0;"Betriebssekunden der Last A2-3/X3:4+6 (KM: M6, Hubmotor linker Besen)";"1";0;255;3;"s";0;0;1
+41;"MIN_COUNTER_1C_MIN";1;"Betriebsminuten der Last A2-3/X3:4+6 (KM: M6, Hubmotor linker Besen)";"1";0;255;2;"min";0;0;1
+42;"MIN_COUNTER_1C_STD";3;"Betriebsstunden der Last A2-3/X3:4+6 (KM: M6, Hubmotor linker Besen)";"1";0;65535;2;"h";0;0;1
+43;;0;;"1";0;255;2;;0;0;0
+44;"MIN_COUNTER_2A_SEC";0;"Betriebssekunden der Last A2-3/X4:4+6 (KM: M5, Hubmotor Kehrwalze)";"1";0;255;3;"s";0;0;1
+45;"MIN_COUNTER_2A_MIN";1;"Betriebsminuten der Last A2-3/X4:4+6 (KM: M5, Hubmotor Kehrwalze)";"1";0;255;2;"min";0;0;1
+46;"MIN_COUNTER_2A_STD";3;"Betriebsstunden der Last A2-3/X4:4+6 (KM: M5, Hubmotor Kehrwalze)";"1";0;65535;2;"h";0;0;1
+47;;0;;"1";0;255;2;;0;0;0
+48;"MIN_COUNTER_2C_SEC";0;"Betriebssekunden der Last A2-3/X5:4+6 (KM: M7, Hubmotor Sichelbesen)";"1";0;255;3;"s";0;0;1
+49;"MIN_COUNTER_2C_MIN";1;"Betriebsminuten der Last A2-3/X5:4+6 (KM: M7, Hubmotor Sichelbesen)";"1";0;255;2;"min";0;0;1
+50;"MIN_COUNTER_2C_STD";3;"Betriebsstunden der Last A2-3/X5:4+6 (KM: M7, Hubmotor Sichelbesen)";"1";0;65535;2;"h";0;0;1
+51;;0;;"1";0;255;2;;0;0;0
+52;"MIN_COUNTER_3A_SEC";0;"Betriebssekunden der Last A2-3/X6,X7 (KM: M9, Hubmotor Hopper)";"1";0;255;3;"s";0;0;1
+53;"MIN_COUNTER_3A_MIN";1;"Betriebsminuten der Last A2-3/X6,X7 (KM: M9, Hubmotor Hopper)";"1";0;255;2;"min";0;0;1
+54;"MIN_COUNTER_3A_STD";3;"Betriebsstunden der Last A2-3/X6,X7 (KM: M9, Hubmotor Hopper)";"1";0;65535;2;"h";0;0;1
+55;;0;;"1";0;255;2;;0;0;0
+56;"MIN_COUNTER_3C_SEC";0;"Betriebssekunden 3C (nicht benötigt)";"1";0;255;3;"s";0;0;0
+57;"MIN_COUNTER_3C_MIN";1;"Betriebsminuten 3C (nicht benötigt)";"1";0;255;2;"min";0;0;0
+58;"MIN_COUNTER_3C_STD";3;"Betriebsstunden 3C (nicht benötigt)";"1";0;65535;2;"h";0;0;0
+59;;0;;"1";0;255;2;;0;0;0
+60;"WORKSPEED_1A_UP";1;"Arbeitsgeschwindigkeit [%] Last A2-3/X2:4+6 (KM: M4, aufwärts)";"1";10;125;1;"%";0;0;0
+61;"WORKSPEED_1A_DOWN";1;"Arbeitsgeschwindigkeit [%] Last A2-3/X2:4+6 (KM: M4, abwärts)";"1";10;125;1;"%";0;0;0
+62;"WORKSPEED_1C_UP";1;"Arbeitsgeschwindigkeit [%] Last A2-3/X3:4+6 (KM: M6, aufwärts)";"1";10;125;1;"%";0;0;0
+63;"WORKSPEED_1C_DOWN";1;"Arbeitsgeschwindigkeit [%] Last A2-3/X3:4+6 (KM: M6, abwärts)";"1";10;125;1;"%";0;0;0
+64;"WORKSPEED_2A_UP";1;"Arbeitsgeschwindigkeit [%] Last A2-3/X4:4+6 (KM: M5, aufwärts)";"1";10;125;1;"%";0;0;0
+65;"WORKSPEED_2A_DOWN";1;"Arbeitsgeschwindigkeit [%] Last A2-3/X4:4+6 (KM: M5, abwärts)";"1";10;125;1;"%";0;0;0
+66;"WORKSPEED_2C_UP";1;"Arbeitsgeschwindigkeit [%] Last A2-3/X5:4+6 (KM: M7, aufwärts)";"1";10;125;1;"%";0;0;0
+67;"WORKSPEED_2C_DOWN";1;"Arbeitsgeschwindigkeit [%] Last A2-3/X5:4+6 (KM: M7, abwärts)";"1";10;125;1;"%";0;0;0
+68;"WORKSPEED_3A_UP";1;"Arbeitsgeschwindigkeit [%] Last A2-3/X6,X7 (KM: M9, aufwärts)";"1";10;125;1;"%";0;0;0
+69;"WORKSPEED_3A_DOWN";1;"Arbeitsgeschwindigkeit [%] Last A2-3/X6,X7 (KM: M9, abwärts)";"1";10;125;1;"%";0;0;0
+70;"RESERVED";0;;"1";0;255;3;;0;0;0
+71;"RESERVED";0;;"1";0;255;3;;0;0;0
+72;"RESERVED";0;;"1";0;255;3;;0;0;0
+73;"RESERVED";0;;"1";0;255;3;;0;0;0
+74;"RESERVED";0;;"1";0;255;3;;0;0;0
+75;"RESERVED";0;;"1";0;255;3;;0;0;0
+76;"RESERVED";0;;"1";0;255;3;;0;0;0
+77;"RESERVED";0;;"1";0;255;3;;0;0;0
+78;"RESERVED";0;;"1";0;255;3;;0;0;0
+79;"RESERVED";0;;"1";0;255;3;;0;0;0
+80;"RESERVED";0;;"1";0;255;3;;0;0;0
+81;"RESERVED";0;;"1";0;255;3;;0;0;0
+82;"RESERVED";0;;"1";0;255;3;;0;0;0
+83;"RESERVED";0;;"1";0;255;3;;0;0;0
+84;"RESERVED";0;;"1";0;255;3;;0;0;0
+85;"RESERVED";0;;"1";0;255;3;;0;0;0
+86;"RESERVED";0;;"1";0;255;3;;0;0;0
+87;"RESERVED";0;;"1";0;255;3;;0;0;0
+88;"RESERVED";0;;"1";0;255;3;;0;0;0
+89;"RESERVED";0;;"1";0;255;3;;0;0;0
+90;"RESERVED";0;;"1";0;255;3;;0;0;0
+91;"RESERVED";0;;"1";0;255;3;;0;0;0
+92;"RESERVED";0;;"1";0;255;3;;0;0;0
+93;"RESERVED";0;;"1";0;255;3;;0;0;0
+94;"RESERVED";0;;"1";0;255;3;;0;0;0
+95;"RESERVED";0;;"1";0;255;3;;0;0;0
+96;"RESERVED";0;;"1";0;255;3;;0;0;0
+97;"RESERVED";0;;"1";0;255;3;;0;0;0
+98;"RESERVED";0;;"1";0;255;3;;0;0;0
+99;"RESERVED";0;;"1";0;255;3;;0;0;0
+100;"TEMP_1A";1;"Steuerungstemperatur, Laststufe A2-3/X2:4+6 (KM: M4)";"1";-40;127;3;"°C";0;0;0
+101;"TEMP_1B";0;"Temperatur 1B (berechnet)";"1";-40;127;3;"°C";0;0;0
+102;"TEMP_1C";1;"Steuerungstemperatur, Laststufe A2-3/X3:4+6 (KM: M6)";"1";-40;127;3;"°C";0;0;0
+103;"TEMP_2A";1;"Steuerungstemperatur, Laststufe A2-3/X4:4+6 (KM: M5)";"1";-40;127;3;"°C";0;0;0
+104;"TEMP_2B";0;"Temperatur 2B (berechnet)";"1";-40;127;3;"°C";0;0;0
+105;"TEMP_2C";1;"Steuerungstemperatur, Laststufe A2-3/X5:4+6 (KM: M7)";"1";-40;127;3;"°C";0;0;0
+106;"TEMP_3A";1;"Steuerungstemperatur, Laststufe A2-3/X6,X7 (KM: M9)";"1";-40;127;3;"°C";0;0;0
+107;"TEMP_3B";0;"Temperatur 3B (KM BAT: Hubmotor rechter Seitenbesen)";"1";-40;127;3;"°C";0;0;0
+108;"RESERVED";0;;"1";-40;127;3;;0;0;0
+109;"RESERVED";0;;"0.1";0;200;3;;0;0;0
+110;"UMOT_1A";4;"Spannung an der Last A2-3/X2:4+6 (KM: M4)";"0.01";-2000;2000;3;"V";0;0;0
+111;;0;;"1";0;255;3;;0;0;0
+112;"UMOT_1C";4;"Spannung an der Last A2-3/X3:4+6 (KM: M6)";"0.01";-2000;2000;3;"V";0;0;0
+113;;0;;"1";0;255;3;;0;0;0
+114;"UMOT_2A";4;"Spannung an der Last A2-3/X4:4+6 (KM: M5)";"0.01";-2000;2000;3;"V";0;0;0
+115;;0;;"1";0;255;3;;0;0;0
+116;"UMOT_2C";4;"Spannung an der Last A2-3/X5:4+6 (KM: M7)";"0.01";-2000;2000;3;"V";0;0;0
+117;;0;;"1";0;255;3;;0;0;0
+118;"UMOT_3A";4;"Spannung an der Last A2-3/X6,X7 (KM: M9)";"0.01";-2000;2000;3;"V";0;0;0
+119;;0;;"1";0;255;3;;0;0;0
+120;"RESERVED";0;;"0.01";-2000;2000;3;"V";0;0;0
+121;;0;;"1";0;255;3;;0;0;0
+122;"IMOT_1A";4;"Laststrom an A2-3/X2:4+6 (KM: M4)";"0.1";-200;200;3;"A";0;0;0
+123;;0;;"1";0;255;3;;0;0;0
+124;"IMOT_1C";4;"Laststrom an A2-3/X3:4+6 (KM: M6)";"0.1";-200;200;3;"A";0;0;0
+125;;0;;"1";0;255;3;;0;0;0
+126;"IMOT_2A";4;"Laststrom an A2-3/X4:4+6 (KM: M5)";"0.1";-200;200;3;"A";0;0;0
+127;;0;;"1";0;255;3;;0;0;0
+128;"IMOT_2C";4;"Laststrom an A2-3/X5:4+6 (KM: M7)";"0.1";-200;200;3;"A";0;0;0
+129;;0;;"1";0;255;3;;0;0;0
+130;"IMOT_3A";4;"Laststrom an A2-3/X6,X7 (KM: M9)";"0.1";-200;200;3;"A";0;0;0
+131;;0;;"1";0;255;3;;0;0;0
+132;"RESERVED";0;;"0.1";-200;200;3;"A";0;0;0
+133;;0;;"1";0;255;3;;0;0;0
+134;"ANALOG_POTI_1A";1;"Analoger Potiwert Hubmotor A2-3/X2:4+6 (KM: M4)";"1";0;255;3;"INC";0;0;0
+135;"ANALOG_POTI_1C";1;"Analoger Potiwert Hubmotor A2-3/X3:4+6 (KM: M6)";"1";0;255;3;"INC";0;0;0
+136;"ANALOG_POTI_2A";1;"Analoger Potiwert Hubmotor A2-3/X4:4+6 (KM: M5)";"1";0;255;3;"INC";0;0;0
+137;"ANALOG_POTI_2C";1;"Analoger Potiwert Hubmotor A2-3/X5:4+6 (KM: M7)";"1";0;255;3;"INC";0;0;0
+138;"ANALOG_POTI_3A";1;"Analoger Potiwert Hubmotor A2-3/X6,X7 (KM: M9)";"1";0;255;3;"INC";0;0;0
+139;"RESERVED";0;;"1";0;255;3;"%";0;0;0

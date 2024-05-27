@@ -1,0 +1,265 @@
+0;"ID";1;"Toggel mark: 0x55 / 0xAA";"1";0;255;0;;0;0;0
+1;"CONTROLLER-TYPE";1;"Mastermodule with STM 32 always type=5";"1";0;255;0;;0;0;0
+2;"CONTROL-VARIANT";1;"Module controll = 1; MFM-BAT = 2; MFM-Combustion = 3";"1";0;255;0;;0;0;0
+3;"CONTROL_OPTION";1;"Bit0=Batt; Bit1=RFID; Bit2=EOB; Bit3=touch; Bit4=film; Bit5=Grafic; Bit6=alpha2x16; Bit7=8MBitFlash";"1";0;255;0;;0;0;0
+4;"MACHINE_TYPE";1;"MachinenumberKM-Mediumrange:100-111(115=Touch) /  150=B150C; 151=B150A";"1";0;255;0;;0;0;1
+5;"MACHINE_OPTION_1";1;"Bit0=Roller; Bit1=Disk; Bit2=Squeegee; Bit3=Water; Bit4=Trac-Standard; Bit5=Trac-Dual Pm";"1";0;255;0;;0;0;1
+6;"MACHINE_OPTION_2";1;"Bit0=Side broom; Bit1=Chemical; Bit2=Beacon, Bit3=Spray Extraction, Bit4=Tank Rinsing";"1";0;255;0;;0;0;1
+7;"MACHINE_OPTION_3";1;"Bit0=ES Mode lin actuator";"1";0;255;0;;0;0;1
+8;"MACHINE_OPTION_4";1;;"1";0;255;0;;0;0;0
+9;"MACHINE_OPTION_5";1;;"1";0;255;0;;0;0;0
+10;"CALIBRATOR_FLAG";1;"Bit0=Gas;Bit1=Touch;Bit2=Steeringpoti; Bit3=KW;Bit4=SB-Re;Bit5=SB-Li;Bit6=sickle;Bit7=Standardpara";"1";0;255;0;;0;0;1
+11;;1;;"1";0;255;0;;0;0;0
+12;"COUNTRY_CODE";1;"Set display language (0=english; 1=german…)";"1";0;19;0;;0;0;1
+13;"STANDBY_DELAY";1;"Standby time until maschine is in Power-down in minutes";"1";1;255;0;"min";0;0;1
+14;"SERVICE_STD_RESET";3;"Reset value of service counter in hours.";"1";0;1270;0;"h";0;0;1
+15;;0;;;0;;0;;0;0;
+16;"DAY_COUNTER_STD";1;"Daycounter value (hours)";"1";0;99;0;"h";0;0;1
+17;"DAY_COUNTER_MIN";1;"Daycounter value (minutes)";"1";0;59;0;"m";0;0;1
+18;"SERV_MIN_CHECKVALUE";1;"Check value to check the service counter in flash buffer (software internal)";"1";0;255;0;;0;0;0
+19;"SERV_STD_CHECKVALUE";3;;"1";0;1270;0;;0;0;0
+20;;0;;"0";0;0;0;;0;0;0
+21;"BS_MIN_CHECKVALUE";1;"Check value to check the operating hours counter in flash buffer (software internal)";"1";0;255;0;;0;0;0
+22;"BS_STD_CHECKVALUE";3;;"1";0;65535;0;;0;0;0
+23;;0;;"1";0;255;0;;0;0;0
+24;"BATT_STATE";0;"Battery full = Bit0; discharge status 1-3 = Bit 1-3";"1";0;255;0;;0;0;1
+25;"BATT_CELL_COUNT";0;;"1";6;24;0;;0;0;0
+26;"BATT_DISCHARGE_SPG_1";0;"Battery support gets turned off";"0.01";170;240;0;"V/Zelle";0;0;1
+27;"BATT_DISCHARGE_SPG_2";0;"All drives except for combustion engine off";"0.01";170;240;0;"V/Zelle";0;0;1
+28;"BATT_DISCHARGE_SPG_3";0;"Don't start combustion engine";"0.01";170;240;0;"V/Zelle";0;0;1
+29;"BATT_RESET_SPG_1_2";0;"Reset voltage for state discharge1 and discharge2";"0.01";170;240;0;"V/Zelle";0;0;1
+30;"BATT_RESET_SPG_3";0;"Reset voltage for state discharge 3";"0.01";170;240;0;"V/Zelle";0;0;1
+31;;0;;"1";0;255;0;;0;0;0
+32;;0;;"1";0;255;0;;0;0;0
+33;;0;;"1";0;255;0;;0;0;0
+34;"KOEFF_A";0;"Touchscreen justage coeffizient - A (floatingpoint 4 Byte)";"1";0;255;0;;0;0;0
+35;;0;;"1";0;255;0;;0;0;0
+36;;0;;"1";0;255;0;;0;0;0
+37;;0;;"1";0;255;0;;0;0;0
+38;"KOEFF_B";0;"Touchscreen justage coeffizient - B (floatingpoint 4 Byte)";"1";0;255;0;;0;0;0
+39;;0;;"1";0;255;0;;0;0;0
+40;;0;;"1";0;255;0;;0;0;0
+41;;0;;"1";0;255;0;;0;0;0
+42;"KOEFF_C";0;"Touchscreen justage coeffizient -C (floatingpoint 4 Byte)";"1";0;255;0;;0;0;0
+43;;0;;"1";0;255;0;;0;0;0
+44;;0;;"1";0;255;0;;0;0;0
+45;;0;;"1";0;255;0;;0;0;0
+46;"KOEFF_D";0;"Touchscreen justage coeffizient - D (floatingpoint 4 Byte)";"1";0;255;0;;0;0;0
+47;;0;;"1";0;255;0;;0;0;0
+48;;0;;"1";0;255;0;;0;0;0
+49;;0;;"1";0;255;0;;0;0;0
+50;"KOEFF_E";0;"Touchscreen justage coeffizient - E (floatingpoint 4 Byte)";"1";0;255;0;;0;0;0
+51;;0;;"1";0;255;0;;0;0;0
+52;;0;;"1";0;255;0;;0;0;0
+53;;0;;"1";0;255;0;;0;0;0
+54;"KOEFF_F";0;"Touchscreen justage coeffizient - F (floatingpoint 4 Byte)";"1";0;255;0;;0;0;0
+55;;0;;"1";0;255;0;;0;0;0
+56;;0;;"1";0;255;0;;0;0;0
+57;;0;;"1";0;255;0;;0;0;0
+58;"INIT_CONTRAST";1;"Display contrast";"1";0;63;0;;0;0;1
+59;"INIT_BIAS";1;"Display BIAS";"1";80;87;0;;0;0;1
+60;"INIT_RESISTOR";1;"Display internal resistance";"1";32;39;0;;0;0;1
+61;"CONTRAST_2_16_DISPLAY";0;"Display internal resistance";"1";0;255;0;;0;0;1
+62;;0;;"1";0;255;0;;0;0;0
+63;;0;;"1";0;255;0;;0;0;0
+64;;0;;"1";0;255;0;;0;0;0
+65;;0;;"1";0;255;0;;0;0;0
+66;;0;;"1";0;255;0;;0;0;0
+67;;0;;"1";0;255;0;;0;0;0
+68;;0;;"1";0;255;0;;0;0;0
+69;;0;;"1";0;255;0;;0;0;0
+70;;0;;"1";0;255;0;;0;0;0
+71;;0;;"1";0;255;0;;0;0;0
+72;;0;;"1";0;255;0;;0;0;0
+73;;0;;"1";0;255;0;;0;0;0
+74;;0;;"1";0;255;0;;0;0;0
+75;;0;;"1";0;255;0;;0;0;0
+76;;0;;"1";0;255;0;;0;0;0
+77;;0;;"1";0;255;0;;0;0;0
+78;;0;;"1";0;255;0;;0;0;0
+79;;0;;"1";0;255;0;;0;0;0
+80;;0;;"1";0;255;0;;0;0;0
+81;;0;;"1";0;255;0;;0;0;0
+82;;0;;"1";0;255;0;;0;0;0
+83;;0;;"1";0;255;0;;0;0;0
+84;;0;;"1";0;255;0;;0;0;0
+85;;0;;"1";0;255;0;;0;0;0
+86;;0;;"1";0;255;0;;0;0;0
+87;;0;;"1";0;255;0;;0;0;0
+88;;0;;"1";0;255;0;;0;0;0
+89;;0;;"1";0;255;0;;0;0;0
+90;;0;;"1";0;255;0;;0;0;0
+91;;0;;"1";0;255;0;;0;0;0
+92;;0;;"1";0;255;0;;0;0;0
+93;;0;;"1";0;255;0;;0;0;0
+94;;0;;"1";0;255;0;;0;0;0
+95;;0;;"1";0;255;0;;0;0;0
+96;;0;;"1";0;255;0;;0;0;0
+97;;0;;"1";0;255;0;;0;0;0
+98;;0;;"1";0;255;0;;0;0;0
+99;;0;;"1";0;255;0;;0;0;0
+100;;0;;"1";0;255;0;;0;0;0
+101;;0;;"1";0;255;0;;0;0;0
+102;;0;;"1";0;255;0;;0;0;0
+103;;0;;"1";0;255;0;;0;0;0
+104;;0;;"1";0;255;0;;0;0;0
+105;;0;;"1";0;255;0;;0;0;0
+106;;0;;"1";0;255;0;;0;0;0
+107;;0;;"1";0;255;0;;0;0;0
+108;;0;;"1";0;255;0;;0;0;0
+109;;0;;"1";0;255;0;;0;0;0
+110;;0;;"1";0;255;0;;0;0;0
+111;;0;;"1";0;255;0;;0;0;0
+112;;0;;"1";0;255;0;;0;0;0
+113;;0;;"1";0;255;0;;0;0;0
+114;;0;;"1";0;255;0;;0;0;0
+115;;0;;"1";0;255;0;;0;0;0
+116;;0;;"1";0;255;0;;0;0;0
+117;;0;;"1";0;255;0;;0;0;0
+118;;0;;"1";0;255;0;;0;0;0
+119;;0;;"1";0;255;0;;0;0;0
+120;;0;;"1";0;255;0;;0;0;0
+121;;0;;"1";0;255;0;;0;0;0
+122;;0;;"1";0;255;0;;0;0;0
+123;;0;;"1";0;255;0;;0;0;0
+124;;0;;"1";0;255;0;;0;0;0
+125;;0;;"1";0;255;0;;0;0;0
+126;;0;;"1";0;255;0;;0;0;0
+127;;0;;"1";0;255;0;;0;0;0
+128;;0;;"1";0;255;0;;0;0;0
+129;;0;;"1";0;255;0;;0;0;0
+130;;0;;"1";0;255;0;;0;0;0
+131;;0;;"1";0;255;0;;0;0;0
+132;;0;;"1";0;255;0;;0;0;0
+133;;0;;"1";0;255;0;;0;0;0
+134;;0;;"1";0;255;0;;0;0;0
+135;;0;;"1";0;255;0;;0;0;0
+136;;0;;"1";0;255;0;;0;0;0
+137;;0;;"1";0;255;0;;0;0;0
+138;;0;;"1";0;255;0;;0;0;0
+139;;0;;"1";0;255;0;;0;0;0
+140;;0;;"1";0;255;0;;0;0;0
+141;;0;;"1";0;255;0;;0;0;0
+142;;0;;"1";0;255;0;;0;0;0
+143;;0;;"1";0;255;0;;0;0;0
+144;;0;;"1";0;255;0;;0;0;0
+145;;0;;"1";0;255;0;;0;0;0
+146;;0;;"1";0;255;0;;0;0;0
+147;;0;;"1";0;255;0;;0;0;0
+148;;0;;"1";0;255;0;;0;0;0
+149;;0;;"1";0;255;0;;0;0;0
+150;;0;;"1";0;255;0;;0;0;0
+151;;0;;"1";0;255;0;;0;0;0
+152;;0;;"1";0;255;0;;0;0;0
+153;;0;;"1";0;255;0;;0;0;0
+154;;0;;"1";0;255;0;;0;0;0
+155;;0;;"1";0;255;0;;0;0;0
+156;;0;;"1";0;255;0;;0;0;0
+157;;0;;"1";0;255;0;;0;0;0
+158;;0;;"1";0;255;0;;0;0;0
+159;;0;;"1";0;255;0;;0;0;0
+160;;0;;"1";0;255;0;;0;0;0
+161;;0;;"1";0;255;0;;0;0;0
+162;;0;;"1";0;255;0;;0;0;0
+163;;0;;"1";0;255;0;;0;0;0
+164;;0;;"1";0;255;0;;0;0;0
+165;;0;;"1";0;255;0;;0;0;0
+166;;0;;"1";0;255;0;;0;0;0
+167;;0;;"1";0;255;0;;0;0;0
+168;;0;;"1";0;255;0;;0;0;0
+169;;0;;"1";0;255;0;;0;0;0
+170;;0;;"1";0;255;0;;0;0;0
+171;;0;;"1";0;255;0;;0;0;0
+172;;0;;"1";0;255;0;;0;0;0
+173;;0;;"1";0;255;0;;0;0;0
+174;;0;;"1";0;255;0;;0;0;0
+175;;0;;"1";0;255;0;;0;0;0
+176;;0;;"1";0;255;0;;0;0;0
+177;;0;;"1";0;255;0;;0;0;0
+178;;0;;"1";0;255;0;;0;0;0
+179;;0;;"1";0;255;0;;0;0;0
+180;;0;;"1";0;255;0;;0;0;0
+181;;0;;"1";0;255;0;;0;0;0
+182;;0;;"1";0;255;0;;0;0;0
+183;;0;;"1";0;255;0;;0;0;0
+184;;0;;"1";0;255;0;;0;0;0
+185;;0;;"1";0;255;0;;0;0;0
+186;;0;;"1";0;255;0;;0;0;0
+187;;0;;"1";0;255;0;;0;0;0
+188;;0;;"1";0;255;0;;0;0;0
+189;;0;;"1";0;255;0;;0;0;0
+190;"STAT_REM_OP_CALCULATION";1;"Status of remaining operation hours calculation: 0 = active, 1 = inactive";"1";0;1;0;;0;0;1
+191;"AV_DISCH_CURRENT";1;"Average discharge current of the machine";"1";1;254;0;"A";0;1;1
+192;"DISCH_CURRENT_THRESH";1;"Discharge current threshold above remaining operation time calculation is active";"1";1;254;0;"A";0;0;1
+193;"TIME_TO_SHOW_MIN";1;"Show remaining op time in minutes instead of a bar. 0/255: deactivate minute display";"1";0;255;0;"min";0;0;1
+194;"TIME_TO_SHOW_CHARGE_REQ";1;"Show charging request symbol below this symbol. 0/255: deactivate charging symbol";"1";0;255;0;"min";0;0;1
+195;"DYNAMIC_V_BASED_BAR";1;"Dynamic limit of voltage based battery charge level bar. 10% per x seconds.";"1";1;254;0;"s";0;1;1
+196;"OFFSET_CUTOFF_V";1;"Offset voltage as target of remaining operation hours calc.. 0% chargeLevel at Ucutoff+offset.";"1";1;254;0;"mV";0;1;1
+197;"CORR_FACTOR";1;"Correction factor of remaining operation calculation. Discharging current is multiplied by factor.";"0.01";50;200;0;;0;0;1
+198;;0;;"1";0;255;0;;0;0;0
+199;;0;;"1";0;255;0;;0;0;0
+200;;0;;"1";0;255;0;;0;0;0
+201;"WORKSPEED_P2";1;"Workspeed in program switch position 2";"1";0;255;0;;0;0;0
+202;"WORKSPEED_P3";1;"Workspeed in program switch position 3";"1";0;255;0;;0;0;0
+203;"WORKSPEED_P4";1;"Workspeed in program switch position 4";"1";0;255;0;;0;0;0
+204;"WORKSPEED_P5";1;"Workspeed in program switch position 5";"1";0;255;0;;0;0;0
+205;"WORKSPEED_P6";1;"Workspeed in program switch position 6";"1";0;255;0;;0;0;0
+206;"WORKSPEED_P7";1;"Workspeed in program switch position 7";"1";0;255;0;;0;0;0
+207;"BRUSSPEED_P2";1;"Brush speed in program switch position 2";"1";0;255;0;;0;0;0
+208;"BRUSSPEED_P3";1;"Brush speed in program switch position 3";"1";0;255;0;;0;0;0
+209;"BRUSSPEED_P4";1;"Brush speed in program switch position 4";"1";0;255;0;;0;0;0
+210;"BRUSSPEED_P5";1;"Brush speed in program switch position 5";"1";0;255;0;;0;0;0
+211;"BRUSSPEED_P7";1;"Brush speed in program switch position 7";"1";0;255;0;;0;0;0
+212;"SUCTIONSPEED_P2";1;"Suction speed in program switch position 2. 0=off, 1=whisper, 2=power";"1";0;255;0;;0;0;0
+213;"SUCTIONSPEED_P3";1;"Suction speed in program switch position 3. 0=off, 1=whisper, 2=power";"1";0;255;0;;0;0;0
+214;"SUCTIONSPEED_P4";1;"Suction speed in program switch position 4. 0=off, 1=whisper, 2=power";"1";0;255;0;;0;0;0
+215;"SUCTIONSPEED_P6";1;"Suction speed in program switch position 6. 0=off, 1=whisper, 2=power";"1";0;255;0;;0;0;0
+216;"WATERDOSAGE_P2";1;"Water dosage in program switch position 2";"1";0;255;0;;0;0;0
+217;"WATERDOSAGE_P3";1;"Water dosage in program switch position 3";"1";0;255;0;;0;0;0
+218;"WATERDOSAGE_P4";1;"Water dosage in program switch position 4";"1";0;255;0;;0;0;0
+219;"WATERDOSAGE_P5";1;"Water dosage in program switch position 5";"1";0;255;0;;0;0;0
+220;"DOSE_P2";1;"Cemical dosage in program switch positon 2";"1";0;255;0;;0;0;0
+221;"DOSE_P3";1;"Cemical dosage in program switch positon 3";"1";0;255;0;;0;0;0
+222;"DOSE_P4";1;"Cemical dosage in program switch positon 4";"1";0;255;0;;0;0;0
+223;"DOSE_P5";1;"Cemical dosage in program switch positon 5";"1";0;255;0;;0;0;0
+224;"BRUSHSPEED_DISC";1;"Brush speed disc";"1";0;255;0;;0;0;0
+225;"BRUSHPRESSURE_P2";1;"Brush pressure in program switch position 2";"1";0;255;0;;0;0;0
+226;"BRUSHPRESSURE_P3";1;"Brush pressure in program switch position 3";"1";0;255;0;;0;0;0
+227;"BRUSHPRESSURE_P4";1;"Brush pressure in program switch position 4";"1";0;255;0;;0;0;0
+228;"BRUSHPRESSURE_P5";1;"Brush pressure in program switch position 5";"1";0;255;0;;0;0;0
+229;"BRUSHPRESSURE_P7";1;"Brush pressure in program switch position 7";"1";0;255;0;;0;0;0
+230;"HYSTERESIS";1;"Hysteresis for brush pressure regulation";"1";0;255;0;;0;0;0
+231;"MAX_BRUSH_CURRENT";1;"Maximum brush current";"1";0;255;0;;0;0;0
+232;"WORKSPEED_P2_ZAPI";1;"Workspeed in program switch position 2 for dual PM traction module";"1";0;255;0;;0;0;0
+233;"WORKSPEED_P3_ZAPI";1;"Workspeed in program switch position 3 for dual PM traction module";"1";0;255;0;;0;0;0
+234;"WORKSPEED_P4_ZAPI";1;"Workspeed in program switch position 4 for dual PM traction module";"1";0;255;0;;0;0;0
+235;"WORKSPEED_P5_ZAPI";1;"Workspeed in program switch position 5 for dual PM traction module";"1";0;255;0;;0;0;0
+236;"WORKSPEED_P6_ZAPI";1;"Workspeed in program switch position 6 for dual PM traction module";"1";0;255;0;;0;0;0
+237;"WORKSPEED_P7_ZAPI";1;"Workspeed in program switch position 7 for dual PM traction module";"1";0;255;0;;0;0;0
+238;"BEACON_P1_P7";1;"Releases for the beacon. Bit 0 = 1: beacon on at EOB1";"1";0;255;0;;0;0;0
+239;"BROOM_P1_P7";1;"Releases for the brooms. Bit 0 = 1: beacon on at EOB1";"1";0;255;0;;0;0;0
+240;"STRAIGHT_ANGLE";1;"Steering angel while steering wheel is starigth";"1";0;255;0;;0;0;0
+241;"NLZ_TURBINE";1;"cutoff delay of suction in 100ms steps";"1";0;255;0;"0,1s";0;0;1
+242;"NLZ_BRUSH";1;"cutoff delay of brushes in 100ms steps";"1";0;255;0;"0,1s";0;0;1
+243;"NLZ_BROOM";1;"cutoff delay of brooms in 100ms steps";"1";0;255;0;"0,1s";0;0;1
+244;"BATT_STATUS";1;"battery status: Bit0:discharge marker(for capacity detection), Bit1: Capacity known";"1";0;255;0;;0;0;0
+245;"MAX_BATT_CAPACITY";3;"maximum of battery capacity, detected via one discharge and following complete charging.";"1";0;65535;0;"Amin";0;1;0
+246;;0;;"1";0;0;0;;0;0;0
+247;"ACT_BATT_CAPACITY";3;"actual battery charge.";"1";0;65535;0;"Amin";0;1;0
+248;;0;;"1";0;0;0;;0;0;0
+249;"HORN";1;"Peep function of horn while driving forward. 0= off, 1= on";"1";0;255;0;;0;0;0
+250;"TIMESTAMP_DAY_CNTR_0";1;"Timestamp for day operation hour counter in seconds. Byte 0.";"1";0;255;0;"s";0;1;0
+251;"TIMESTAMP_DAY_CNTR_1";1;"Timestamp for day operation hour counter in seconds. Byte 1.";"1";0;255;0;"s";0;1;0
+252;"TIMESTAMP_DAY_CNTR_2";1;"Timestamp for day operation hour counter in seconds. Byte 2.";"1";0;255;0;"s";0;1;0
+253;"TIMESTAMP_DAY_CNTR_3";1;"Timestamp for day operation hour counter in seconds. Byte 3.";"1";0;255;0;"s";0;1;0
+254;"REM_OP_TIME_THERM_PROT";3;"Remaining operation time if thermal protection is active. In seconds";"1";0;65535;0;"s";0;1;0
+255;;0;;"1";0;255;0;;0;0;0
+256;"STATE_THERM_PROT";1;"State of thermal protection algorithm.";"1";0;255;0;;0;1;0
+257;"AMOUNT_CHARGING_CYCLES";3;"Amount of charging cycles since the last counter clearance";"1";0;65535;0;;0;1;0
+258;;0;;"1";0;255;0;;0;0;0
+259;;1;;"1";0;255;0;;0;0;0
+260;;1;;"1";0;255;0;;0;0;0
+261;;1;;"1";0;255;0;;0;0;0
+262;;1;;"1";0;255;0;;0;0;0
+263;"CRC_KOPF";1;"CRC über Byte 0-262";"1";0;255;0;;0;0;0
+999;"00.0001.00";1;"Version KSIP: Liste Modul-ID .Version KSIP-Liste .Reserve  (Hexdarstellung , Offset 999 geswitcht)";;0;0;0;;0;0;0

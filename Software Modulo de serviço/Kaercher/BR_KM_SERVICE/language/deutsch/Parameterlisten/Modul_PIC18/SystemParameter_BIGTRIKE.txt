@@ -1,0 +1,32 @@
+0;"LANGUAGE";1;"Ab Kopf-CPU-Firmwareversion V3.0: Länder-Code (0-17) zur Auswahl der Displaysprache";"1";0;17;1;;;1;1
+1;"MODELL";1;"Typ: 0=B140R R90 (BR90/140), 1=B140R D90 (BD90/140), 2=B140R R75 (BR75/140), 3=B140R D75 (BD75/140)";"1";0;3;1;;;1;1
+2;"RUND_ON";1;"Einschalten der Rundumleuchte bei Rückwärtsfahrt";"1";0;1;1;;;1;1
+3;"STANDBY_TIME";1;"Ausschaltverzögerung bei Stillstand der Maschine";"1";10;240;1;"min";;1;1
+4;"LADE_SCHLUSS";1;"Entladeschlußspannung  (pro Zelle)";"0.01";165;195;1;"V/Zelle";;;1
+5;"LADE_RUECK";1;"Laderücksetzspannung (pro Zelle)";"0.01";181;220;1;"V/Zelle";;;1
+6;"LADE_KRITISCH";1;"krit. Entladespannung; Einleiten Abschaltprogramm";"0.01";155;165;1;"V/Zelle";;;0
+7;"ISTOP_BASIS";1;"Bürstenstrom für minimalen Anpreßdruck in 10A-Schritten";"1";20;50;1;"A";0;10;1
+8;"BRUSH_MODE";1;"Betriebsart Hubmotor Bürste: 0=Endschaltermode, 1=Blockmode";"1";0;1;1;;0;0;1
+9;"FILTER_TIME";1;"nicht implementiert bei diesem Maschinenmodell";"1";5;120;1;"s";0;5;0
+10;"FILTER_PAUSE";1;"nicht implementiert bei diesem Maschinenmodell";"1";5;200;1;"s";0;5;0
+11;"VK_NACHLAUF";1;"nicht implementiert bei diesem Maschinenmodell";"0.1";0;50;1;"s";0;10;0
+12;"SGBL_NACHLAUF";1;"nicht implementiert bei diesem Maschinenmodell";"0.1";0;200;1;"s";0;10;0
+13;"WARN_MELD";1;"1 = Warnungen werden unterdrückt";"1";0;1;1;;;1;1
+14;"RMDOSI";1;"1 = Freischalten der Reinigungsmitteldosierung";"1";0;1;1;;;1;1
+15;"IHYSTERESE";1;"Toleranzband der Bürstenstromregelung";"1";5;10;1;"A";;1;0
+16;"SUCTION";1;"1 = Freischalten der WHISPER-Option für die Saugturbine an A3-X10";"1";0;1;1;;;1;1
+17;"FARMODUL_TYP";1;"0=PWM; 1=Asynchron  (EEPROM Zelle 15)";"1";0;255;1;;;;0
+18;"BK_KORRDELAY";1;"Vorlaufzeit, zum Einschalten der  Bürste  vor Aufsetzen der Bürste auf den Boden (EEPROM Zelle 16)";"0.01";80;250;1;"s";;10;1
+19;"BK_SWITCH_ON_DELAY_L";1;"Verzögerungszeit bis Bürste einschaltet low (EEPROM Zelle 17)";"1";0;255;1;;;;0
+20;"BK_SWITCH_ON_DELAY_H";1;"Verzögerungszeit bis Bürste einschaltet high (EEPROM Zelle 18)";"1";0;255;1;;;;0
+21;"CHARGER_SYSTEM";1;"Reserve (EEPROM Zelle 22)";"1";0;255;1;;;;0
+22;"ADJUST_BAT";1;"Korrekturwert Batteriespannung (EEPROM Zelle 23)";"1";0;255;1;;;;0
+23;"NOM_VOLTAGE";1;"Anzahl Zellen/Batterie (EEPROM Zelle 24)";"1";0;255;1;;;;0
+24;;0;;;0;0;0;;;;0
+25;;0;;;0;0;0;;;;0
+26;;0;;;0;0;0;;;;0
+27;;0;;;0;0;0;;;;0
+28;;0;;;0;0;0;;;;0
+29;;0;;;0;0;0;;;;0
+30;;0;;;0;0;0;;;;0
+31;;0;;;0;0;0;;;;0

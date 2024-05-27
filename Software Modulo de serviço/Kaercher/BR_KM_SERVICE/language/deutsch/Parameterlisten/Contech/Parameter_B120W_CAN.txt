@@ -1,0 +1,147 @@
+0;"DEVICE_OPTION";5;"Bit0: REVERSE_CLEAN; Bit1: Rundumleuchte während Fahren";"1";0;136;1;;0;1;1;12290;1
+1;;0;;"1";0;0;0;;0;0;0;0;0
+2;;0;;"1";0;0;0;;0;0;0;0;0
+3;;0;;"1";0;0;0;;0;0;0;0;0
+4;"LANGUAGE";1;"Sprache im Maschinendisplay";"1";0;19;1;;0;1;1;12288;1
+5;"LK";1;"Eingestellte Ladekennlinie der Batterie";"1";0;20;1;;0;1;1;12288;2
+6;"V_MIN";1;"Minimale Reinigungsgeschwindigkeit";"1";0;6;1;"km/h";0;1;1;12288;3
+7;"Vubat";1;"Transportgeschwindigkeit bei 36V Motorspannung";"0.1";50;200;1;"km/h";0;1;1;12288;4
+8;"SUCTION_LOW";1;"Turbinendrehzahl im Low-Mode Betrieb (100% bei 24V Motorspannung)";"1";30;100;1;"%";0;1;1;12288;5
+9;"SUCTION_HIGH";1;"Turbinendrehzahl  im High-Mode Betrieb (100% bei 24V Motorspannung)";"1";30;100;1;"%";0;1;1;12288;6
+10;"FACT_FINE";1;"Bürstendrehzahl  im Fine-Betrieb (100% bei 24V Motorspannung)";"1";30;100;1;"%";0;1;1;12288;7
+11;"FACT_WHISPER";1;"Bürstendrehzahl  im Whisper-Betrieb (100% bei 24V Motorspannung)";"1";30;100;1;"%";0;1;1;12288;8
+12;"FACT_POWER";1;"Bürstendrehzahl  im Power-Betrieb (100% bei 24V Motorspannung)";"1";30;100;1;"%";0;1;1;12288;9
+13;"BRUSH_DELAY";1;"Nachlaufzeit der Bürste bei Fahrzeugstop";"1";1;6;1;"s";0;1;1;12288;10
+14;"I_BUERSTE_MAX";1;"Maximal zulässiger Dauerstrom der Bürste";"1";20;80;1;"A";0;1;1;12288;11
+15;"I_BUERSTE_BOOST";1;"Maximal zulässiger Booststrom der Bürste";"1";20;200;1;"A";0;1;1;12288;12
+16;"TIME_OC_BUERSTE_OFF";1;"Verzögerungszeit, bis Bürstenmotorüberlast erkannt wird";"25";1;250;1;"ms";0;1;1;12288;13
+17;"I_TURBINE_MAX";1;"Maximal zulässiger Dauerstrom der Turbine";"1";10;35;1;"A";0;1;1;12288;14
+18;"I_TURBINE_BOOST";1;"Maximal zulässiger Anlaufstrom der Turbine";"1";10;200;1;"A";0;1;1;12288;15
+19;"TIME_OC_TURBINE_OFF";1;"Verzögerungszeit, bis Turbinenmotorüberlast erkannt wird";"25";1;250;1;"ms";0;1;1;12288;16
+20;"V_KI";3;"Verstärkungsfaktor, Integralanteil des Geschwindigkeitsreglers";"1";1;100;1;"INC";0;1;1;12289;1
+21;;0;;"1";0;0;0;;0;0;0;0;0
+22;"V_KP";3;"Verstärkungsfaktor, Proportionalanteil des Geschwindigkeitsreglers";"1";1;10;1;"IINC";0;1;1;12289;2
+23;;0;;"1";0;0;0;;0;0;0;0;0
+24;"V_RAMP_INC";3;"Beschleunigungsrampe Fahrantrieb";"1";1;100;1;"%";0;1;1;12289;3
+25;;0;;"1";0;0;0;;0;0;0;0;0
+26;"V_RAMP_DEC";3;"Bremsrampe Fahrantrieb";"1";1;100;1;"%";0;1;1;12289;4
+27;;0;;"1";0;0;0;;0;0;0;0;0
+28;"RI_MOTOR";1;"Innenwiderstand des Fahrmotors";"0.001";1;250;1;"Ohm";0;1;1;12288;17
+29;"IFmMax";1;"Maximaler Fahrmotorstrom";"1";0;100;1;"A";0;1;1;12288;18
+30;"IFmRed";1;"Reduzierter Fahrmotorstrom";"1";0;100;1;"A";0;1;1;12288;19
+31;;0;"Reserve";;0;0;0;;0;0;0;0;0
+32;"CRC";1;"CRC über Parameter 0-31";"1";0;3;3;"INC";0;0;0;0;0
+33;"CRC_USP";1;"CRC über Parameter 34-127 (Unprotected Parameter)";"1";0;3;3;"INC";0;0;0;0;0
+34;"EOP_FACT[2]";1;"FACT-Modus in  Programmwahlschalterstellung 3; 0=Aus;; 1=Fine; 2=Whisper, 3=Power";"1";0;3;1;"INC";0;1;1;12288;20
+35;"EOP_FACT[3]";1;"FACT-Modus in  Programmwahlschalterstellung 4";"1";0;3;1;"INC";0;1;1;12288;21
+36;"EOP_FACT[4]";1;"FACT-Modus in  Programmwahlschalterstellung 5";"1";0;3;1;"INC";0;1;1;12288;22
+37;"EOP_FACT[5]";1;"FACT-Modus in  Programmwahlschalterstellung 6";"1";0;3;1;"INC";0;1;1;12288;23
+38;"EOP_FACT[6]";1;"FACT-Modus in  Programmwahlschalterstellung 7";"1";0;3;1;"INC";0;1;1;12288;24
+39;"EOP_FACT[7]";1;"FACT-Modus in  Programmwahlschalterstellung 8";"1";0;3;1;"INC";0;1;1;12288;25
+40;"EOP_SUCTION[2]";1;"SUCTION-Modus  in Programmwahlschalterstellung 3; 0=Aus; 1=Low; 2=High";"1";0;2;1;"INC";0;1;1;12288;26
+41;"EOP_SUCTION[3]";1;"SUCTION-Modus  in Programmwahlschalterstellung 4";"1";0;2;1;"INC";0;1;1;12288;27
+42;"EOP_SUCTION[4]";1;"SUCTION-Modus  in Programmwahlschalterstellung 5";"1";0;2;1;"INC";0;1;1;12288;28
+43;"EOP_SUCTION[5]";1;"SUCTION-Modus  in Programmwahlschalterstellung 6";"1";0;2;1;"INC";0;1;1;12288;29
+44;"EOP_SUCTION[6]";1;"SUCTION-Modus  in Programmwahlschalterstellung 7";"1";0;2;1;"INC";0;1;1;12288;30
+45;"EOP_SUCTION[7]";1;"SUCTION-Modus  in Programmwahlschalterstellung 8";"1";0;2;1;"INC";0;1;1;12288;31
+46;"EOP_RM[2]";1;"RM-Dosierung  in Programmwahlschalterstellung 3; 0%-3%";"0.5";0;6;1;"%";0;1;1;12288;32
+47;"EOP_RM[3]";1;"RM-Dosierung  in Programmwahlschalterstellung 4";"0.5";0;6;1;"%";0;1;1;12288;33
+48;"EOP_RM[4]";1;"RM-Dosierung  in Programmwahlschalterstellung 5";"0.5";0;6;1;"%";0;1;1;12288;34
+49;"EOP_RM[5]";1;"RM-Dosierung  in Programmwahlschalterstellung 6";"0.5";0;6;1;"%";0;1;1;12288;35
+50;"EOP_RM[6]";1;"RM-Dosierung  in Programmwahlschalterstellung 7";"0.5";0;6;1;"%";0;1;1;12288;36
+51;"EOP_RM[7]";1;"RM-Dosierung  in Programmwahlschalterstellung 8";"0.5";0;6;1;"%";0;1;1;12288;37
+52;"EOP_WP[2]";1;"Wasserpumpe in Programmwahlschalterstellung 3; 0=Aus; 1=Ein";"1";0;100;1;"INC";0;1;1;12288;38
+53;"EOP_WP[3]";1;"Wasserpumpe in Programmwahlschalterstellung 4";"1";0;100;1;"INC";0;1;1;12288;39
+54;"EOP_WP[4]";1;"Wasserpumpe in Programmwahlschalterstellung 5";"1";0;100;1;"INC";0;1;1;12288;40
+55;"EOP_WP[5]";1;"Wasserpumpe in Programmwahlschalterstellung 6";"1";0;100;1;"INC";0;1;1;12288;41
+56;"EOP_WP[6]";1;"Wasserpumpe in Programmwahlschalterstellung 7";"1";0;100;1;"INC";0;1;1;12288;42
+57;"EOP_WP[7]";1;"Wasserpumpe in Programmwahlschalterstellung 8";"1";0;100;1;"INC";0;1;1;12288;43
+58;"EOP_SPEED[2]";1;"Reinigungsgeschwindigkeit in Programmwahlschalterstellung 3";"1";0;100;1;"%";0;1;1;12288;44
+59;"EOP_SPEED[3]";1;"Reinigungsgeschwindigkeit in Programmwahlschalterstellung 4";"1";0;100;1;"%";0;1;1;12288;45
+60;"EOP_SPEED[4]";1;"Reinigungsgeschwindigkeit in Programmwahlschalterstellung 5";"1";0;100;1;"%";0;1;1;12288;46
+61;"EOP_SPEED[5]";1;"Reinigungsgeschwindigkeit in Programmwahlschalterstellung 6";"1";0;100;1;"%";0;1;1;12288;47
+62;"EOP_SPEED[6]";1;"Reinigungsgeschwindigkeit in Programmwahlschalterstellung 7";"1";0;100;1;"%";0;1;1;12288;48
+63;"EOP_SPEED[7]";1;"Reinigungsgeschwindigkeit in Programmwahlschalterstellung 8";"1";0;100;1;"%";0;1;1;12288;49
+64;"EOP_BPress[2]";1;"Bürstenanpressdruck in Programmwahlschalterstellung 3";"1";0;100;1;;0;1;1;12288;50
+65;"EOP_BPress[3]";1;"Bürstenanpressdruck in Programmwahlschalterstellung 4";"1";0;100;1;;0;1;1;12288;51
+66;"EOP_BPress[4]";1;"Bürstenanpressdruck in Programmwahlschalterstellung 5";"1";0;100;1;;0;1;1;12288;52
+67;"EOP_BPress[5]";1;"Bürstenanpressdruck in Programmwahlschalterstellung 6";"1";0;100;1;;0;1;1;12288;53
+68;"EOP_BPress[6]";1;"Bürstenanpressdruck in Programmwahlschalterstellung 7";"1";0;100;1;;0;1;1;12288;54
+69;"EOP_BPress[7]";1;"Bürstenanpressdruck in Programmwahlschalterstellung 8";"1";0;100;1;;0;1;1;12288;55
+70;"Bkopf";1;"Bürstenkopf; 0=D-Kopf; 1=R-Kopf;  2=S-Kopf";"1";0;2;1;;0;1;1;12288;56
+71;"IRegBKmin[0]";1;"Minimaler Bürstenkopfstrom (D-Kopf)";"1";20;80;1;"A";0;1;1;12288;57
+72;"IRegBKmin[1]";1;"Minimaler Bürstenkopfstrom (R-Kopf)";"1";20;80;1;"A";0;1;1;12288;58
+73;"IRegBKmin[2]";1;"Minimaler Bürstenkopfstrom (S-Kopf)";"1";20;80;1;"A";0;1;1;12288;59
+74;"IRegBKmax[0]";1;"Maximaler Bürstenkopfstrom (D-Kopf)";"1";20;80;1;"A";0;1;1;12288;60
+75;"IRegBKmax[1]";1;"Maximaler Bürstenkopfstrom (R-Kopf)";"1";20;80;1;"A";0;1;1;12288;61
+76;"IRegBKmax[2]";1;"Maxiimaler Bürstenkopfstrom (S-Kopf)";"1";20;80;1;"A";0;1;1;12288;62
+77;"IRegKP";1;"Kp-Wert für Bürstenkopfregelung";"1";5;100;1;;0;1;1;12288;63
+78;"NlzTurbine";1;"Nachlaufzeit der Turbine";"1";1;60;1;"s";0;1;1;12288;64
+79;"TimeTankFull";1;"Zeit, bis bei aktiviertem Schwimmerschalter der Tank als voll gemeldet wird";"1";0;255;1;"s";0;1;1;12288;69
+80;"I_LIFT_BK_UP";1;"Strom bei dem das Hubelement Bürste oben abschaltet [0.1A]";"0.1";0;100;1;"A";0;1;1;12288;65
+81;"I_LIFT_BK_DN";1;"Strom bei dem das Hubelement Bürste unten abschaltet [0.1A]";"0.1";0;100;1;"A";0;1;1;12288;66
+82;"I_LIFT_SB_UP";1;"Strom bei dem das Hubelement Saugbalken oben abschaltet [0.1A]";"0.1";0;100;1;"A";0;1;1;12288;67
+83;"I_LIFT_SB_DN";1;"Strom bei dem das Hubelement Bürste unten abschaltet [0.1A]";"0.1";0;100;1;"A";0;1;1;12288;68
+84;"AH_MIN";5;"Restkapazität des Akkus bei Erreichen der Entladeschlussspannung";"1";0;240;1;"Ah";0;1;1;12290;8
+85;;0;;"1";0;0;0;;0;0;0;0;0
+86;;0;;"1";0;0;0;;0;0;0;0;0
+87;;0;;"1";0;0;0;;0;0;0;0;0
+88;"AH_MAX";5;"Maximalkapazität des Akkus bei Erreichen der Erhaltungsladung";"1";0;240;1;"Ah";0;1;1;12290;9
+89;;0;;"1";0;0;0;;0;0;0;0;0
+90;;0;;"1";0;0;0;;0;0;0;0;0
+91;;0;;"1";0;0;0;;0;0;0;0;0
+92;"vRegTime";3;"Zyklischer Aufruf der Geschwindigkeitsregelung";"1";1;100;1;"ms";0;1;1;12289;9
+93;;0;;"1";0;0;0;;0;0;0;0;0
+94;"BS_SEC";1;"Betriebsstundenzähler, Sekunden";"1";0;59;0;"s";0;1;0;16386;1
+95;"BS_MIN";1;"Betriebsstundenzähler, Minuten";"1";0;59;0;"min";0;1;0;16386;1
+96;"BS_H_LOW";1;"Betriebsstundenzähler, Stunden  (Byte 0)";"1";0;255;0;"h";0;1;0;16386;1
+97;"BS_H_HIGH";1;"Betriebsstundenzähler, Stunden  (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;1
+98;"BS_BRUSH_SEC";1;"Betriebsstundenzähler - Bürste, Sekunden";"1";0;59;0;"s";0;1;0;16386;3
+99;"BS_BRUSH_MIN";1;"Betriebsstundenzähler - Bürste, Minuten";"1";0;59;0;"min";0;1;0;16386;3
+100;"BS_BRUSH_H_LOW";1;"Betriebsstundenzähler - Bürste, Stunden (Byte 0)";"1";0;255;0;"h";0;1;0;16386;3
+101;"BS_BRUSH_H_HIGH";1;"Betriebsstundenzähler - Bürste, Stunden (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;3
+102;"BS_TURBINE_SEC";1;"Betriebsstundenzähler - Turbine, Sekunden";"1";0;59;0;"s";0;1;0;16386;2
+103;"BS_TURBINE_MIN";1;"Betriebsstundenzähler - Turbine, Minuten";"1";0;59;0;"min";0;1;0;16386;2
+104;"BS_TURBINE_H_LOW";1;"Betriebsstundenzähler - Turbine, Stunden (Byte 0)";"1";0;255;0;"h";0;1;0;16386;2
+105;"BS_TURBINE_H_HIGH";1;"Betriebsstundenzähler - Turbine, Stunden (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;2
+106;"SERV_COUNTER_SEC";1;"Servicezähler, Sekunden";"1";0;59;0;"s";0;1;0;16386;4
+107;"SERV_COUNTER_MIN";1;"Servicezähler, Minuten";"1";0;59;0;"min";0;1;0;16386;4
+108;"SERV_COUNTER_H_LOW";1;"Servicezähler, Stunden (Byte 0)";"1";0;255;0;"h";0;1;0;16386;4
+109;"SERV_COUNTER_H_HIGH";1;"Servicezähler, Stunden (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;4
+110;"RiLeitung";3;"Widerstand der Zuleitung von der Batterie";"1";0;10000;1;"mOhm";0;1;1;12289;10
+111;;0;;"1";0;0;0;;0;0;0;0;0
+112;"BatteriemanagementOption";1;"Optionen für Batteriemanagement Bit 0: 0:Spannungsbasiert ; 1:Kapazitätsbas.";"1";0;7;1;;0;1;1;12288;70
+113;"vMaxForward";1;"Maximalgeschwindigkeit Vorwärtsfahrt";"0.1";20;70;1;"km/h";0;1;1;12288;71
+114;"vMaxReverse";1;"Maximalgeschwindigkeit Rückwärtsfahrt";"0.1";10;60;1;"km/h";0;1;1;12288;72
+115;"MIN_PROZENT_POTI_SPEED";3;"Eingelernter linker Anschlag vom Potentiometer GESCHWINDIGKEIT";"1";0;255;1;"%";0;1;1;12289;5
+116;;0;;"1";0;0;0;;0;0;0;0;0
+117;"MAX_PROZENT_POTI_SPEED";3;"Eingelernter rechter Anschlag vom Potentiometer GESCHWINDIGKEIT";"1";0;255;1;"%";0;1;1;12289;6
+118;;0;;"1";0;0;0;;0;0;0;0;0
+119;"MIN_PROZENT_POTI_WATER";3;"Eingelernter linker Anschlag vom Potentiometer WASSERMENGE";"1";0;255;1;"%";0;1;1;12289;7
+120;;0;;"1";0;0;0;;0;0;0;0;0
+121;"MAX_PROZENT_POTI_WATER";3;"Eingelernter rechter Anschlag vom Potentiometer WASSERMENGE";"1";0;255;1;"%";0;1;1;12289;8
+122;;0;;"1";0;0;0;;0;0;0;0;0
+123;"SERV_RELOAD";5;"Servicezähler - Reloadwert, Stunden";"1";0;400;1;"h";0;1;1;12290;2
+124;;0;;"1";0;0;0;;0;0;0;0;0
+125;;0;;"1";0;0;0;;0;0;0;0;0
+126;;0;;"1";0;0;0;;0;0;0;0;0
+127;"WART_RELOAD[0]";5;"Wartungszähler 1 - Reloadwert";"1";0;100;1;"h";0;1;1;12290;3
+128;;0;;"1";0;0;0;;0;0;0;0;0
+129;;0;;"1";0;0;0;;0;0;0;0;0
+130;;0;;"1";0;0;0;;0;0;0;0;0
+131;"WART_RELOAD[1]";5;"Wartungszähler 2 - Reloadwert";"1";0;20;1;"h";0;1;1;12290;4
+132;;0;;"1";0;0;0;;0;0;0;0;0
+133;;0;;"1";0;0;0;;0;0;0;0;0
+134;;0;;"1";0;0;0;;0;0;0;0;0
+135;"WART_RELOAD[2]";5;"Wartungszähler 3 - Reloadwert";"1";0;100;1;"h";0;1;1;12290;5
+136;;0;;"1";0;0;0;;0;0;0;0;0
+137;;0;;"1";0;0;0;;0;0;0;0;0
+138;;0;;"1";0;0;0;;0;0;0;0;0
+139;"WART_RELOAD[3]";5;"Wartungszähler 4 - Reloadwert";"1";0;10;1;"h";0;1;1;12290;6
+140;;0;;"1";0;0;0;;0;0;0;0;0
+141;;0;;"1";0;0;0;;0;0;0;0;0
+142;;0;;"1";0;0;0;;0;0;0;0;0
+143;"WART_RELOAD[4]";5;"Wartungszähler 5 - Reloadwert";"1";0;50;1;"h";0;1;1;12290;7
+144;;0;;"1";0;0;0;;0;0;0;0;0
+145;;0;;"1";0;0;0;;0;0;0;0;0
+146;;0;;"1";0;0;0;;0;0;0;0;0

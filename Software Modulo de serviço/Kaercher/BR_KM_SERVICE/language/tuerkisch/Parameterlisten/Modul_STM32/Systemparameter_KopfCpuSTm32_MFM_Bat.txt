@@ -1,0 +1,264 @@
+0;"KENNUNG";1;"Development parameters: Toggle-ID:  0x55 / 0xAA";"1";0;255;0;"Bit";0;0;0
+1;"STEUERUNGS-TYP";1;"Development parameters: Master CPU with STM 32 always Type = 5";"1";0;255;0;"Bit";0;0;0
+2;"STEUERUNGS-VARIANTE";1;"Module controll = 1; MFM-BAT = 2; MFM-Combustion = 3";"1";0;255;0;"Bit";0;0;0
+3;"STEUERUNGS_OPTION";1;"Bit0=Batt; Bit1=RFID; Bit2=EOB; Bit3=touch; Bit4=film; Bit5=Grafic; Bit6=alpha2x16; Bit7=8MBitFlash";"1";0;255;0;"Bit";0;0;0
+4;"MASCHINENTYP";1;"Machine-ID: KM-Mediumrange:100-114 (P,D,LPG,Bat,BatPack) /  150=B150Classic; 151=B150Advanced";"1";0;255;0;"Bit";0;0;0
+5;"MASCHINEN_OPTION_1";1;"KM: Bit0=KW; Bit1=SBR ;Bit2=SBL ;Bit3=KSB;Bit4=V0-KW;Bit5=V1-SBR;Bit6=V3-SBL;Bit7=V2-KSB";"1";0;255;0;"Bit";0;0;0
+6;"MASCHINEN_OPTION_2";1;"KM: Bit0=Teach; Bit1=HD; Bit2=LD; Bit3=Blower; Bi4=3Valve-APFC; Bit5=2Valve-APFC; Bit6=Steersensor";"1";0;255;0;"Bit";0;0;0
+7;"MASCHINEN_OPTION_3";1;"KM: Bit0=Working light; Bit1=Rotating beacon; Bit2=Fan";"1";0;255;0;"Bit";0;0;0
+8;"MASCHINEN_OPTION_4";1;"User/Supervisor-KiK permission (Byte 1)";"1";0;255;0;"Bit";0;0;0
+9;"MASCHINEN_OPTION_5";1;"User/Supervisor-KiK permission (Byte 2)";"1";0;255;0;"Bit";0;0;0
+10;"KALIBRIER_MERKER";1;"Bit0=Throttle ; Bit1=Touchdisp; Bit2=Steersensor; Bit3=Brush; Bit4=SBR;Bit5=SBL;Bit6=CSB; Bit7=Def.";"1";0;255;0;"Bit";0;0;0
+11;"RESERVED";0;;"1";0;255;0;;0;0;0
+12;"COUNTRY_CODE";1;"Selected display language present without KiK (0=english; 1=german,)";"1";0;17;0;"INC";0;0;1
+13;"STANDBY_DELAY";1;"Time until machine shuts down once in idle mode";"1";1;255;0;"min";0;0;1
+14;"SERVICE_STD_LOW_RESET";1;"Reset value from service counter in hours [10..255h]";"1";10;255;0;"h";0;0;1
+15;"SERVICE_STD_HIGH_RESET";0;"Reset value from service counter in hours [1…255]*256h";"1";0;4;0;"*256h";0;0;0
+16;"TAGES_ZAEHLER_STD";1;"Operating hours, day counter";"1";0;99;0;"h";0;0;1
+17;"TAGES_ZAEHLER_MIN";1;"Operating minutes, day counter";"1";0;59;0;"min";0;0;1
+18;"SERV_MIN_CHECKWERT";1;"Operating minutes, service counter - verification value in flash memory";"1";0;255;0;"min";0;0;0
+19;"SERV_STD_LOW_CHECKWERT";1;"Operating hours, service counter -verificaiton value in flash memory [0..255h]";"1";0;255;0;"h";0;0;0
+20;"SERV_STD_HIGH_CHECKWERT";1;"Operating hours, service counter - verification value in flash memory [0..255]*256h";"1";0;255;0;"*256h";0;0;0
+21;"BS_MIN_CHECKWERT";1;"Operating minutes, operating hours counter - verification value in flash memory";"1";0;59;0;"min";0;0;0
+22;"BS_STD_LOW_CHECKWERT";1;"Operating hours, operating hours counter - verification value in flash memory [0..255h]";"1";0;255;0;"h";0;0;0
+23;"BS_STD_HIGH_CHECKWERT";1;"Operating hours, operating hours counter - verification value in flash memory  [0..255]*256h";"1";0;255;0;"*256h";0;0;0
+24;"BATT_ZUSTAND";1;"Batt-Test: Bit0=Full operation ; Bit1=Combustion support OFF; Bit2=Sweeping OFF; Bit3=Operation lock";"1";0;255;0;"Bit";0;0;0
+25;"BATT_ANZ_ZELLEN";1;"Number of battery cells used by the starter battery [2 V/Cell]";"1";12;12;0;"INC";0;0;0
+26;"KM_BATT_TIEFENTLADE_SPG_1";1;"Battery voltage, below support of cumbustion engine during uphill driving is locked";"0.01";170;240;0;"V/Zelle";0;0;0
+27;"KM_BATT_TIEFENTLADE_SPG_2";1;"Battery voltage, below sweeping operation is locked";"0.01";170;240;0;"V/Zelle";0;0;0
+28;"KM_BATT_ENTLADE_SPG_1";1;"Battery voltage, below both sweeping and driving operation is locked";"0.01";170;240;0;"V/Zelle";0;0;1
+29;"KM_BATT_ENTLADE_SPG_2";1;"Minimum battery voltage to enable driving and/or combustion engine support";"0.01";170;240;0;"V/Zelle";0;0;0
+30;"KM_BATT_RESET_SPG";1;"Minimum battery voltage to enable both sweeping and driving operation";"0.01";170;240;0;"V/Zelle";0;0;1
+31;"BATT_LADE_ANZEIGE";1;;"1";0;5;0;;0;0;0
+32;"RESERVED";0;;"1";0;255;0;;0;0;0
+33;"RESERVED";0;;"1";0;255;0;;0;0;0
+34;"KOEFF_A0";0;"Adjustment coefficient - A (Floating point value: 4 Bytes) for touch graphics display";"1";0;255;0;;0;0;0
+35;"KOEFF_A1";0;;"1";0;255;0;;0;0;0
+36;"KOEFF_A2";0;;"1";0;255;0;;0;0;0
+37;"KOEFF_A3";0;;"1";0;255;0;;0;0;0
+38;"KOEFF_B0";0;"Adjustment coefficient - B (Floating point value: 4 Bytes) for touch graphics display";"1";0;255;0;;0;0;0
+39;"KOEFF_B1";0;;"1";0;255;0;;0;0;0
+40;"KOEFF_B2";0;;"1";0;255;0;;0;0;0
+41;"KOEFF_B3";0;;"1";0;255;0;;0;0;0
+42;"KOEFF_C0";0;"Adjustment coefficient - C (Floating point value: 4 Bytes) for touch graphics display";"1";0;255;0;;0;0;0
+43;;0;;"1";0;255;0;;0;0;0
+44;;0;;"1";0;255;0;;0;0;0
+45;;0;;"1";0;255;0;;0;0;0
+46;"KOEFF_D";0;"Adjustment coefficient - D (Floating point value: 4 Bytes) for touch graphics display";"1";0;255;0;;0;0;0
+47;;0;;"1";0;255;0;;0;0;0
+48;;0;;"1";0;255;0;;0;0;0
+49;;0;;"1";0;255;0;;0;0;0
+50;"KOEFF_E";0;"Adjustment coefficient - E (Floating point value: 4 Bytes) for touch graphics display";"1";0;255;0;;0;0;0
+51;;0;;"1";0;255;0;;0;0;0
+52;;0;;"1";0;255;0;;0;0;0
+53;;0;;"1";0;255;0;;0;0;0
+54;"KOEFF_F";0;"Adjustment coefficient - F (Floating point value: 4 Bytes) for touch graphics display";"1";0;255;0;;0;0;0
+55;;0;;"1";0;255;0;;0;0;0
+56;;0;;"1";0;255;0;;0;0;0
+57;;0;;"1";0;255;0;;0;0;0
+58;"INIT_KONTRAST";1;"Display contrast graphics display 128*128 pixel (ADMATEC)";"1";0;63;0;"INC";0;0;1
+59;"INIT_BIAS";1;"BIAS graphics display 128*128 pixel (ADMATEC)";"1";80;87;0;"INC";0;0;0
+60;"INIT_RESISTOR";1;"Internal adjustment resistor graphics display 128*128 Pixel (ADMATEC)";"1";32;39;0;"INC";0;0;0
+61;"KONTRAST_2_16_DISPLAY";1;"Display contrast of alphanumeric 2 rows/16 digits displays (DEM)";"1";0;255;0;"INC";0;0;1
+62;"RESERVED";0;;"1";0;0;0;;0;0;0
+63;"RESERVED";0;;"1";0;0;0;;0;0;0
+64;"RESERVED";0;;"1";0;0;0;;0;0;0
+65;"OFFSET_HYSTERESE_HM";1;"Potioffset, linear actuators (KM: M4-M9) switch off, before mechanical blockade occurs";"1";0;15;0;"INC";0;0;0
+66;"OFFSET_KSB_UNTEN_DELTA";1;"Potioffset, linear actuator (KM:Crescent broom M7) is lowering to from upper rest position";"1";0;255;0;"INC";0;0;1
+67;"OFFSET_DELTA_SB_WORK1";1;"Potioffset, side broom/s start/s rolling at small steering angles (linear actuators M4+6)";"1";0;100;0;"INC";0;0;1
+68;"OFFSET_DELTA_SB_WORK2";1;"Potioffset, side broom/s start/s rolling at larger steering angles (linear actuators M4+6)";"1";0;100;0;"INC";0;0;1
+69;"RESERVED";0;;"1";0;0;0;;0;0;0
+70;"KALI_OBEN_KW";1;"Calibrated potivalue, linear actuator M5 (KM: sweeping brush) in upper rest position";"1";0;255;0;"INC";0;0;0
+71;"KALI_UNTEN_KW";1;"Calibrated potivalue, linear actuator M5 (KM: sweeping brush) in lower rest position (unused)";"1";0;255;0;"INC";0;0;0
+72;"KALI_TOUCHSCHALTER";1;"Calibrated potivalue, touch microswitch S9 is activated while M5 is lowering  (KM: Sweeping brush)";"1";0;255;0;"INC";0;0;0
+73;"KALI_OBEN_SB_RE";1;"Calibrated potivalue, linear actuator M4 (KM: right side broom) in upper rest position";"1";0;255;0;"INC";0;0;0
+74;"KALI_UNTEN_SB_RE";1;"Calibrated potivalue, linear actuator M4 (KM: right side broom) in lower rest position";"1";0;255;0;"INC";0;0;0
+75;"KALI_OBEN_SB_LI";1;"Calibrated potivalue, linear actuator M6 (KM: left side broom) in upper rest position";"1";0;255;0;"INC";0;0;0
+76;"KALI_UNTEN_SB_LI";1;"Calibrated potivalue, linear actuator M6 (KM: left side broom) in lower rest position";"1";0;255;0;"INC";0;0;0
+77;"KALI_OBEN_KSB";1;"Calibrated potivalue, linear actuator M7 (KM: crescent broom) in upper rest position";"1";0;255;0;"INC";0;0;0
+78;"KALI_UNTEN_KSB";1;"Calibrated potivalue, linear actuator M7 (KM: crescent broom) in lower rest position";"1";0;255;0;"INC";0;0;0
+79;"KALI_LENKPOTI_LINKS";1;"Calibrated potivalue R1, steering wheel at left mechanical stop";"1";0;255;0;"INC";0;0;0
+80;"KALI_LENKPOTI_RECHTS";1;"Calibrated potivalue R1, steering wheel at right mechanical stop";"1";0;255;0;"INC";0;0;0
+81;"KALI_LENKPOTI_MITTE";1;"Calibrated potivalue R1, steering wheel in center position";"1";0;255;0;"INC";0;0;0
+82;"RESERVED";0;;"1";0;0;0;;0;0;0
+83;"RESERVED";0;;"1";0;0;0;;0;0;0
+84;"RESERVED";0;;"1";0;0;0;;0;0;0
+85;"RESERVED";0;;"1";0;0;0;;0;0;0
+86;"RESERVED";0;;"1";0;0;0;;0;0;0
+87;"RESERVED";0;;"1";0;0;0;;0;0;0
+88;"RESERVED";0;;"1";0;0;0;;0;0;0
+89;"RESERVED";0;;"1";0;0;0;;0;0;0
+90;"TAGESPUFF_ZEIGER";0;"Pointer to last potivalue of DAYTIME-TOUCH buffer";"1";0;8;0;"INC";0;0;0
+91;"TAGESPUFF_01";0;"DAYTIME-TOUCHBUFFER: Average potivalue for debug purposes";"1";0;255;0;"INC";0;0;0
+92;"TAGESPUFF_02";0;"DAYTIME-TOUCHBUFFER: Average potivalue for debug purposes";"1";0;255;0;"INC";0;0;0
+93;"TAGESPUFF_03";0;"DAYTIME-TOUCHBUFFER: Average potivalue for debug purposes";"1";0;255;0;"INC";0;0;0
+94;"TAGESPUFF_04";0;"DAYTIME-TOUCHBUFFER: Average potivalue for debug purposes";"1";0;255;0;"INC";0;0;0
+95;"TAGESPUFF_05";0;"DAYTIME-TOUCHBUFFER: Average potivalue for debug purposes";"1";0;255;0;"INC";0;0;0
+96;"TAGESPUFF_06";0;"DAYTIME-TOUCHBUFFER: Average potivalue for debug purposes";"1";0;255;0;"INC";0;0;0
+97;"TAGESPUFF_07";0;"DAYTIME-TOUCHBUFFER: Average potivalue for debug purposes";"1";0;255;0;"INC";0;0;0
+98;"TAGESPUFF_08";0;"DAYTIME-TOUCHBUFFER: Average potivalue for debug purposes";"1";0;255;0;"INC";0;0;0
+99;"RESERVED";0;;"1";0;0;0;;0;0;0
+100;"MASCHINEN_STATUS";1;"Bit0= 0 Work.light ON at Power ON; Bit1=1 beacon ON at reverse driving; Bit2=1 APFC ON at driving";"1";0;255;0;"Bit";0;0;0
+101;"AUTOKAL_FLAG";0;"Bit0=TEACH_SWEEPING_BRUSH    (currently not used)";"1";0;255;0;"Bit";0;0;0
+102;"MENUE_FREIGABE";1;"Sweeping mark:Bit0=POWER_ENABLE; Bit1=MEDIUM_ENABLE; Bit2=ECO_ENABLE; Wet sweep: Bit3=NASS_ENABLE";"1";0;255;0;"Bit";0;0;0
+103;"PARAMETER_STAUBSTUFE";1;"TACT-cycle adaptation Bit0=Dust level 1; Bit2=Dust level 2; Bit3=Dust level 3;";"1";0;255;0;"Bit";0;0;0
+104;"RESERVED";0;;"1";0;255;0;;0;0;0
+105;"ABSTIME_0_KW_TEACHMSSG";0;"Absolute time stamp (s) of last sweeping teach measurement (long value = 4bytes)";"1";0;255;0;"s";0;0;0
+106;"ABSTIME_1_KW_TEACHMSSG";0;;"1";0;255;0;"*256s";0;0;0
+107;"ABSTIME_2_KW_TEACHMSSG";0;;"1";0;255;0;"*xs";0;0;0
+108;"ABSTIME_3_KW_TEACHMSSG";0;;"1";0;255;0;"*ys";0;0;0
+109;"RESERVED";0;;"1";0;255;0;;0;0;0
+110;"POTI_KW_OBEN";1;"Actual potivalue, linear actuator M5 (KM: sweeping brush) in upper rest position";"1";0;255;0;"INC";0;0;0
+111;"POTI_KSB_OBEN";1;"Actual potivalue, linear actuator M7 (KM: crescent broom) in upper rest position";"1";0;255;0;"INC";0;0;0
+112;"POTI_KSB_UNTEN";1;"Actual potivalue, linear actuator M7 (KM: crescent broom) in lower rest position";"1";0;255;0;"INC";0;0;0
+113;"POTI_SB_RE_OBEN";1;"Actual potivalue, linear actuator M4 (KM: right side broom) in upper rest position";"1";0;255;0;"INC";0;0;0
+114;"POTI_SB_RE_UNTEN";1;"Actual potivalue, linear actuator M4 (KM: right side broom) in lower rest position";"1";0;255;0;"INC";0;0;0
+115;"POTI_SB_RE_WORK1_POSITION";1;"Actual potivalue, linear actuator M4 (KM: right side broom) in work pos 1 (small steering angles)";"1";0;255;0;"INC";0;0;0
+116;"POTI_SB_RE_WORK2_POSITION";1;"Actual potivalue, linear actuator M4 (KM: right side broom) in work pos 2 (large steering angles)";"1";0;255;0;"INC";0;0;0
+117;"POTI_SB_LI_OBEN";1;"Actual potivalue, linear actuator M6 (KM: left side broom) in upper rest position";"1";0;255;0;"INC";0;0;0
+118;"POTI_SB_LI_UNTEN";1;"Actual potivalue, linear actuator M6 (KM: left side broom) in lower rest position";"1";0;255;0;"INC";0;0;0
+119;"POTI_SB_LI_WORK1_POSITION";1;"Actual potivalue, linear actuator M6 (KM: left side broom) in work pos 1 (small steering angles)";"1";0;255;0;"INC";0;0;0
+120;"POTI_SB_LI_WORK2_POSITION";1;"Actual potivalue, linear actuator M6 (KM: left side broom) in work pos 2 (large steering angles)";"1";0;255;0;"INC";0;0;0
+121;"POTI_LENK_MITTE";1;"Absolute steering sensor value, center position of steering wheel";"1";0;255;0;"INC";0;0;0
+122;"OFFSET_LENK_WORK1_AUS";1;"Offset from center position of  steering wheel  to leave small steering angles";"1";0;255;0;"INC";0;0;1
+123;"OFFSET_LENK_WORK1_EIN";1;"Offset from center position of  steering wheel  to enter small steering angles";"1";0;255;0;"INC";0;0;1
+124;"OFFSET_LENK_WORK2_AUS";1;"Offset from center position of  steering wheel  to leave large steering angles";"1";0;255;0;"INC";0;0;1
+125;"OFFSET_LENK_WORK2_EIN";1;"Offset from center position of  steering wheel  to enter large steering angles";"1";0;255;0;"INC";0;0;1
+126;"MAXZEIT_KW_0_100";1;"Maximum time to lift linear actuator M5 to upper rest position (KM: sweeping brush)";"0.1";60;255;0;"s";0;0;0
+127;"MAXZEIT_KW_0_WORK";1;"Maximum time to lower linear actuator M5 to lower rest position (KM: sweeping brush)";"0.1";10;255;0;"s";0;0;0
+128;"MAXZEIT_SB_0_100";1;"Maximum time to lift side brooms (M4+M6) to either upper or lower rest position";"0.1";60;255;0;"s";0;0;0
+129;"MAXZEIT_KEHRBEHAELTER_HE";1;"Maximum time to tilt/retract high dump dirt pan to its corresponding rest positions (M9)";"0.1";150;255;0;"s";0;0;0
+130;"MAXZEIT_HE";1;"Maximum time to lift/lower high dump dirt pan to its corresponding rest positions (Y7/Y8)";"1";15;255;0;"s";0;0;0
+131;"NLZ_SAUGGEBLAESE";1;"Follow-up On-time of blower M3";"0.1";0;255;0;"s";0;0;0
+132;"EINZEIT_KOMPRESSOR";1;"On-Time of APFC compressor M2";"0.1";30;100;0;"s";0;0;0
+133;"VORZEIT_GEBLAESE_AUS";1;"Time between blower-OFF (M3) and triggering of APFC-valves (Y4-Y6) [=0 for contin. Blower activity]";"0.1";0;50;0;"s";0;0;0
+134;"NACHZEIT_KOMPRESSOR";1;"Time between compressor-OFF (M2) and triggering of APFC-valves (Y4-Y6)";"0.01";0;255;0;"s";0;0;0
+135;"APFC_VENTIL_EIN_ZEIT";1;"On-time, APFC-valves (Y4-Y6)";"0.01";0;255;0;"s";0;0;0
+136;"APFC_BASIS_PAUSE";1;"Time between APFC-valves OFF (Y4-Y6) and succeeding activation of compressor M2";"0.1";80;255;0;"s";0;0;1
+137;"APFC_STEP_PAUSE";1;"Time increment to extend time parameter APFC_BASIS_PAUSE";"0.1";0;255;0;"s";0;0;1
+138;"APFC_PAUSEN_STUFE";1;"Number of time increments APFC_STEP_PAUSE available in operator menue";"1";0;255;0;"INC";0;0;0
+139;"KW_FAST_SPEED";1;"Fast speed to lower linear actuator M5 (KM: Sweeping brush)";"1";0;255;0;"%";0;0;1
+140;"KW_SLOW_SPEED";1;"Slow positioning speed of linear actuator M5 (KM: Sweeping brush)";"1";0;255;0;"%";0;0;1
+141;"KW_SPEED_WECHSEL";1;"Potioffset from calibr. touchdown point of sweeping brush changing from fast to slow actuator speed";"1";0;100;0;"INC";0;0;0
+142;"REPEAT_KW_TEACHMESSUNG";1;"Cycletime to teach sweeping brush (value < 120 => each step is 1 min, > 120: each step is 10 min)";"1";0;255;0;"(10)min";0;0;0
+143;"POTI_KW_100_PROZENT";1;"Potivalue at touchdown point to indicate a new sweeping brush (length of bristles: 400mm = 100%)";"1";0;255;0;"INC";0;0;0
+144;"POTI_KW_DELTA_NULL_PROZ";1;"Number of Poti-Increments to identify usable range of sweeping brush (0%-100%)";"1";0;255;0;"INC";0;0;0
+145;"DELTA_KW_WECHSEL_MAX";1;"Poti-Increments, which imply replacement of a worn sweeping brush by a new sweeping brush (400mm)";"1";0;255;0;"INC";0;0;0
+146;"DELTA_KW_WECHSEL_MIN";1;"Poti-Increments, which imply replacement of a worn sweeping brush by a new sweeping brush (350mm)";"1";0;255;0;"INC";0;0;0
+147;"KW_TEACH_DELTA_MIN";1;"Cal. Value - actual value >= KW_TEACH_DELTA_MIN => New, valid touchdown value (=wearing of brush)";"1";0;255;0;"INC";0;0;0
+148;"KW_TEACH_DELTA_MAX";1;"Actual value - Cal. value >= KW_TEACH_DELTA_Max=> New, valid touchdown value (=correction)";"1";0;255;0;"INC";0;0;0
+149;"POTI_KW_DELTA_ECO";1;"Potioffset in two's complement from current touchdown point to indicate ECO-sweeping mark";"1";0;255;0;"INC";0;0;0
+150;"POTI_KW_DELTA_MEDIUM";1;"Potioffset in two's complement from current touchdown point to indicate MEDIUM-sweeping mark";"1";0;255;0;"INC";0;0;0
+151;"POTI_KW_DELTA_POWER";1;"Potioffset in two's complement from current touchdown point to indicate HEAVY-sweeping mark";"1";0;255;0;"INC";0;0;0
+152;"KW_TOUCH_VALID";1;"Current, valid touchdown point (touch microswitch S9 was triggered)";"1";0;255;0;"INC";0;0;0
+153;"WALZENLAENGE";1;"Calculated, actual bristle length of sweeping brush (%) w.r.t. current valid touchdown point";"1";0;100;0;"%";0;0;0
+154;"TOUCHPUFF_ZEIGER";1;"Pointer to last potivalue of TOUCHBUFFER";"1";0;255;0;"INC";0;0;0
+155;"TOUCHPUFF_01";1;"TOUCHBUFFER: potivalue of linear actuator M5 to indicate touchdown of sweeping brush via S9";"1";0;255;0;"INC";0;0;0
+156;"TOUCHPUFF_02";1;"dito";"1";0;255;0;"INC";0;0;0
+157;"TOUCHPUFF_03";1;"dito";"1";0;255;0;"INC";0;0;0
+158;"TOUCHPUFF_04";1;"dito";"1";0;255;0;"INC";0;0;0
+159;"TOUCHPUFF_05";1;"dito";"1";0;255;0;"INC";0;0;0
+160;"TOUCHPUFF_06";1;"dito";"1";0;255;0;"INC";0;0;0
+161;"TOUCHPUFF_07";1;"dito";"1";0;255;0;"INC";0;0;0
+162;"NLZ_KW_SB";1;"off delay time sweeping brush and  side broom";"0.1";0;99;0;"s";0;0;0
+163;"NLZ_KSB";1;" off delay time crescent broom";"0.1";0;99;0;"s";0;0;0
+164;"RESERVED";0;;"1";0;255;0;;0;0;0
+165;"RESERVED";0;;"1";0;255;0;;0;0;0
+166;"RESERVED";0;;"1";0;255;0;;0;0;0
+167;"RESERVED";0;;"1";0;255;0;;0;0;0
+168;"RESERVED";0;;"1";0;255;0;;0;0;0
+169;"RESERVED";0;;"1";0;255;0;;0;0;0
+170;"COUNTER_CHECK_KORREKTUR";1;"High-nibble: Service counter corrections,                   Low-nibble: Ophrs counter corrections";"1";0;255;0;"Bit";0;0;0
+171;"COUNTER_SYSTEM_PAGE_DEFEK";1;"High-nibble: Service counter storage errors,              Low-nibble: Ophrs counter storage errors";"1";0;255;0;"Bit";0;0;0
+172;"COUNTER_BACKUP_PAGE_DEFEK";1;"High-nibble: Service counter backup storage errors, Low-nibble: Ophrs counter backup storage errors";"1";0;255;0;"Bit";0;0;0
+173;"COUNTER_UP_RD";1;"High-nibble: Number of service counter readings,      Low-nibble: Number of Ophrs counter readings";"1";0;255;0;"Bit";0;0;0
+174;"COUNTER_UP_WR";1;"High-nibble: Number of service counter writings,       Low-nibble: Number of Ophrs counter writings";"1";0;255;0;"Bit";0;0;0
+175;"COUNTER_UPDATE_MFM_POWER";1;"high-Nibble: Paramcorrections Master-CPU->Powermod; Low-Nibble Paramcorrections Powermod->Master-CPU";"1";0;255;0;"Bit";0;0;0
+176;"COUNTER_UPDATE_MFM_CLEAN";1;"high-Nibble: Paramcorrections Master-CPU->Cleanmod; Low-Nibble Paramcorrections Cleanmod->Master-CPU";"1";0;255;0;"Bit";0;0;0
+177;"COUNTER_UPDATE_MFM_HUB";1;"high-Nibble: Paramcorrections Master-CPU--Liftmod;  Low-Nibble Paramcorrections Liftmod->Master-CPU";"1";0;255;0;"Bit";0;0;0
+178;"RESERVED";0;;"1";0;255;0;;0;0;0
+179;"RESERVED";0;;"1";0;255;0;;0;0;0
+180;"WR_PARA_00";0;"Last set of parameters (max. 32 bytes) written to any virtual module of MFM, Debug only!";"1";0;255;0;;0;0;0
+181;"WR_PARA_01";0;;"1";0;255;0;;0;0;0
+182;"WR_PARA_02";0;;"1";0;255;0;;0;0;0
+183;"WR_PARA_03";0;;"1";0;255;0;;0;0;0
+184;"WR_PARA_04";0;;"1";0;255;0;;0;0;0
+185;"WR_PARA_05";0;;"1";0;255;0;;0;0;0
+186;"WR_PARA_06";0;;"1";0;255;0;;0;0;0
+187;"WR_PARA_07";0;;"1";0;255;0;;0;0;0
+188;"WR_PARA_08";0;;"1";0;255;0;;0;0;0
+189;"WR_PARA_09";0;;"1";0;255;0;;0;0;0
+190;"WR_PARA_10";0;;"1";0;255;0;;0;0;0
+191;"WR_PARA_11";0;;"1";0;255;0;;0;0;0
+192;"WR_PARA_12";0;;"1";0;255;0;;0;0;0
+193;"WR_PARA_13";0;;"1";0;255;0;;0;0;0
+194;"WR_PARA_14";0;;"1";0;255;0;;0;0;0
+195;"WR_PARA_15";0;;"1";0;255;0;;0;0;0
+196;"WR_PARA_16";0;;"1";0;255;0;;0;0;0
+197;"WR_PARA_17";0;;"1";0;255;0;;0;0;0
+198;"WR_PARA_18";0;;"1";0;255;0;;0;0;0
+199;"WR_PARA_19";0;;"1";0;255;0;;0;0;0
+200;"WR_PARA_20";0;;"1";0;255;0;;0;0;0
+201;"WR_PARA_21";0;;"1";0;255;0;;0;0;0
+202;"WR_PARA_22";0;;"1";0;255;0;;0;0;0
+203;"WR_PARA_23";0;;"1";0;255;0;;0;0;0
+204;"WR_PARA_24";0;;"1";0;255;0;;0;0;0
+205;"WR_PARA_25";0;;"1";0;255;0;;0;0;0
+206;"WR_PARA_26";0;;"1";0;255;0;;0;0;0
+207;"WR_PARA_27";0;;"1";0;255;0;;0;0;0
+208;"WR_PARA_28";0;;"1";0;255;0;;0;0;0
+209;"WR_PARA_29";0;;"1";0;255;0;;0;0;0
+210;"WR_PARA_30";0;;"1";0;255;0;;0;0;0
+211;"WR_PARA_31";0;;"1";0;255;0;;0;0;0
+212;"RESERVED";0;;"1";0;255;0;;0;0;0
+213;"RESERVED";0;;"1";0;255;0;;0;0;0
+214;"RESERVED";0;;"1";0;255;0;;0;0;0
+215;"RD_PARA_00";0;"Last set of parameters (max. 32 bytes) read from any virtual module of MFM, Debug only!";"1";0;255;0;;0;0;0
+216;"RD_PARA_01";0;;"1";0;255;0;;0;0;0
+217;"RD_PARA_02";0;;"1";0;255;0;;0;0;0
+218;"RD_PARA_03";0;;"1";0;255;0;;0;0;0
+219;"RD_PARA_04";0;;"1";0;255;0;;0;0;0
+220;"RD_PARA_05";0;;"1";0;255;0;;0;0;0
+221;"RD_PARA_06";0;;"1";0;255;0;;0;0;0
+222;"RD_PARA_07";0;;"1";0;255;0;;0;0;0
+223;"RD_PARA_08";0;;"1";0;255;0;;0;0;0
+224;"RD_PARA_09";0;;"1";0;255;0;;0;0;0
+225;"RD_PARA_10";0;;"1";0;255;0;;0;0;0
+226;"RD_PARA_11";0;;"1";0;255;0;;0;0;0
+227;"RD_PARA_12";0;;"1";0;255;0;;0;0;0
+228;"RD_PARA_13";0;;"1";0;255;0;;0;0;0
+229;"RD_PARA_14";0;;"1";0;255;0;;0;0;0
+230;"RD_PARA_15";0;;"1";0;255;0;;0;0;0
+231;"RD_PARA_16";0;;"1";0;255;0;;0;0;0
+232;"RD_PARA_17";0;;"1";0;255;0;;0;0;0
+233;"RD_PARA_18";0;;"1";0;255;0;;0;0;0
+234;"RD_PARA_19";0;;"1";0;255;0;;0;0;0
+235;"RD_PARA_20";0;;"1";0;255;0;;0;0;0
+236;"RD_PARA_21";0;;"1";0;255;0;;0;0;0
+237;"RD_PARA_22";0;;"1";0;255;0;;0;0;0
+238;"RD_PARA_23";0;;"1";0;255;0;;0;0;0
+239;"RD_PARA_24";0;;"1";0;255;0;;0;0;0
+240;"RD_PARA_25";0;;"1";0;255;0;;0;0;0
+241;"RD_PARA_26";0;;"1";0;255;0;;0;0;0
+242;"RD_PARA_27";0;;"1";0;255;0;;0;0;0
+243;"RD_PARA_28";0;;"1";0;255;0;;0;0;0
+244;"RD_PARA_29";0;;"1";0;255;0;;0;0;0
+245;"RD_PARA_30";0;;"1";0;255;0;;0;0;0
+246;"RD_PARA_31";0;;"1";0;255;0;;0;0;0
+247;"RESERVED";0;;"1";0;255;0;;0;0;0
+248;"RESERVED";0;;"1";0;255;0;;0;0;0
+249;"RESERVED";0;;"1";0;255;0;;0;0;0
+250;"RESERVED";0;;"1";0;255;0;;0;0;0
+251;"RESERVED";0;;"1";0;255;0;;0;0;0
+252;"RESERVED";0;;"1";0;255;0;;0;0;0
+253;"RESERVED";0;;"1";0;255;0;;0;0;0
+254;"RESERVED";0;;"1";0;255;0;;0;0;0
+255;"RESERVED";0;;"1";0;255;0;;0;0;0
+256;"RESERVED";0;;"1";0;255;0;;0;0;0
+257;"RESERVED";0;;"1";0;255;0;;0;0;0
+258;"RESERVED";0;;"1";0;255;0;;0;0;0
+259;"RESERVED";0;;"1";0;255;0;;0;0;0
+260;"RESERVED";0;;"1";0;255;0;;0;0;0
+261;"RESERVED";0;;"1";0;255;0;;0;0;0
+262;"RESERVED";0;;"1";0;255;0;;0;0;0
+263;"CRC_KOPF";1;"Circular redundancy check (CRC) accross parameter flash memory (Bytes 0-262) of Master-CPU";"1";0;255;0;;0;0;0

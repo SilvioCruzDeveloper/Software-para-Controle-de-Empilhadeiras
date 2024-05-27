@@ -1,0 +1,28 @@
+
+
+---------------------------------------------------------------
+Kaercher Service Program for Scrubbers and Sweepers
+                  License Declaration
+---------------------------------------------------------------
+
+Please read the following terms and conditions before using this software.
+Using this software indicates you accept the terms of this license agreement 
+and warranty.
+
+Except where otherwise noted, all of the documentation and software included
+in this setup package is a copyright by Alfred Kaercher GmbH & Co. KG.
+
+
+This software is provided "as-is" without any express or implied warranty.
+The authors and Alfred Kaercher GmbH & Co. KG. are not liable for any damages 
+arising from the use of this software.
+
+Please read ONLINE-HELP to get more infos on how to operate this service
+tool.
+
+
+Copyright (C) 2007-2016 Alfred Kaercher GmbH & Co. KG. All rights reserved.
+
+
+
+ 

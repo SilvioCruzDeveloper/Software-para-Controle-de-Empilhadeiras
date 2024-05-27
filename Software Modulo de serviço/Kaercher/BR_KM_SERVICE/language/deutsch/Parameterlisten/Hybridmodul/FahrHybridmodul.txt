@@ -1,0 +1,120 @@
+0;"ACCELERAMP";1;"Beschleunigungsrampe des Fahrantriebs";"1";0;255;1;;;1;1
+1;"RELEASE_BRAKING";1;"Bremsrampe des Fahrantriebs";"1";0;255;1;;;1;1
+2;"MAXSPEED_FORW";1;"Max. Vorwärtsgeschwindigkeit des Fahrantriebs";"0.036";50;250;1;"km/h";;1;1
+3;"MAXSPEED_BACKW";1;"Max. Rückwärtsgeschwindigkeit des Fahrantriebs";"0.036";50;200;1;"km/h";;1;1
+4;;1;;"1";0;0;0;;;;0
+5;"CREEP_SPEED";1;"Schleichgeschwindigkeit des Fahrantriebs";"0.036";10;30;1;"km/h";;1;1
+6;"MAX_STROM";1;"Strombegrenzung  im Fahrbetrieb";"1";10;80;1;"A";;1;1
+7;"MIN_STROM";1;"Strombegrenzung  im Bremsbetrieb";"1";10;80;1;"A";;1;1
+8;"CURRENT_PROT";1;"Stromschwelle, oberhalb der eine Überlast  registriert wird";"1";10;80;1;"A";;1;1
+9;"OVERLOAD_TIME";1;"Max. Dauer des Überlastbetriebs  bis zur Fahrantriebsabschaltung";"1";0;180;1;"s";;1;1
+10;;1;;"1";0;0;0;;;;0
+11;"MOTORWIDERSTAND";1;"Innenwiderstand des Fahrantriebs";"0.001";40;255;1;"Ohm";;;1
+12;"MOTORUKONST";1;"Spannungskonstante des Fahrantriebs";"0.001";10;255;1;"m/(Vs)";;;1
+13;;1;;"1";0;0;0;;;;0
+14;;1;;"1";0;0;0;;;;0
+15;"GASPOTI_U";1;"Versorungsspannung am Ausgang A2-X4/1 für den Gaspedalsensor";"0.1";50;50;2;"V";;;1
+16;"GASPOTI_ZERO";3;"Kalibrierwert des Gaspedals in Ruhestellung";"1";0;65535;2;"Inc";;1;1
+17;;0;;;0;0;0;;;;0
+18;"GASPOTI_MAX";3;"Kalibrierwert des Gaspedals bei Vorwärtsfahrt mit max. Geschwindigkeit";"1";0;65535;2;"Inc";;1;1
+19;;0;;;0;0;0;;;;0
+20;"GASPOTI_MIN";3;"Kalibrierwert des Gaspedals bei Rückwärtsfahrt mit max. Geschwindigkeit";"1";0;65535;2;"Inc";;1;1
+21;;0;;;0;0;0;;;;0
+22;"Reserviert";1;;"1";0;0;0;;;;1
+23;"Reserviert";1;;"1";0;0;0;;;;1
+24;"FAHRGEBER_TYP";1;"Pedaltyp: 0=Richtungsinfo via Bus, 1= Richtungsinfo über Mikroschalter, angeschlossen an A2-X5/3,4";"1";0;1;2;;;1;1
+25;"SitzTimeout";1;"Timeout für Sitzschalter";"0.1";0;255;2;"s";;;1
+26;"MAX_R_SITZ";3;"Widerstand ab der Sitzschalter belegt detektiert";"1";0;65535;2;"Ohm";;;1
+27;;0;;;0;0;0;;;;0
+28;"Reserviert";0;;;0;0;0;;;;0
+29;"Reserviert";0;;;0;0;0;;;;0
+30;"Reserviert";0;;;0;0;0;;;;0
+31;"Reserviert";0;;;0;0;0;;;;0
+32;"CRC";1;;"1";0;255;0;;0;0;0
+33;;1;;"1";0;255;0;;0;0;0
+34;;1;;"1";0;255;0;;0;0;0
+35;;1;;"1";0;255;0;;0;0;0
+36;;1;;"1";0;255;0;;0;0;0
+37;;1;;"1";0;255;0;;0;0;0
+38;;1;;"1";0;255;0;;0;0;0
+39;;1;;"1";0;255;0;;0;0;0
+40;;1;;"1";0;255;0;;0;0;0
+41;;1;;"1";0;255;0;;0;0;0
+42;;1;;"1";0;255;0;;0;0;0
+43;;1;;"1";0;255;0;;0;0;0
+44;;1;;"1";0;255;0;;0;0;0
+45;;1;;"1";0;255;0;;0;0;0
+46;;1;;"1";0;255;0;;0;0;0
+47;;1;;"1";0;255;0;;0;0;0
+48;"MIN_COUNTER";1;"Betriebsminutenzähler";"1";0;255;0;;0;0;0
+49;"DIAG_STATUS";1;"Flags zur Anzeige des Pufferstatus";"1";0;255;0;;0;0;0
+50;"IMOT";4;"Motorstrom";"1";0;255;0;;0;0;0
+51;;0;;"1";0;255;0;;0;0;0
+52;"UMOT";4;"Motorspannung in 0.1V";"1";0;500;0;;0;0;0
+53;;0;;"1";0;255;0;;0;0;0
+54;"UBAT";3;"Batteriespannung in 0.1V";"1";0;500;0;;0;0;0
+55;;0;;"1";0;255;0;;0;0;0
+56;"GASPOTI_ROHWERT";3;"Rohwert des Gaspoti";"1";0;6535;0;;0;0;0
+57;;0;;"1";0;;0;;0;0;0
+58;"MOTORSCHUTZWERT";1;"Aktueller Motorschutzwert";"1";0;255;0;;0;0;0
+59;"GESCHWINDIKEIT";2;"Fahrzeuggeschwindigkeit in 0.1km/h";"1";0;100;0;;0;0;0
+60;"GAS_SPANNUNG";2;"Spannung des Gasgebers in 0.1V";"1";0;180;0;;0;0;0
+61;"MAXSPEED_WORK";1;"Vorwärtsfahrgeschw. im Arbeitsmode in 0.01m/s (Init auf CREEP_SPEED nach Start)";"1";0;255;0;;0;0;0
+62;"TEMP";2;"Steuerungstemperatur in °C";"1";0;100;0;;0;0;0
+63;"V_SOLL";2;"Sollgewschwindigkeit";"1";0;100;0;;0;0;0
+64;"IMOT_SOLL";4;"Sollstrom";"1";0;250;0;;0;0;0
+65;;0;;"1";0;255;0;;0;0;0
+66;"SITZ_ROH";3;"Rohspannung Sitz";"1";0;65535;0;;0;0;0
+67;;0;;"1";0;;0;;0;0;0
+68;"OP_HOURS_L";3;"Betriebszeit Minuten";"1";0;65535;0;;0;0;0
+69;;0;;"1";0;;0;;0;0;0
+70;"OP_HOURS_H";3;"Betriebszeit Minuten";"1";0;65535;0;;0;0;0
+71;;0;;"1";0;;0;;0;0;0
+72;;1;;"1";0;255;0;;0;0;0
+73;;1;;"1";0;255;0;;0;0;0
+74;;1;;"1";0;255;0;;0;0;0
+75;;1;;"1";0;255;0;;0;0;0
+76;;1;;"1";0;255;0;;0;0;0
+77;;1;;"1";0;255;0;;0;0;0
+78;;1;;"1";0;255;0;;0;0;0
+79;;1;;"1";0;255;0;;0;0;0
+80;;1;;"1";0;255;0;;0;0;0
+81;;1;;"1";0;255;0;;0;0;0
+82;;1;;"1";0;255;0;;0;0;0
+83;;1;;"1";0;255;0;;0;0;0
+84;;1;;"1";0;255;0;;0;0;0
+85;;1;;"1";0;255;0;;0;0;0
+86;;1;;"1";0;255;0;;0;0;0
+87;;1;;"1";0;255;0;;0;0;0
+88;;1;;"1";0;255;0;;0;0;0
+89;;1;;"1";0;255;0;;0;0;0
+90;;1;;"1";0;255;0;;0;0;0
+91;;1;;"1";0;255;0;;0;0;0
+92;;1;;"1";0;255;0;;0;0;0
+93;;1;;"1";0;255;0;;0;0;0
+94;;1;;"1";0;255;0;;0;0;0
+95;;1;;"1";0;255;0;;0;0;0
+96;;1;;"1";0;255;0;;0;0;0
+97;;1;;"1";0;255;0;;0;0;0
+98;;1;;"1";0;255;0;;0;0;0
+99;;1;;"1";0;255;0;;0;0;0
+100;;1;;"1";0;255;0;;0;0;0
+101;;1;;"1";0;255;0;;0;0;0
+102;;1;;"1";0;255;0;;0;0;0
+103;;1;;"1";0;255;0;;0;0;0
+104;;1;;"1";0;255;0;;0;0;0
+105;;1;;"1";0;255;0;;0;0;0
+106;;1;;"1";0;255;0;;0;0;0
+107;;1;;"1";0;255;0;;0;0;0
+108;;1;;"1";0;255;0;;0;0;0
+109;;1;;"1";0;255;0;;0;0;0
+110;;1;;"1";0;255;0;;0;0;0
+111;;1;;"1";0;255;0;;0;0;0
+112;;1;;"1";0;255;0;;0;0;0
+113;;1;;"1";0;255;0;;0;0;0
+114;;1;;"1";0;255;0;;0;0;0
+115;;1;;"1";0;255;0;;0;0;0
+116;;1;;"1";0;255;0;;0;0;0
+117;;1;;"1";0;255;0;;0;0;0
+118;;1;;"1";0;255;0;;0;0;0
+119;;1;;"1";0;255;0;;0;0;0

@@ -1,0 +1,140 @@
+0;"HOLDING_LEVEL";1;"Haltespannung der Ventile/Relais/Bremse X8/19 - X8/20 (M10)";"0.1";50;255;2;"V";0;0;0
+1;"ACCELRAMP_B";1;"Beschleunigungsrampe für Last X19 - X12 Gebläse (M21) / Turbine (M22)";"1";0;10;2;"%/xms";0;0;0
+2;"RESERVED";1;;"1";0;255;2;;0;0;0
+3;"MAXSPEED_B";1;"Nenndrehzahl der Last X19 - X12 Gebläse (M21) / Turbine (M22)";"1";10;125;2;"%";0;0;0
+4;"CURRENTCTRL_B";1;"Strombegrenzung der Last X19 - X12 Gebläse (M21) / Turbine (M22)";"1";10;50;2;"A";0;0;0
+5;"MOTRESISTANCE_B";1;"Innenwiderstand der LastX19 - X12 Gebläse (M21) / Turbine (M22)";"0.01";0;255;2;"Ohm";0;0;0
+6;"ACCELRAMP_C";1;"Beschleunigungsrampe der Last A2-2/X23,X12 (KM: Kompressor M23)";"1";0;10;2;"%/xms";0;0;0
+7;"RESERVED";1;;"1";0;255;2;;0;0;0
+8;"MAXSPEED_C";1;"Nenndrehzahl der Last A2-2/X23,X12 bei Ubat = 12V (KM: Kompressor M23)";"1";10;125;2;"%";0;0;0
+9;"CURRENTCTRL_C";1;"Strombegrenzung der Last A2-2/X23,X12 (KM: Kompressor M23)";"1";10;40;2;"A";0;0;0
+10;"MOTRESITANCE_C";1;"Innenwiderstand der Last A2-2/X23,X12 (KM: Kompressor M23)";"0.01";0;255;2;"Ohm";0;0;0
+11;"ACCELRAMP_X";1;"Beschleunigungsrampe der Last X24 - X12 Hydraulikaggregat M22 / BK-Motor M21";"1";0;10;2;"%/xms";0;0;0
+12;"RESERVED";1;;"1";0;255;2;;0;0;0
+13;"MAXSPEED_X";1;"Nenndrehzahl der Last X24 - X12 Hydraulikaggregat M22/BK-Motor M21(bei Ubat = 12V)";"1";10;125;2;"%";0;0;0
+14;"CURRENTCTRL_X";1;"Strombegrenzung der Last X24 - X12 Hydraulikaggregat M22 / BK-Motor M21";"1";10;50;2;"A";0;0;0
+15;"MOTRESITANCE_X";1;"Innenwiderstand der Last X24 - X12 Hydraulikaggregat M22 / BK-Motor M21";"0.01";0;255;2;"Ohm";0;0;0
+16;"ACCELRAMP_W";1;"Beschleunigungsrampe der Last X22 - X12 Kehrwalze M20 / BK-Motor M20";"1";0;10;2;"%/xms";0;0;0
+17;"RESERVED";1;;"1";0;255;2;;0;0;0
+18;"MAXSPEED_W";1;"Nenndrehzahl der Last X22 - X12 Kehrwalze M20 / BK-Motor M20";"1";10;125;2;"%";0;0;0
+19;"CURRENTCTRL_W";1;"Strombegrenzung der Last X22 - X12 Kehrwalze M20 / BK-Motor M20";"1";10;100;2;"A";0;0;0
+20;"MOTRESITANCE_W";1;"Innenwiderstand der Last X22 - X12 Kehrwalze M20 / BK-Motor M20";"0.01";0;255;2;"Ohm";0;0;0
+21;"RESERVED";1;;"1";0;255;2;;0;0;0
+22;"RESERVED";1;;"1";0;255;2;;0;0;0
+23;"RESERVED";1;;"1";0;255;2;;0;0;0
+24;"RESERVED";1;;"1";0;255;2;;0;0;0
+25;"RESERVED";1;;"1";0;255;2;;0;0;0
+26;"RESERVED";1;;"1";0;255;2;;0;0;0
+27;"RESERVED";1;;"1";0;255;2;;0;0;0
+28;"RESERVED";1;;"1";0;255;2;;0;0;0
+29;"RESERVED";1;;"1";0;255;2;;0;0;0
+30;"RESERVED";1;;"1";0;255;2;;0;0;0
+31;"RESERVED";1;;"1";0;255;2;;0;0;0
+32;"CRC";1;"CRC Prüfsumme";"1";0;255;3;;0;0;0
+33;"RESERVED";1;;"1";0;255;2;;0;0;0
+34;"RESERVED";1;;"1";0;255;2;;0;0;0
+35;"RESERVED";1;;"1";0;255;2;;0;0;0
+36;"MIN_COUNTER_B_SEC";1;"Betriebssekunden der Last A2-2/X19,X12 (KM: Hydraulikpumpe M6)";"1";0;255;3;"s";0;0;1
+37;"MIN_COUNTER_B_MIN";1;"Betriebsminuten der  A2-2/X19,X12 (KM: Hydraulikpumpe M6)";"1";0;255;2;"min";0;0;1
+38;"MIN_COUNTER_B_STD";3;"Betriebsstunden der A2-2/X19,X12 (KM: Hydraulikpumpe M6)";"1";0;65535;2;"h";0;0;1
+39;;1;;"1";0;255;2;;0;0;0
+40;"MIN_COUNTER_C_SEC";1;"Betriebssekunden der Last A2-2/X23,X12 (KM: Kompressor M2)";"1";0;255;3;"s";0;0;1
+41;"MIN_COUNTER_C_MIN";1;"Betriebsminuten der Last A2-2/X23,X12 (KM: Kompressor M2)";"1";0;255;2;"min";0;0;1
+42;"MIN_COUNTER_C_STD";3;"Betriebsstunden der Last A2-2/X23,X12 (KM: Kompressor M2)";"1";0;65535;2;"h";0;0;1
+43;;1;;"1";0;255;2;;0;0;0
+44;"MIN_COUNTER_X_SEC";1;"Betriebssekunden der Last A2-2/X24,X12 (KM:  Gebläse M3)";"1";0;255;3;"s";0;0;1
+45;"MIN_COUNTER_X_MIN";1;"Betriebsminuten der Last A2-2/X24,X12 (KM:  Gebläse M3)";"1";0;255;2;"min";0;0;1
+46;"MIN_COUNTER_X_STD";3;"Betriebsstunden der Last A2-2/X24,X12 (KM:  Gebläse M3)";"1";0;65535;2;"h";0;0;1
+47;;1;;"1";0;255;2;;0;0;0
+48;"MIN_COUNTER_W_SEC";1;"Betriebssekunden der Last A2-2/X22,X12 (KM:  Kehrwalze M4)";"1";0;255;3;"s";0;0;1
+49;"MIN_COUNTER_W_MIN";1;"Betriebsminuten der Last A2-2/X22,X12 (KM:  Kehrwalze M4)";"1";0;255;2;"min";0;0;1
+50;"MIN_COUNTER_W_STD";3;"Betriebsstunden der Last A2-2/X22,X12 (KM:  Kehrwalze M4)";"1";0;65535;2;"h";0;0;1
+51;;1;;"1";0;255;2;;0;0;0
+52;"RESERVED";1;;"1";0;255;3;;0;0;0
+53;"RESERVED";1;;"1";0;255;3;;0;0;0
+54;"RESERVED";1;;"1";0;255;3;;0;0;0
+55;"RESERVED";1;;"1";0;255;3;;0;0;0
+56;"RESERVED";1;;"1";0;255;3;;0;0;0
+57;"RESERVED";1;;"1";0;255;3;;0;0;0
+58;"RESERVED";1;;"1";0;255;3;;0;0;0
+59;"RESERVED";1;;"1";0;255;3;;0;0;0
+60;"RESERVED";1;;"1";0;255;3;;0;0;0
+61;"RESERVED";1;;"1";0;255;3;;0;0;0
+62;"RESERVED";1;;"1";0;255;3;;0;0;0
+63;"RESERVED";1;;"1";0;255;3;;0;0;0
+64;"RESERVED";1;;"1";0;255;3;;0;0;0
+65;"RESERVED";1;;"1";0;255;3;;0;0;0
+66;"RESERVED";1;;"1";0;255;3;;0;0;0
+67;"RESERVED";1;;"1";0;255;3;;0;0;0
+68;"RESERVED";1;;"1";0;255;3;;0;0;0
+69;"RESERVED";1;;"1";0;255;3;;0;0;0
+70;"RESERVED";1;;"1";0;255;3;;0;0;0
+71;"RESERVED";1;;"1";0;255;3;;0;0;0
+72;"RESERVED";1;;"1";0;255;3;;0;0;0
+73;"RESERVED";1;;"1";0;255;3;;0;0;0
+74;"RESERVED";1;;"1";0;255;3;;0;0;0
+75;"RESERVED";1;;"1";0;255;3;;0;0;0
+76;"RESERVED";1;;"1";0;255;3;;0;0;0
+77;"RESERVED";1;;"1";0;255;3;;0;0;0
+78;"RESERVED";1;;"1";0;255;3;;0;0;0
+79;"RESERVED";1;;"1";0;255;3;;0;0;0
+80;"RESERVED";1;;"1";0;255;3;;0;0;0
+81;"RESERVED";1;;"1";0;255;3;;0;0;0
+82;"RESERVED";1;;"1";0;255;3;;0;0;0
+83;"RESERVED";1;;"1";0;255;3;;0;0;0
+84;"RESERVED";1;;"1";0;255;3;;0;0;0
+85;"RESERVED";1;;"1";0;255;3;;0;0;0
+86;"RESERVED";1;;"1";0;255;3;;0;0;0
+87;"RESERVED";1;;"1";0;255;3;;0;0;0
+88;"RESERVED";1;;"1";0;255;3;;0;0;0
+89;"RESERVED";1;;"1";0;255;3;;0;0;0
+90;"WORKSPEED_B";1;"Arbeitsgeschwindigkeit der Last  A2-2/X19,X12 (KM: Hydraulikpumpe M6)";"1";10;125;1;"%";0;1;1
+91;"WORKSPEED_C";1;"Arbeitsgeschwindigkeit der Last A2-2/X23,X12 (KM: Kompressor M2)";"1";10;125;1;"%";0;1;1
+92;"WORKSPEED_X";1;"Arbeitsgeschwindigkeit der Last A2-2/X24,X12 (KM:  Gebläse M3)";"1";10;125;1;"%";0;1;1
+93;"WORKSPEED_W";1;"Arbeitsgeschwindigkeit der Last A2-2/X22,X12 (KM:  Kehrwalze M4)";"1";10;125;1;"%";0;1;1
+94;"RESERVED";1;;"1";0;255;3;;0;0;0
+95;"RESERVED";1;;"1";0;255;3;;0;0;0
+96;"RESERVED";1;;"1";0;255;3;;0;0;0
+97;"RESERVED";1;;"1";0;255;3;;0;0;0
+98;"RESERVED";1;;"1";0;255;3;;0;0;0
+99;"RESERVED";1;;"1";0;255;3;;0;0;0
+100;"I_C";4;"Laststrom der Last A2-2/X23,X12 (KM: Kompressor M2)";"0.1";0;400;3;"A";0;0;0
+101;;0;;"1";0;255;3;;0;0;0
+102;"I_B";4;"Laststrom der Last A2-2/X19,X12 (KM: Hydraulikpumpe M6)";"0.1";0;450;3;"A";0;0;0
+103;;0;;"1";0;255;3;;0;0;0
+104;"U_C";4;"Lastspannung der Last  A2-2/X23,X12 (KM: Kompressor M2)";"0.01";0;2550;3;"V";0;0;0
+105;;0;;"1";0;255;3;;0;0;0
+106;"U_B";4;"Lastspannung der Last A2-2/X19,X12 (KM: Hydraulikpumpe M6)";"0.01";0;2550;3;"V";0;0;0
+107;;0;;"1";0;255;3;;0;0;0
+108;"U_X";4;"Lastspannung der LastA2-2/X24,X12 (KM:  Gebläse M3)";"0.01";0;2550;3;"V";0;0;0
+109;;0;;"1";0;255;3;;0;0;0
+110;"I_X";4;"Laststrom der Last A2-2/X24,X12 (KM:  Gebläse M3)";"0.1";0;450;3;"A";0;0;0
+111;;0;;"1";0;255;3;;0;0;0
+112;"U_W";4;"Lastspannung der Last A2-2/X22,X12 (KM:  Kehrwalze M4)";"0.01";0;2550;3;"V";0;0;0
+113;;0;;"1";0;255;3;;0;0;0
+114;"I_W";4;"Laststrom der Last A2-2/X22,X12 (KM:  Kehrwalze M4";"0.1";0;450;3;"A";0;0;0
+115;;0;;"1";0;255;3;;0;0;0
+116;"RESERVED";0;;"1";0;255;3;;0;0;0
+117;"RESERVED";0;;"1";0;255;3;;0;0;0
+118;"RESERVED";0;;"1";0;255;3;;0;0;0
+119;"RESERVED";0;;"1";0;255;3;;0;0;0
+120;"RESERVED";0;;"1";0;255;3;;0;0;0
+121;"RESERVED";0;;"1";0;255;3;;0;0;0
+122;"RESERVED";0;;"1";0;255;3;;0;0;0
+123;"RESERVED";0;;"1";0;255;3;;0;0;0
+124;"RESERVED";0;;"1";0;255;3;;0;0;0
+125;"RESERVED";0;;"1";0;255;3;;0;0;0
+126;"RESERVED";0;;"1";0;255;3;;0;0;0
+127;"RESERVED";0;;"1";0;255;3;;0;0;0
+128;"RESERVED";0;;"1";0;255;3;;0;0;0
+129;"RESERVED";0;;"1";0;255;3;;0;0;0
+130;"RESERVED";0;;"1";0;255;3;;0;0;0
+131;"RESERVED";0;;"1";0;255;3;;0;0;0
+132;"RESERVED";0;;"1";0;255;3;;0;0;0
+133;"RESERVED";0;;"1";0;255;3;;0;0;0
+134;"RESERVED";0;;"1";0;255;3;;0;0;0
+135;"RESERVED";0;;"1";0;255;3;;0;0;0
+136;"RESERVED";0;;"1";0;255;3;;0;0;0
+137;"RESERVED";0;;"1";0;255;3;;0;0;0
+138;"RESERVED";0;;"1";0;255;3;;0;0;0
+139;"RESERVED";0;;"1";0;255;3;;0;0;0

@@ -1,0 +1,140 @@
+0;"U_MAX_SUPPLY";1;"Maximum onboard voltage (end-of-charge-voltage of starter battery)";"0.1";120;150;2;"V";0;0;1
+1;"I_MAX_SUPPLY";1;"Maximum current, load A2-1/X10 (KM: Alternator M1)";"1";50;100;2;"A";0;0;1
+2;"IMAX_CHARGING";0;"Maximum charging current of starter battery";"1";0;50;2;"A";0;0;1
+3;"I_MAX_ENGINE";0;"Virtual current to determine shutdown time of load A2-1/X10 (KM: Alternator M1)";"1";0;255;2;"A";0;0;1
+4;"MAX_RAMP_UP_TIME";1;"Maximum time to start combustion engine";"0.1";30;100;2;"sec";0;0;1
+5;"ALT_RESISTANCE";1;"Resistance of load A2-1/X10 (KM: Alternator M1)";"1";0;255;2;"mOhm";0;0;0
+6;"ALT_U_CONST";3;"Voltage constant of load A2-1/X10 (KM: Alternator M1)";"1";0;1000;2;"1/(Vmin)";0;0;0
+7;"ALT_U_CONST_HIGH";0;;"1";0;255;2;;0;0;0
+8;"RESERVED";0;;"1";0;255;2;;0;0;0
+9;"RESERVED";0;;"1";0;255;2;;0;0;0
+10;"TRANS_CONST";1;"Gear transmission ratio combustion engine shaft vs. Alternator shaft";"0.01";1;255;2;;0;0;0
+11;"N_MIN";1;"Minimum revolution speed combustion engine spins through starter motor M1 support";"10";100;200;2;"1/min";1000;0;0
+12;"MAX_I_SUPPORT";1;"Maximum current of starter motor M1 for engine support operation";"1";0;100;2;"A";0;0;1
+13;"RESERVED";0;;"0";0;255;2;;0;0;0
+14;"SEAT_DELAY";1;"Delay time of seat switch S1";"0.1";20;25;2;"sec";0;0;0
+15;"MAX_R_SITZ";1;"Resistance of seat switch S1 to be detected as closed";"100";0;255;2;"mOhm";0;0;0
+16;"PETROL_CHOKE_P1";1;"Time between start of engine and first spin measurement";"0.1";0;255;2;"sec";0;0;0
+17;"PETROL_CHOKE_P2";1;"On-time to engage choke (P: if engine spins below N_MIN, D: without function!)";"0.1";0;255;2;"sec";0;0;0
+18;"PETROL_CHOKE_P3";1;"Time between choke-shutoff and spin measurement";"0.1";0;255;2;"sec";0;0;0
+19;"PETROL_CHOKE_P4";1;"Maximum time for motor shut-off and low revolution";"0.1";0;255;2;"sec";0;0;0
+20;"PETROL_CHOKE_P5";1;"Time between engine OFF and choke activity to suppress false ignitions";"0.1";0;255;2;"sec";0;0;0
+21;"PETROL_CHOKE_P6";1;"Number of repetitions of choke activations; (LPG,D: without function!)";"1";0;255;2;"INC";0;0;0
+22;"CHOKE_TYPE";1;"Select choke for corresponding combustion engine (0=Diesel, 1=Petrol, 2=LPG)";"1";0;2;2;"INC";0;0;0
+23;"RESERVED";0;;"0";0;255;2;;0;0;0
+24;"RESERVED";0;;"0";0;255;2;;0;0;0
+25;"RESERVED";0;;"0";0;255;2;;0;0;0
+26;"RESERVED";0;;"0";0;255;2;;0;0;0
+27;"RESERVED";0;;"0";0;255;2;;0;0;0
+28;"RESERVED";0;;"0";0;255;2;;0;0;0
+29;"RESERVED";0;;"0";0;255;2;;0;0;0
+30;"RESERVED";0;;"0";0;255;2;;0;0;0
+31;"RESERVED";0;;"0";0;255;2;;0;0;0
+32;"CRC";1;"Checksum";"1";0;255;3;;0;0;0
+33;"RESERVED";0;;"0";0;255;3;;0;0;0
+34;"RESERVED";0;;"0";0;255;3;;0;0;0
+35;"RESERVED";0;;"0";0;255;3;;0;0;0
+36;"MIN_COUNTER_SEC";0;"Operating seconds of load A2-1/X10 (KM: alternator / starter motor M1)";"1";0;255;3;;0;0;1
+37;"MIN_COUNTER_MIN";1;"Operating minutes of load A2-1/X10 (KM:alternator / starter motor M1)";"1";0;255;2;;0;0;1
+38;"MIN_COUNTER_STD";3;"Operating hours of load A2-1/X10 (KM: alternator / starter motor M1)";"1";0;65535;2;;0;0;1
+39;;0;;"1";0;255;2;;0;0;0
+40;"RESERVED";0;;"1";0;255;3;;0;0;0
+41;"RESERVED";0;;"1";0;255;3;;0;0;0
+42;"RESERVED";0;;"1";0;255;3;;0;0;0
+43;"RESERVED";0;;"1";0;255;3;;0;0;0
+44;"RESERVED";0;;"1";0;255;3;;0;0;0
+45;"RESERVED";0;;"1";0;255;3;;0;0;0
+46;"RESERVED";0;;"1";0;255;3;;0;0;0
+47;"RESERVED";0;;"1";0;255;3;;0;0;0
+48;"RESERVED";0;;"1";0;255;3;;0;0;0
+49;"RESERVED";0;;"1";0;255;3;;0;0;0
+50;"RESERVED";0;;"1";0;255;3;;0;0;0
+51;"RESERVED";0;;"1";0;255;3;;0;0;0
+52;"RESERVED";0;;"1";0;255;3;;0;0;0
+53;"RESERVED";0;;"1";0;255;3;;0;0;0
+54;"RESERVED";0;;"1";0;255;3;;0;0;0
+55;"RESERVED";0;;"1";0;255;3;;0;0;0
+56;"RESERVED";0;;"1";0;255;3;;0;0;0
+57;"RESERVED";0;;"1";0;255;3;;0;0;0
+58;"RESERVED";0;;"1";0;255;3;;0;0;0
+59;"RESERVED";0;;"1";0;255;3;;0;0;0
+60;"RESERVED";0;;"1";0;255;3;;0;0;0
+61;"RESERVED";0;;"1";0;255;3;;0;0;0
+62;"RESERVED";0;;"1";0;255;3;;0;0;0
+63;"RESERVED";0;;"1";0;255;3;;0;0;0
+64;"RESERVED";0;;"1";0;255;3;;0;0;0
+65;"RESERVED";0;;"1";0;255;3;;0;0;0
+66;"RESERVED";0;;"1";0;255;3;;0;0;0
+67;"RESERVED";0;;"1";0;255;3;;0;0;0
+68;"RESERVED";0;;"1";0;255;3;;0;0;0
+69;"RESERVED";0;;"1";0;255;3;;0;0;0
+70;"RESERVED";0;;"1";0;255;3;;0;0;0
+71;"RESERVED";0;;"1";0;255;3;;0;0;0
+72;"RESERVED";0;;"1";0;255;3;;0;0;0
+73;"RESERVED";0;;"1";0;255;3;;0;0;0
+74;"RESERVED";0;;"1";0;255;3;;0;0;0
+75;"RESERVED";0;;"1";0;255;3;;0;0;0
+76;"RESERVED";0;;"1";0;255;3;;0;0;0
+77;"RESERVED";0;;"1";0;255;3;;0;0;0
+78;"RESERVED";0;;"1";0;255;3;;0;0;0
+79;"RESERVED";0;;"1";0;255;3;;0;0;0
+80;"RESERVED";0;;"1";0;255;3;;0;0;0
+81;"RESERVED";0;;"1";0;255;3;;0;0;0
+82;"RESERVED";0;;"1";0;255;3;;0;0;0
+83;"RESERVED";0;;"1";0;255;3;;0;0;0
+84;"RESERVED";0;;"1";0;255;3;;0;0;0
+85;"RESERVED";0;;"1";0;255;3;;0;0;0
+86;"RESERVED";0;;"1";0;255;3;;0;0;0
+87;"RESERVED";0;;"1";0;255;3;;0;0;0
+88;"RESERVED";0;;"1";0;255;3;;0;0;0
+89;"RESERVED";0;;"1";0;255;3;;0;0;0
+90;"RESERVED";0;;"1";0;255;3;;0;0;0
+91;"RESERVED";0;;"1";0;255;3;;0;0;0
+92;"RESERVED";0;;"1";0;255;3;;0;0;0
+93;"RESERVED";0;;"1";0;255;3;;0;0;0
+94;"RESERVED";0;;"1";0;255;3;;0;0;0
+95;"RESERVED";0;;"1";0;255;3;;0;0;0
+96;"RESERVED";0;;"1";0;255;3;;0;0;0
+97;"RESERVED";0;;"1";0;255;3;;0;0;0
+98;"RESERVED";0;;"1";0;255;3;;0;0;0
+99;"RESERVED";0;;"1";0;255;3;;0;0;0
+100;"I_ALT_CURRENT";4;"Current load A2-1/X10 (KM: Alternator M1)";"1";-127;800;3;"A";0;0;0
+101;;0;;"1";0;255;3;;0;0;0
+102;"I_LOAD_SUPPLY";4;"Current of all el. Loads (without M1)";"0.1";0;1270;3;"A";0;0;0
+103;;0;;"1";0;255;3;;0;0;0
+104;"I_BAT_CURRENT";4;"Starter battery current >0: Charge; <0: Discharge";"0.1";-8000;1270;3;"A";0;0;0
+105;;0;;"1";0;255;3;;0;0;0
+106;"U_ALTERNATOR";3;"Voltage load A2-1/X10 (KM: Alternator M1)";"0.01";0;2550;3;"V";0;0;0
+107;;0;;"1";0;255;3;;0;0;0
+108;"U_BATT";3;"Battery voltage";"0.01";0;2550;3;"V";0;0;0
+109;;0;;"1";0;255;3;;0;0;0
+110;"RESERVED";0;"RESERVED";"1";0;100;3;;0;0;0
+111;;0;;"1";0;255;3;;0;0;0
+112;"N_ENGINE";4;"Revolution estimate of combustion engine";"1";0;5000;3;"Rev/min";0;0;0
+113;;0;;"1";0;255;3;;0;0;0
+114;"RESERVED";0;;"1";0;255;3;;0;0;0
+115;"AMBIENT_TEMP";2;"Ambient temperature of multifunctional module A2";"1";-40;127;3;"°C";0;0;0
+116;"POWER_UNIT_TEMP";2;"Temperature of output A2-1/X10";"1";-40;127;3;"°C";0;0;0
+117;"RESERVED";0;;"1";0;255;3;;0;0;0
+118;"U_LOGIC";1;"Logic voltage for Bus";"0.01";1;2550;3;"V";0;0;0
+119;"RESERVED";0;;"1";0;255;3;;0;0;0
+120;"U_HFET";1;"Auxiliary voltage fo H-Fets";"0.01";0;3000;3;"V";0;0;0
+121;"RESERVED";0;;"1";0;255;3;;0;0;0
+122;"RESERVED";0;;"1";0;255;3;;0;0;0
+123;"RESERVED";0;;"1";0;255;3;;0;0;0
+124;"RESERVED";0;;"1";0;255;3;;0;0;0
+125;"RESERVED";0;;"1";0;255;3;;0;0;0
+126;"RESERVED";0;;"1";0;255;3;;0;0;0
+127;"RESERVED";0;;"1";0;255;3;;0;0;0
+128;"RESERVED";0;;"1";0;255;3;;0;0;0
+129;"RESERVED";0;;"1";0;255;3;;0;0;0
+130;"RESERVED";0;;"1";0;255;3;;0;0;0
+131;"RESERVED";0;;"1";0;255;3;;0;0;0
+132;"RESERVED";0;;"1";0;255;3;;0;0;0
+133;"RESERVED";0;;"1";0;255;3;;0;0;0
+134;"RESERVED";0;;"1";0;255;3;;0;0;0
+135;"RESERVED";0;;"1";0;255;3;;0;0;0
+136;"RESERVED";0;;"1";0;255;3;;0;0;0
+137;"RESERVED";0;;"1";0;255;3;;0;0;0
+138;"RESERVED";0;;"1";0;255;3;;0;0;0
+139;"RESERVED";0;;"1";0;255;3;;0;0;0

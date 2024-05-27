@@ -1,0 +1,157 @@
+0;"DEVICE_OPTION";5;"Bit0: REVERSE_CLEAN; Bit1: ROTATING BEACON";"1";0;136;1;;0;1;1;12290;1
+1;;0;;"1";0;0;0;;0;0;0;0;0
+2;;0;;"1";0;0;0;;0;0;0;0;0
+3;;0;;"1";0;0;0;;0;0;0;0;0
+4;"LANGUAGE";1;"Language in machine display";"1";0;19;1;;0;1;1;12288;1
+5;"LK";1;"Selected charging profile of battery";"1";0;20;1;;0;1;1;12288;2
+6;"V_MIN";1;"Minimum cleaning speed";"1";0;6;1;"km/h";0;1;1;12288;3
+7;"Vubat";1;"Transportation speed at 24V traction motor voltage";"0.1";50;200;1;"km/h";0;1;1;12288;4
+8;"SUCTION_LOW";1;"Vacuum motor speed in Low-Mode  (100% at 24V motor voltage)";"1";30;100;1;"%";0;1;1;12288;5
+9;"SUCTION_HIGH";1;"Vacuum motor speed in High-Mode  (100% at 24V motor voltage)";"1";30;100;1;"%";0;1;1;12288;6
+10;"FACT_FINE";1;"Brush motor speed in Fine-Mode  (100% at 24V motor voltage)";"1";30;100;1;"%";0;1;1;12288;7
+11;"FACT_WHISPER";1;"Brush motor speed in Whisper-Mode  (100% at 24V motor voltage)";"1";30;100;1;"%";0;1;1;12288;8
+12;"FACT_POWER";1;"Brush motor speed in Power-Mode  (100% at 24V motor voltage)";"1";30;100;1;"%";0;1;1;12288;9
+13;"BRUSH_DELAY";1;"Follow-up time brush motor (after machine stopped)";"1";1;6;1;"s";0;1;1;12288;10
+14;"I_BUERSTE_MAX";1;"Maximum continuous current, brush motor(s)";"1";20;80;1;"A";0;1;1;12288;11
+15;"I_BUERSTE_BOOST";1;"Maximum boost current, brush motor(s)";"1";20;200;1;"A";0;1;1;12288;12
+16;"TIME_OC_BUERSTE_OFF";1;"Delaytime until a brush motor overload is detected";"25";1;250;1;"ms";0;1;1;12288;13
+17;"I_TURBINE_MAX";1;"Maximum continuous current, vacuum motor";"1";10;35;1;"A";0;1;1;12288;14
+18;"I_TURBINE_BOOST";1;"Maximum boost current, vacuum motor";"1";10;200;1;"A";0;1;1;12288;15
+19;"TIME_OC_TURBINE_OFF";1;"Delaytime until a vacuum motor overload is detected";"25";1;250;1;"ms";0;1;1;12288;16
+20;"V_KI";3;"Amplification factor, Integrator of speed controller";"1";1;100;1;"INC";0;1;1;12289;1
+21;;0;;"1";0;0;0;;0;0;0;0;0
+22;"V_KP";3;"Amplification factor, Proportional part of speed controller";"1";1;10;1;"IINC";0;1;1;12289;2
+23;;0;;"1";0;0;0;;0;0;0;0;0
+24;"V_RAMP_INC";3;"Acceleration ramp, traction motor";"1";1;100;1;"%";0;1;1;12289;3
+25;;0;;"1";0;0;0;;0;0;0;0;0
+26;"V_RAMP_DEC";3;"Deceleration ramp, traction motor";"1";1;100;1;"%";0;1;1;12289;4
+27;;0;;"1";0;0;0;;0;0;0;0;0
+28;"RI_MOTOR";1;"Motor resistance";"0.001";1;250;1;"Ohm";0;1;1;12288;17
+29;"IFmMax";1;"Max. traction current";"1";0;100;1;"A";0;1;1;12288;18
+30;"IFmRed";1;"Red. Traction current";"1";0;100;1;"A";0;1;1;12288;19
+31;;0;"Reserve";;0;0;0;;0;0;0;0;0
+32;"CRC";1;"CRC accross parameters 0-31";"1";0;3;3;"INC";0;0;0;0;0
+33;"CRC_USP";1;"CRC accross parameters 34-127 (Unprotected Parameters)";"1";0;3;3;"INC";0;0;0;0;0
+34;"EOP_FACT[2]";1;"FACT-Mode in program switch position 3; 0=Off;; 1=Fine; 2=Whisper, 3=Power";"1";0;3;1;"INC";0;1;1;12288;20
+35;"EOP_FACT[3]";1;"FACT-Mode in program switch position 4";"1";0;3;1;"INC";0;1;1;12288;21
+36;"EOP_FACT[4]";1;"FACT-Mode in program switch position 5";"1";0;3;1;"INC";0;1;1;12288;22
+37;"EOP_FACT[5]";1;"FACT-Mode in program switch position 6";"1";0;3;1;"INC";0;1;1;12288;23
+38;"EOP_FACT[6]";1;"FACT-Mode in program switch position 7";"1";0;3;1;"INC";0;1;1;12288;24
+39;"EOP_FACT[7]";1;"FACT-Mode in program switch position 8";"1";0;3;1;"INC";0;1;1;12288;25
+40;"EOP_SUCTION[2]";1;"SUCTION-Mode  in program switch position 3; 0=Off; 1=Low; 2=High";"1";0;2;1;"INC";0;1;1;12288;26
+41;"EOP_SUCTION[3]";1;"SUCTION-Mode  in program switch position 4";"1";0;2;1;"INC";0;1;1;12288;27
+42;"EOP_SUCTION[4]";1;"SUCTION--Mode  in program switch position 5";"1";0;2;1;"INC";0;1;1;12288;28
+43;"EOP_SUCTION[5]";1;"SUCTION--Mode  in program switch position 6";"1";0;2;1;"INC";0;1;1;12288;29
+44;"EOP_SUCTION[6]";1;"SUCTION--Mode  in program switch position 7";"1";0;2;1;"INC";0;1;1;12288;30
+45;"EOP_SUCTION[7]";1;"SUCTION--Mode  in program switch position 8";"1";0;2;1;"INC";0;1;1;12288;31
+46;"EOP_RM[2]";1;"Chemical agent dosage in program switch position 3; 0%-3%";"0.5";0;6;1;"%";0;1;1;12288;32
+47;"EOP_RM[3]";1;"Chemical agent dosage in program switch position 4";"0.5";0;6;1;"%";0;1;1;12288;33
+48;"EOP_RM[4]";1;"Chemical agent dosage in program switch position 5";"0.5";0;6;1;"%";0;1;1;12288;34
+49;"EOP_RM[5]";1;"Chemical agent dosage in program switch position 6";"0.5";0;6;1;"%";0;1;1;12288;35
+50;"EOP_RM[6]";1;"Chemical agent dosage in program switch position 7";"0.5";0;6;1;"%";0;1;1;12288;36
+51;"EOP_RM[7]";1;"Chemical agent dosage in program switch position 8";"0.5";0;6;1;"%";0;1;1;12288;37
+52;"EOP_WP[2]";1;"Water pump acitivity in program switch position 3; 0=Off; 1=On";"1";0;100;1;"INC";0;1;1;12288;38
+53;"EOP_WP[3]";1;"Water pump acitivity in program switch position 4";"1";0;100;1;"INC";0;1;1;12288;39
+54;"EOP_WP[4]";1;"Water pump acitivity in program switch position 5";"1";0;100;1;"INC";0;1;1;12288;40
+55;"EOP_WP[5]";1;"Water pump acitivity in program switch position 6";"1";0;100;1;"INC";0;1;1;12288;41
+56;"EOP_WP[6]";1;"Water pump acitivity in program switch position 7";"1";0;100;1;"INC";0;1;1;12288;42
+57;"EOP_WP[7]";1;"Water pump acitivity in program switch position 8";"1";0;100;1;"INC";0;1;1;12288;43
+58;"EOP_SPEED[2]";1;"Cleaning speed in program switch position 3";"1";0;100;1;"%";0;1;1;12288;44
+59;"EOP_SPEED[3]";1;"Cleaning speed in program switch position 4";"1";0;100;1;"%";0;1;1;12288;45
+60;"EOP_SPEED[4]";1;"Cleaning speed in program switch position 5";"1";0;100;1;"%";0;1;1;12288;46
+61;"EOP_SPEED[5]";1;"Cleaning speed in program switch position 6";"1";0;100;1;"%";0;1;1;12288;47
+62;"EOP_SPEED[6]";1;"Cleaning speed in program switch position 7";"1";0;100;1;"%";0;1;1;12288;48
+63;"EOP_SPEED[7]";1;"Cleaning speed in program switch position 8";"1";0;100;1;"%";0;1;1;12288;49
+64;"EOP_BPress[2]";1;"Brush downforce in program switch position 3";"1";0;100;1;;0;1;1;12288;50
+65;"EOP_BPress[3]";1;"Brush downforce in program switch position 4";"1";0;100;1;;0;1;1;12288;51
+66;"EOP_BPress[4]";1;"Brush downforce in program switch position 5";"1";0;100;1;;0;1;1;12288;52
+67;"EOP_BPress[5]";1;"Brush downforce in program switch position 6";"1";0;100;1;;0;1;1;12288;53
+68;"EOP_BPress[6]";1;"Brush downforce in program switch position 7";"1";0;100;1;;0;1;1;12288;54
+69;"EOP_BPress[7]";1;"Brush downforce in program switch position 8";"1";0;100;1;;0;1;1;12288;55
+70;"Bkopf";1;"Brush head:  0 = D;   1 = R;   2 = S";"1";0;2;1;;0;1;1;12288;56
+71;"IRegBKmin[0]";1;"Min. current brush head (D-Kopf)";"1";20;80;1;"A";0;1;1;12288;57
+72;"IRegBKmin[1]";1;"Min. current brush head (R-Kopf)";"1";20;80;1;"A";0;1;1;12288;58
+73;"IRegBKmin[2]";1;"Min. current brush head (S-Kopf)";"1";20;80;1;"A";0;1;1;12288;59
+74;"IRegBKmax[0]";1;"Max. current brush head (D-Kopf)";"1";20;80;1;"A";0;1;1;12288;60
+75;"IRegBKmax[1]";1;"Max. current brush head (R-Kopf)";"1";20;80;1;"A";0;1;1;12288;61
+76;"IRegBKmax[2]";1;"Max. current brush head (S-Kopf)";"1";20;80;1;"A";0;1;1;12288;62
+77;"IRegKP";1;"Amplification factor, Proportional part of brush head controller";"1";5;100;1;;0;1;1;12288;63
+78;"NlzTurbine";1;"delay sucction";"1";1;60;1;"s";0;1;1;12288;64
+79;;0;"Reserve";;0;0;0;;0;0;0;0;0
+80;;0;"Reserve";;0;0;0;;0;0;0;0;0
+81;;0;"Reserve";;0;0;0;;0;0;0;0;0
+82;;0;"Reserve";;0;0;0;;0;0;0;0;0
+83;;0;"Reserve";;0;0;0;;0;0;0;0;0
+84;"AH_MIN";5;"Rest capacity of akku at final discharge";"1";0;240;1;"Ah";0;1;1;12290;8
+85;;0;;"1";0;0;0;;0;0;0;0;0
+86;;0;;"1";0;0;0;;0;0;0;0;0
+87;;0;;"1";0;0;0;;0;0;0;0;0
+88;"AH_MAX";5;"max capacity of akku at trickle charging";"1";0;240;1;"Ah";0;1;1;12290;9
+89;;0;;"1";0;0;0;;0;0;0;0;0
+90;;0;;"1";0;0;0;;0;0;0;0;0
+91;;0;;"1";0;0;0;;0;0;0;0;0
+92;"vRegTime";3;"Cyclic call of the speed control";"1";1;100;1;"ms";0;1;1;12289;9
+93;;0;;"1";0;0;0;;0;0;0;0;0
+94;"BS_SEC";1;"Operating hours counter, Seconds";"1";0;59;0;"s";0;1;0;16386;1
+95;"BS_MIN";1;"Operating hours counter, Minutes";"1";0;59;0;"min";0;1;0;16386;1
+96;"BS_H_LOW";1;"Operating hours counter, Hours  (Byte 0)";"1";0;255;0;"h";0;1;0;16386;1
+97;"BS_H_HIGH";1;"Operating hours counter, Hours  (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;1
+98;"BS_BRUSH_SEC";1;"Brush motor hours counter, Seconds";"1";0;59;0;"s";0;1;0;16386;3
+99;"BS_BRUSH_MIN";1;"Brush motor hours counter, Minutes";"1";0;59;0;"min";0;1;0;16386;3
+100;"BS_BRUSH_H_LOW";1;"Brush motor  hours counter, Hours  (Byte 0)";"1";0;255;0;"h";0;1;0;16386;3
+101;"BS_BRUSH_H_HIGH";1;"Brush motor  hours counter, Hours  (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;3
+102;"BS_TURBINE_SEC";1;"Vacuum motor hours counter, Seconds";"1";0;59;0;"s";0;1;0;16386;2
+103;"BS_TURBINE_MIN";1;"Vacuum motor hours counter, Minutes";"1";0;59;0;"min";0;1;0;16386;2
+104;"BS_TURBINE_H_LOW";1;"Vacuum motor hours counter, Hours (Byte 0)";"1";0;255;0;"h";0;1;0;16386;2
+105;"BS_TURBINE_H_HIGH";1;"Vacuum motor hours counter, Hours (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;2
+106;"SERV_COUNTER_SEC";1;"Service hours counter, Seconds";"1";0;59;0;"s";0;1;0;16386;4
+107;"SERV_COUNTER_MIN";1;"Service hours counter, Minutes";"1";0;59;0;"min";0;1;0;16386;4
+108;"SERV_COUNTER_H_LOW";1;"Service hours counter, Hours (Byte 0)";"1";0;255;0;"h";0;1;0;16386;4
+109;"SERV_COUNTER_H_HIGH";1;"Service hours counter, Hours (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;4
+110;"RiLeitung";3;"Resistance of the lead from the battery";"1";0;10000;1;"mOhm";0;1;1;12289;10
+111;;0;;"1";0;0;0;;0;0;0;0;0
+112;"BatteriemanagementOption";1;"Options for Batteriemanagement Bit 0: 0:voltage based ; 1:capacity based";"1";0;7;1;;0;1;1;12288;67
+113;"vMaxForward";1;"max. speed forward";"0.1";20;70;1;"km/h";0;1;1;12288;68
+114;"vMaxReverse";1;"max. speed backwards";"0.1";10;60;1;"km/h";0;1;1;12288;69
+115;"MIN_PROZENT_POTI_SPEED";3;"Calibrated left block of potentiometer SPEED";"1";0;255;1;"%";0;1;1;12289;5
+116;;0;;"1";0;0;0;;0;0;0;0;0
+117;"MAX_PROZENT_POTI_SPEED";3;"Calibrated right block of potentiometer SPEED";"1";0;255;1;"%";0;1;1;12289;6
+118;;0;;"1";0;0;0;;0;0;0;0;0
+119;"MIN_PROZENT_POTI_WATER";3;"Calibrated left block of potentiometer WATER QUANTITY";"1";0;255;1;"%";0;1;1;12289;7
+120;;0;;"1";0;0;0;;0;0;0;0;0
+121;"MAX_PROZENT_POTI_WATER";3;"Calibrated right block of potentiometer WATER QUANTITY";"1";0;255;1;"%";0;1;1;12289;8
+122;;0;;"1";0;0;0;;0;0;0;0;0
+123;"SERV_RELOAD";5;"Service hours count - Reload value";"1";0;400;0;"h";0;1;1;12290;2
+124;;0;;"1";0;0;0;;0;0;0;0;0
+125;;0;;"1";0;0;0;;0;0;0;0;0
+126;;0;;"1";0;0;0;;0;0;0;0;0
+127;"WART_RELOAD[0]";5;"Maintainance hours count 1 - Reload value";"1";0;100;0;"h";0;1;1;12290;3
+128;;0;;"1";0;0;0;;0;0;0;0;0
+129;;0;;"1";0;0;0;;0;0;0;0;0
+130;;0;;"1";0;0;0;;0;0;0;0;0
+131;"WART_RELOAD[1]";5;"Maintainance hours count 2 - Reload value";"1";0;20;1;"h";0;1;1;12290;4
+132;;0;;"1";0;0;0;;0;0;0;0;0
+133;;0;;"1";0;0;0;;0;0;0;0;0
+134;;0;;"1";0;0;0;;0;0;0;0;0
+135;"WART_RELOAD[2]";5;"Maintainance hours count 3 - Reload value";"1";0;100;1;"h";0;1;1;12290;5
+136;;0;;"1";0;0;0;;0;0;0;0;0
+137;;0;;"1";0;0;0;;0;0;0;0;0
+138;;0;;"1";0;0;0;;0;0;0;0;0
+139;"WART_RELOAD[3]";5;"Maintainance hours count 4 - Reload value";"1";0;10;1;"h";0;1;1;12290;6
+140;;0;;"1";0;0;0;;0;0;0;0;0
+141;;0;;"1";0;0;0;;0;0;0;0;0
+142;;0;;"1";0;0;0;;0;0;0;0;0
+143;"WART_RELOAD[4]";5;"Maintainance hours count 5 - Reload value";"1";0;50;1;"h";0;1;1;12290;7
+144;;0;;"1";0;0;0;;0;0;0;0;0
+145;;0;;"1";0;0;0;;0;0;0;0;0
+146;;0;;"1";0;0;0;;0;0;0;0;0
+147;"vKI_SS";3;"Amplification factor, Integrator of speed controller in SafetySensor Mode";"1";0;100;1;;0;1;1;12289;11
+148;;0;;"1";0;0;0;;0;0;0;0;0
+149;"vKP_SS";3;"Amplification factor, Proportional part of speed controller in SafetySensor Mode";"1";0;100;1;;0;1;1;12289;12
+150;;0;;"1";0;0;0;;0;0;0;0;0
+151;"V_RAMP_INC_SS";3;"Acceleration ramp, traction motor in SafetySensor Mode";"1";0;100;0;;0;1;1;12289;13
+152;;0;;"1";0;0;0;;0;0;0;0;0
+153;"V_RAMP_DEC_SS";3;"Deceleration ramp, traction motor in SafetySensor Mode";"1";0;100;0;;0;1;1;12289;14
+154;;0;;"1";0;0;0;;0;0;0;0;0
+155;"VSS_MIN";1;"min. cleaning speed in SafetySensor Mode";"0.1";5;60;1;"km/h";0;1;1;12288;65
+156;"VSS_MAX";1;"max. cleaning speed in SafetySensor Mode";"0.1";5;60;1;"km/h";0;1;1;12288;66

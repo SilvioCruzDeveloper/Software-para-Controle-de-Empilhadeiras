@@ -1,0 +1,238 @@
+1;"LANGUAGE";1;"Sprache im Maschinendisplay";"1";0;15;1;;0;1;1
+4;"V24_V";1;"Transportgeschwindigkeit bei 24V Motorspannung";"0.1";1;200;1;"km/h";0;1;1
+5;"SUCTION_LOW";1;"Turbinendrehzahl im Low-Mode Betrieb (100% bei 24V Motorspannung)";"1";30;100;1;"%";0;1;1
+6;"SUCTION_HIGH";1;"Turbinendrehzahl  im High-Mode Betrieb (100% bei 24V Motorspannung)";"1";30;100;1;"%";0;1;1
+7;"FACT_FINE";1;"Bürstendrehzahl  im Fine-Betrieb (100% bei 24V Motorspannung)";"1";30;100;1;"%";0;1;1
+8;"FACT_WHISPER";1;"Bürstendrehzahl  im Whisper-Betrieb (100% bei 24V Motorspannung)";"1";30;100;1;"%";0;1;1
+9;"FACT_POWER";1;"Bürstendrehzahl  im Power-Betrieb (100% bei 24V Motorspannung)";"1";30;100;1;"%";0;1;1
+10;"BRUSH_DELAY";1;"Nachlaufzeit der Bürste bei Fahrzeugstop";"1";0;60;1;"s";0;1;1
+11;"I_BUERSTE_MAX";1;"Maximal zulässiger Dauerstrom der Bürste";"1";20;80;1;"A";0;1;1
+12;"I_BUERSTE_BOOST";1;"Maximal zulässiger Anlaufstrom der Bürste";"1";20;200;1;"A";0;1;1
+13;"TIME_OC_BUERSTE_OFF";1;"Verzögerungszeit, bis Bürstenmotorüberlast erkannt wird";"25";1;250;1;"ms";0;1;1
+14;"I_TURBINE_MAX";1;"Maximal zulässiger Dauerstrom der Turbine";"1";20;40;1;"A";0;1;1
+15;"I_TURBINE_BOOST";1;"Maximal zulässiger Anlaufstrom der Turbine";"1";20;200;1;"A";0;1;1
+16;"TIME_OC_TURBINE_OFF";1;"Verzögerungszeit, bis Turbinenmotorüberlast erkannt wird";"25";1;250;1;"ms";0;1;1
+19;"V_RAMP_INC";1;"Beschleunigungsrampe Fahrantrieb";"1";0;100;1;"%";0;1;1
+20;"V_RAMP_DEC";1;"Bremsrampe Fahrantrieb";"1";0;100;1;"%";0;1;1
+21;"RI_MOTOR";1;"Innenwiderstand des Fahrmotors";"1";1;250;1;"mOhm";0;1;1
+23;"MAX_PROZENT_POTI_SPEED";1;"Eingelernter rechter Anschlag vom Potentiometer GESCHWINDIGKEIT";"1";0;100;1;"%";0;1;0
+25;"MAX_PROZENT_POTI_WATER";1;"Eingelernter rechter Anschlag vom Potentiometer WASSERMENGE";"1";0;100;1;"%";0;1;0
+22;"MIN_PROZENT_POTI_SPEED";1;"Eingelernter linker Anschlag vom Potentiometer GESCHWINDIGKEIT";"1";0;100;1;"%";0;1;0
+24;"MIN_PROZENT_POTI_WATER";1;"Eingelernter linker Anschlag vom Potentiometer WASSERMENGE";"1";0;100;1;"%";0;1;0
+0;"DEVICE_OPTION";1;"Bit0: Reverse Clean; Bit1: Rundumleuchte während Fahren";"1";0;7;1;;0;1;1
+26;;0;"Reserve";;0;0;0;;0;0;0
+27;;0;"Reserve";;0;0;0;;0;0;0
+28;"SerialNumber[0]";1;"Serial number Byte 0";"1";0;255;1;;0;0;0
+29;"SerialNumber[1]";1;"Serial number Byte 1";"1";0;255;1;;0;0;0
+30;"SerialNumber[2]";1;"Serial number Byte 2";"1";0;255;1;;0;0;0
+31;;0;"Reserve";;0;0;0;;0;0;0
+32;"CRC";1;"CRC über Parameter 0-31";"1";0;3;3;"INC";0;0;0
+34;"EOP_FACT[2]";1;"FACT-Modus in  Programmwahlschalterstellung 3; 0=Aus;; 1=Fine; 2=Whisper, 3=Power";"1";0;3;1;"INC";0;1;1
+35;"EOP_FACT[3]";1;"FACT-Modus in  Programmwahlschalterstellung 4";"1";0;3;1;"INC";0;1;1
+36;"EOP_FACT[4]";1;"FACT-Modus in  Programmwahlschalterstellung 5";"1";0;3;1;"INC";0;1;1
+37;"EOP_FACT[5]";1;"FACT-Modus in  Programmwahlschalterstellung 6";"1";0;3;1;"INC";0;1;1
+38;"EOP_FACT[6]";1;"FACT-Modus in  Programmwahlschalterstellung 7";"1";0;3;1;"INC";0;1;1
+39;"EOP_FACT[7]";1;"FACT-Modus in  Programmwahlschalterstellung 8";"1";0;3;1;"INC";0;1;1
+40;"EOP_SUCTION[2]";1;"SUCTION-Modus  in Programmwahlschalterstellung 3; 0=Aus; 1=Low; 2=High";"1";0;2;1;"INC";0;1;1
+41;"EOP_SUCTION[3]";1;"SUCTION-Modus  in Programmwahlschalterstellung 4";"1";0;2;1;"INC";0;1;1
+42;"EOP_SUCTION[4]";1;"SUCTION-Modus  in Programmwahlschalterstellung 5";"1";0;2;1;"INC";0;1;1
+43;"EOP_SUCTION[5]";1;"SUCTION-Modus  in Programmwahlschalterstellung 6";"1";0;2;1;"INC";0;1;1
+44;"EOP_SUCTION[6]";1;"SUCTION-Modus  in Programmwahlschalterstellung 7";"1";0;2;1;"INC";0;1;1
+45;"EOP_SUCTION[7]";1;"SUCTION-Modus  in Programmwahlschalterstellung 8";"1";0;2;1;"INC";0;1;1
+46;"EOP_RM[2]";1;"RM-Dosierung  in Programmwahlschalterstellung 3; 0%-3%";"0.5";0;6;1;"%";0;1;1
+47;"EOP_RM[3]";1;"RM-Dosierung  in Programmwahlschalterstellung 4";"0.5";0;6;1;"%";0;1;1
+48;"EOP_RM[4]";1;"RM-Dosierung  in Programmwahlschalterstellung 5";"0.5";0;6;1;"%";0;1;1
+49;"EOP_RM[5]";1;"RM-Dosierung  in Programmwahlschalterstellung 6";"0.5";0;6;1;"%";0;1;1
+50;"EOP_RM[6]";1;"RM-Dosierung  in Programmwahlschalterstellung 7";"0.5";0;6;1;"%";0;1;1
+51;"EOP_RM[7]";1;"RM-Dosierung  in Programmwahlschalterstellung 8";"0.5";0;6;1;"%";0;1;1
+52;"EOP_WP[2]";1;"Wasserpumpe in Programmwahlschalterstellung 3; 0=Aus; 1=Ein";"1";0;1;1;"INC";0;1;1
+53;"EOP_WP[3]";1;"Wasserpumpe in Programmwahlschalterstellung 4";"1";0;1;1;"INC";0;1;1
+54;"EOP_WP[4]";1;"Wasserpumpe in Programmwahlschalterstellung 5";"1";0;1;1;"INC";0;1;1
+55;"EOP_WP[5]";1;"Wasserpumpe in Programmwahlschalterstellung 6";"1";0;1;1;"INC";0;1;1
+56;"EOP_WP[6]";1;"Wasserpumpe in Programmwahlschalterstellung 7";"1";0;1;1;"INC";0;1;1
+57;"EOP_WP[7]";1;"Wasserpumpe in Programmwahlschalterstellung 8";"1";0;1;1;"INC";0;1;1
+58;"EOP_SPEED[2]";1;"Reinigungsgeschwindigkeit in Programmwahlschalterstellung 3";"1";0;100;1;"%";0;1;1
+59;"EOP_SPEED[3]";1;"Reinigungsgeschwindigkeit in Programmwahlschalterstellung 4";"1";0;100;1;"%";0;1;1
+60;"EOP_SPEED[4]";1;"Reinigungsgeschwindigkeit in Programmwahlschalterstellung 5";"1";0;100;1;"%";0;1;1
+61;"EOP_SPEED[5]";1;"Reinigungsgeschwindigkeit in Programmwahlschalterstellung 6";"1";0;100;1;"%";0;1;1
+62;"EOP_SPEED[6]";1;"Reinigungsgeschwindigkeit in Programmwahlschalterstellung 7";"1";0;100;1;"%";0;1;1
+63;"EOP_SPEED[7]";1;"Reinigungsgeschwindigkeit in Programmwahlschalterstellung 8";"1";0;100;1;"%";0;1;1
+64;"EOP_BPress[2]";1;;"1";0;255;1;;0;1;1
+65;"EOP_BPress[3]";1;;"1";0;255;1;;0;1;1
+66;"EOP_BPress[4]";1;;"1";0;255;1;;0;1;1
+67;"EOP_BPress[5]";1;;"1";0;255;1;;0;1;1
+68;"EOP_BPress[6]";1;;"1";0;255;1;;0;1;1
+69;"EOP_BPress[7]";1;;"1";0;255;1;;0;1;1
+70;"Bkopf";1;"Bürstenkopf:  0 = D-Kopf;   1 = R-Kopf;   2 = S-Kopf";"1";0;255;1;;0;1;1
+71;"IRegBKmin[0]";1;;"1";0;255;1;;0;1;1
+72;"IRegBKmin[1]";1;;"1";0;255;1;;0;1;1
+73;"IRegBKmin[2]";1;;"1";0;255;1;;0;1;1
+74;"IRegBKmax[0]";1;;"1";0;255;1;;0;1;1
+75;"IRegBKmax[1]";1;;"1";0;255;1;;0;1;1
+76;"IRegBKmax[2]";1;;"1";0;255;1;;0;1;1
+77;"IRegKP";1;;"1";0;255;1;;0;1;1
+78;"NlzTurbine";1;;"1";0;255;1;;0;1;1
+79;"VssMin";1;;"1";0;255;1;;0;1;1
+80;"VssMax";1;;"1";0;255;1;;0;1;1
+81;"vKI_SS";3;;"1";0;65535;1;;0;1;1
+82;;0;;"1";0;0;0;;0;0;0
+83;"vKP_SS";3;;"1";0;65535;1;;0;1;1
+84;;0;;"1";0;0;0;;0;0;0
+85;"vRampInc_SS";3;;"1";0;65535;1;;0;1;1
+33;"CRC_USP";1;"CRC über Parameter 34-127 (Unprotected Parameter)";"1";0;3;3;"INC";0;0;0
+86;;0;;"1";0;0;0;;0;1;0
+87;"vRampDec_SS";3;;"1";0;65535;1;;0;0;1
+2;"LK";1;"Eingestellte Ladekennlinie der Batterie";"1";0;9;1;;0;1;1
+3;"V_MIN";1;"Minimale Reinigungsgeschwindigkeit";"0.1";0;60;1;"km/h";0;1;1
+88;;0;;"1";0;0;0;;0;0;0
+93;"MODE_RW_CALC";1;"Status Reichweitenkalkulation: 1=aktiv, 0=deaktiviert";"1";0;255;0;;0;1;0
+89;"MaterialNr[0]";1;"Materialnummer Byte 0";"1";0;255;0;;0;1;0
+90;"MaterialNr[1]";1;"Materialnummer Byte 1";"1";0;255;0;;0;1;0
+91;"MaterialNr[2]";1;"Materialnummer Byte 2";"1";0;255;0;;0;1;0
+92;"MaterialNr[3]";1;"Materialnummer Byte 3";"1";0;255;0;;0;1;0
+94;"BS_SEC";1;"Betriebsstundenzähler, Sekunden";"1";0;59;0;"s";0;1;0
+95;"BS_MIN";1;"Betriebsstundenzähler, Minuten";"1";0;59;0;"min";0;1;0
+96;"BS_H_LOW";1;"Betriebsstundenzähler, Stunden  (Byte 0)";"1";0;255;0;"h";0;1;0
+97;"BS_H_HIGH";1;"Betriebsstundenzähler, Stunden  (Byte 1)";"1";0;255;0;"*256h";0;1;0
+98;"BS_BRUSH_SEC";1;"Betriebsstundenzähler - Bürste, Sekunden";"1";0;59;0;"s";0;1;0
+99;"BS_BRUSH_MIN";1;"Betriebsstundenzähler - Bürste, Minuten";"1";0;59;0;"min";0;1;0
+100;"BS_BRUSH_H_LOW";1;"Betriebsstundenzähler - Bürste, Stunden (Byte 0)";"1";0;255;0;"h";0;1;0
+101;"BS_BRUSH_H_HIGH";1;"Betriebsstundenzähler - Bürste, Stunden (Byte 1)";"1";0;255;0;"*256h";0;1;0
+102;"BS_TURBINE_SEC";1;"Betriebsstundenzähler - Turbine, Sekunden";"1";0;59;0;"s";0;1;0
+103;"BS_TURBINE_MIN";1;"Betriebsstundenzähler - Turbine, Minuten";"1";0;59;0;"min";0;1;0
+104;"BS_TURBINE_H_LOW";1;"Betriebsstundenzähler - Turbine, Stunden (Byte 0)";"1";0;255;0;"h";0;1;0
+105;"BS_TURBINE_H_HIGH";1;"Betriebsstundenzähler - Turbine, Stunden (Byte 1)";"1";0;255;0;"*256h";0;1;0
+106;"SERV_COUNTER_SEC";1;"Servicezähler, Sekunden";"1";0;59;0;"s";0;1;0
+107;"SERV_COUNTER_MIN";1;"Servicezähler, Minuten";"1";0;59;0;"min";0;1;0
+108;"SERV_COUNTER_H_LOW";1;"Servicezähler, Stunden (Byte 0)";"1";0;255;0;"h";0;1;0
+109;"SERV_COUNTER_H_HIGH";1;"Servicezähler, Stunden (Byte 1)";"1";0;255;0;"*256h";0;1;0
+110;"SERV_RELOAD_H_LOW";1;"Servicezähler - Reloadwert, Stunden (Byte 0)";"1";0;255;0;"h";0;1;0
+111;"SERV_RELOAD_H_HIGH";1;"Servicezähler - Reloadwert, Stunden (Byte 1)";"1";0;255;0;"*256h";0;1;0
+17;"V_KI";1;"Verstärkungsfaktor, Integralanteil des Geschwindigkeitsreglers";"1";0;100;1;"INC";0;1;0
+18;"V_KP";1;"Verstärkungsfaktor, Proportionalanteil des Geschwindigkeitsreglers";"1";0;100;1;"IINC";0;1;0
+113;"UBAT";3;"Batteriespannung";"1";0;255;2;"1/10V";0;0;0
+114;;0;;"1";0;255;2;;0;0;0
+115;"I_M";2;"Strom Fahrmotor";"1";0;255;2;"A";0;0;0
+116;"I_B";2;"Summenstrom Bürstenmotore";"1";0;255;2;"A";0;0;0
+117;"I_T";2;"Strom Saugturbine";"1";0;255;2;"A";0;0;0
+118;"V_IST";2;"Istgeschwindigkeit Fahrmotor";"1";0;255;2;"0.1km/h";0;0;0
+119;"DIGITAL_IN";1;"Coiertes Byte der Sensoreingänge";"1";0;255;2;"INC";0;0;0
+120;"T0";2;"Isttemperatur Steuerung: Fahrmotorstufe 1";"1";0;255;2;"°C";0;0;0
+121;"T1";2;"Isttemperatur Steuerung:  Fahrmotorstufe 2";"1";0;255;2;"°C";0;0;0
+122;"T2";2;"Isttemperatur Steuerung: Bürstenmotorstufe";"1";0;255;2;"°C";0;0;0
+123;"T3";2;"Isttemperatur Steuerung: Turbinenlaststufe";"1";0;255;2;"°C";0;0;0
+124;"PWM_TURBINE";1;"Istdrehzahl Saugturbine (100% bei 24V Motorspannung)";"1";0;255;2;"%";0;0;0
+125;"RFID_KEY";1;"0=kein Tag; 1=User; 2=Operator; 3=Service; 4=Entwickler; 254 Defekt; 255=Unbekannt";"1";0;255;2;;0;0;0
+126;"POTI_SPEED";1;"Potiwert Fahrgeschwindigkeit";"1";0;100;2;"%";0;0;0
+127;"POTI_WATER";1;"Potiwert Wassereinstellung";"1";0;100;2;"%";0;0;0
+128;;0;"Reserve";;0;0;0;;0;0;0
+129;"HealthStatusMachine";1;"Betriebsbereitschaft der Maschine 0: Nicht bereit  1: Bereit";"1";0;1;2;;0;0;0
+130;"Ladezyklen";3;"Anzahl Ladezyklen der aktuell verbauten Batterie. (Adresse 18 lesen)";"1";0;65535;2;;0;0;0
+132;"BatteryId";3;"Eindeutige Batterieidentifikationsnummer (wird benötigt vom Fleet)";"1";0;65535;2;;0;0;0
+132;;0;"Reserve";;0;0;0;;0;0;0
+133;;0;"Reserve";;0;0;0;;0;0;0
+143;"ERROR_POINTER";1;"Zeiger auf den nächsten zu füllenden Fehlerspeicher";"1";0;5;0;;0;0;0
+144;"ERROR_0_NR";1;"Fehlerarchiveintrag 1: Fehlernummer";"1";0;255;0;;0;0;0
+145;"ERROR_0_BS_SEC";1;"Betriebssekunde, bei der Fehler 1 erfolgte";"1";0;59;0;"s";0;0;0
+146;"ERROR_0_BS_MIN";1;"Betriebsminute, bei der Fehler 1 erfolgte";"1";0;59;0;"min";0;0;0
+147;"ERROR_0_BS_H_LOW";1;"Betriebsstunde, bei der Fehler 1 erfolgte (Byte 0)";"1";0;255;0;"h";0;0;0
+148;"ERROR_0_BS_H_HIGH";1;"Betriebsstunde, bei der Fehler 1 erfolgte (Byte 1)";"1";0;255;0;"*256h";0;0;0
+149;"ERROR_1_NR";1;"Fehlerarchiveintrag 2: Fehlernummer";"1";0;255;0;;0;0;0
+150;"ERROR_1_BS_SEC";1;"Betriebssekunde, bei der Fehler 2 erfolgte";"1";0;59;0;"s";0;0;0
+151;"ERROR_1_BS_MIN";1;"Betriebsminute, bei der Fehler 2 erfolgte";"1";0;59;0;"min";0;0;0
+152;"ERROR_1_BS_H_LOW";1;"Betriebsstunde, bei der Fehler 2 erfolgte (Byte 0)";"1";0;255;0;"h";0;0;0
+153;"ERROR_1_BS_H_HIGH";1;"Betriebsstunde, bei der Fehler 2 erfolgte (Byte 1)";"1";0;255;0;"*256h";0;0;0
+154;"ERROR_2_NR";1;"Fehlerarchiveintrag 3: Fehlernummer";"1";0;255;0;;0;0;0
+155;"ERROR_2_BS_SEC";1;"Betriebssekunde, bei der Fehler 3 erfolgte";"1";0;59;0;"s";0;0;0
+156;"ERROR_2_BS_MIN";1;"Betriebsminute, bei der Fehler 3 erfolgte";"1";0;59;0;"min";0;0;0
+157;"ERROR_2_BS_H_LOW";1;"Betriebsstunde, bei der Fehler 3 erfolgte (Byte 0)";"1";0;255;0;"h";0;0;0
+158;"ERROR_2_BS_H_HIGH";1;"Betriebsstunde, bei der Fehler 3 erfolgte (Byte 1)";"1";0;255;0;"*256h";0;0;0
+159;"ERROR_3_NR";1;"Fehlerarchiveintrag 4: Fehlernummer";"1";0;255;0;;0;0;0
+160;"ERROR_3_BS_SEC";1;"Betriebssekunde, bei der Fehler 4 erfolgte";"1";0;59;0;"s";0;0;0
+161;"ERROR_3_BS_MIN";1;"Betriebsminute, bei der Fehler 4 erfolgte";"1";0;59;0;"min";0;0;0
+162;"ERROR_3_BS_H_LOW";1;"Betriebsstunde, bei der Fehler 4 erfolgte (Byte 0)";"1";0;255;0;"h";0;0;0
+163;"ERROR_3_BS_H_HIGH";1;"Betriebsstunde, bei der Fehler 4 erfolgte (Byte 1)";"1";0;255;0;"*256h";0;0;0
+164;"ERROR_4_NR";1;"Fehlerarchiveintrag 5: Fehlernummer";"1";0;255;0;;0;0;0
+165;"ERROR_4_BS_SEC";1;"Betriebssekunde, bei der Fehler 5 erfolgte";"1";0;59;0;"s";0;0;0
+166;"ERROR_4_BS_MIN";1;"Betriebsminute, bei der Fehler 5 erfolgte";"1";0;59;0;"min";0;0;0
+167;"ERROR_4_BS_H_LOW";1;"Betriebsstunde, bei der Fehler 5 erfolgte (Byte 0)";"1";0;255;0;"h";0;0;0
+168;"ERROR_4_BS_H_HIGH";1;"Betriebsstunde, bei der Fehler 5 erfolgte (Byte 1)";"1";0;255;0;"*256h";0;0;0
+169;"ERROR_5_NR";1;"Fehlerarchiveintrag 6: Fehlernummer";"1";0;255;0;;0;0;0
+170;"ERROR_5_BS_SEC";1;"Betriebssekunde, bei der Fehler 6 erfolgte";"1";0;59;0;"s";0;0;0
+171;"ERROR_5_BS_MIN";1;"Betriebsminute, bei der Fehler 6 erfolgte";"1";0;59;0;"min";0;0;0
+172;"ERROR_5_BS_H_LOW";1;"Betriebsstunde, bei der Fehler 6 erfolgte (Byte 0)";"1";0;255;0;"h";0;0;0
+173;"ERROR_5_BS_H_HIGH";1;"Betriebsstunde, bei der Fehler 6 erfolgte (Byte 1)";"1";0;255;0;"*256h";0;0;0
+174;"LK_NUMMER_ANF_READ";1;"Nummer der Ladekennlinie, die gelesen werden soll";"1";0;9;0;;0;0;0
+175;"LK_NUMMER_IST";1;"Nummer der Ladekennline, die Steuerung unter nachfolg. Bezeichnung speicherte";"1";0;9;0;;0;0;0
+176;"LK_BEZEICHNUNG[0]";1;"ASCII-Zeichen 0 der Ladekennlinienbezeichnung";"1";0;255;0;;0;0;0
+177;"LK_BEZEICHNUNG[1]";1;"ASCII-Zeichen 1 der Ladekennlinienbezeichnung";"1";0;255;0;;0;0;0
+178;"LK_BEZEICHNUNG[2]";1;"ASCII-Zeichen 2 der Ladekennlinienbezeichnung";"1";0;255;0;;0;0;0
+179;"LK_BEZEICHNUNG[3]";1;"ASCII-Zeichen 3 der Ladekennlinienbezeichnung";"1";0;255;0;;0;0;0
+180;"LK_BEZEICHNUNG[4]";1;"ASCII-Zeichen 4 der Ladekennlinienbezeichnung";"1";0;255;0;;0;0;0
+181;"LK_BEZEICHNUNG[5]";1;"ASCII-Zeichen 5 der Ladekennlinienbezeichnung";"1";0;255;0;;0;0;0
+182;"LK_BEZEICHNUNG[6]";1;"ASCII-Zeichen 6 der Ladekennlinienbezeichnung";"1";0;255;0;;0;0;0
+183;"LK_BEZEICHNUNG[7]";1;"ASCII-Zeichen 7 der Ladekennlinienbezeichnung";"1";0;255;0;;0;0;0
+184;"LK_BEZEICHNUNG[8]";1;"ASCII-Zeichen 8 der Ladekennlinienbezeichnung";"1";0;255;0;;0;0;0
+185;"LK_BEZEICHNUNG[9]";1;"ASCII-Zeichen 9 der Ladekennlinienbezeichnung";"1";0;255;0;;0;0;0
+186;"LK_BEZEICHNUNG[10]";1;"ASCII-Zeichen 10 der Ladekennlinienbezeichnung";"1";0;255;0;;0;0;0
+187;"LK_BEZEICHNUNG[11]";1;"ASCII-Zeichen 11 der Ladekennlinienbezeichnung";"1";0;255;0;;0;0;0
+188;"LK_BEZEICHNUNG[12]";1;"ASCII-Zeichen 12 der Ladekennlinienbezeichnung";"1";0;255;0;;0;0;0
+189;"LK_BEZEICHNUNG[13]";1;"ASCII-Zeichen 13 der Ladekennlinienbezeichnung";"1";0;255;0;;0;0;0
+190;"BatteryId";3;"Eindeutige Batterieidentifikationsnummer (wird benötigt vom Fleet)";"1";0;65535;2;;0;0;0
+191;;0;;"1";0;255;0;;0;0;0
+192;"LK_T0_MAX";3;"Maximale Zeit T0MAX der Desulfatierungsphase";"1";0;255;0;"min";0;0;0
+193;;0;;"1";0;255;0;;0;0;0
+194;"LK_U0";3;"Obere Spannungsschwelle Desulfatierungsphase";"1";0;360;0;"0.1V";0;0;0
+195;;0;;"1";0;0;0;;0;0;0
+196;"LK_I0";3;"Maximalstrom der Desulfatierungsphase";"1";0;130;0;"0.1 A";0;0;0
+197;;0;;"1";0;0;0;;0;0;0
+198;"LK_T1_MIN";3;"Minimale Zeit T1 für I-Phase";"1";0;999;0;"min";0;0;0
+199;;0;;"1";0;0;0;;0;0;0
+200;"LK_T1_MAX";3;"Maximale Zeit T2 für I-Phase";"1";0;999;0;"min";0;0;0
+201;;0;;"1";0;0;0;;0;0;0
+202;"LK_I1";3;"Maximalstrom in der I-Phase";"1";0;130;0;"0.1A";0;0;0
+203;;0;;"1";0;0;0;;0;0;0
+204;"LK_T12_MAX";3;"Maximal Zeit T12 für die I- und U-Phase";"1";0;999;0;"min";0;0;0
+205;;0;;"1";0;0;0;;0;0;0
+112;"FR_POTI";2;"Fahrgeberistwert";"1";0;255;2;"%";0;0;0
+206;"LK_U2";3;"Umschaltspannung von I- auf U-Phase";"1";0;360;0;"0.1V";0;0;0
+207;;0;;"1";0;0;0;;0;0;0
+208;"LK_T3_MIN";3;"Minimale Zeit für Ia-Phase";"1";0;999;0;"min";0;0;0
+209;;0;;"1";0;0;0;;0;0;0
+210;"LK_T3_MAX";3;"Maximale Zeit für Ia-Phase";"1";0;999;0;"min";0;0;0
+211;;0;;"1";0;0;0;;0;0;0
+212;"LK_T3_FAKTOR";3;"Nachladefaktor (Nachladezeiterrechnung  t3=T12*T3Faktor)";"1";0;10;0;"0.1";0;0;0
+213;;0;;"1";0;0;0;;0;0;0
+214;"LK_I3";3;"Maximalstrom in der Ia-Phase";"1";0;130;0;"0.1A";0;0;0
+215;;0;;"1";0;0;0;;0;0;0
+216;"LK_UEL";3;"Maximalspannung während der Erhaltungsphase";"1";0;360;0;"0.1V";0;0;0
+217;;0;;"1";0;0;0;;0;0;0
+218;"LK_IEL";3;"Maximalstrom während der Erhaltungsphase";"1";0;130;0;"0.1A";0;0;0
+219;;0;;"1";0;0;0;;0;0;0
+220;"LK_UMAX";3;"Umschaltspannung von Ia- auf Erhaltungsladung";"1";0;360;0;"0.1V";0;0;0
+221;;0;;"1";0;0;0;;0;0;0
+222;"LK_TMAX";3;"Maximale Ladezeit TMAX";"1";0;999;0;"min";0;0;0
+223;;0;;"1";0;0;0;;0;0;0
+224;"LK_LADEFAKTOR";3;"Ladefaktor (geladenene Ah * Ladefaktor = entnehmbare Ah)";"1";0;100;0;"1/100";0;0;0
+225;;0;;"1";0;0;0;;0;0;0
+226;"LK_LOW_BATT_A";3;"Unterspannungsgrenze bei 10A Laststromentnahme";"1";0;360;0;"0.1V";0;0;0
+227;;0;;"1";0;0;0;;0;0;0
+228;"LK_LOW_BATT_B";3;"Unterspannungsgrenze bei 30A Laststromentnahme";"1";0;360;0;"0.1V";0;0;0
+229;;0;;"1";0;0;0;;0;0;0
+230;"LK_LOW_BATT_C";3;"Unterspannungsgrenze bei 50A Laststromentnahme";"1";0;360;0;"0.1V";0;0;0
+231;;0;;"1";0;0;0;;0;0;0
+232;"LK_LOW_BATT_D";3;"Unterspannungsgrenze bei 60A Laststromentnahme";"1";0;360;0;"0.1V";0;0;0
+233;;0;;"1";0;0;0;;0;0;0
+234;"LK_LOW_BATT_E";3;"Unterspannungsgrenze bei 70A Laststromentnahme";"1";0;360;0;"0.1V";0;0;0
+235;;0;;"1";0;0;0;;0;0;0
+236;"LK_CRC";1;"CRC nach Busspezifikation über gesamten Ladekennliniepuffer";"1";0;0;0;"INC";0;0;0
+237;"LK_NUMMER";1;"Nummer der zu ändernden Ladekurve";"1";0;0;0;;0;0;0
+134;;0;"Reserve";;0;0;0;;0;0;0
+135;;0;"Reserve";;0;0;0;;0;0;0
+136;;0;"Reserve";;0;0;0;;0;0;0
+137;;0;"Reserve";;0;0;0;;0;0;0
+138;;0;"Reserve";;0;0;0;;0;0;0
+139;;0;"Reserve";;0;0;0;;0;0;0
+140;;0;"Reserve";;0;0;0;;0;0;0
+141;;0;"Reserve";;0;0;0;;0;0;0
+142;;0;"Reserve";;0;0;0;;0;0;0

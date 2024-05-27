@@ -1,0 +1,128 @@
+0;"BrushRevPwr";1;"Bürstengeschwindigkeit im Power-Modus in %. Für 100% Drehzahl, Parameter auf 101 setzen.";"1";10;101;1;"%";0;1;1;12288;1
+1;"BrushRevEco";1;"Bürstengeschwindigkeit im Eco-Modus in %. Für 100% Drehzahl, Parameter auf 101 setzen.";"1";10;101;1;"%";0;1;1;12288;2
+2;"BrushMaxI";3;"Maximaler Bürstenstrom";"0,1";50;230;1;"A";0;1;1;12289;1
+3;;0;;"1";0;0;0;;0;0;0;0;0
+4;"BrushDelayILim";3;"Verzögerung zur Überstromerkennung der Bürste.";"0,001";0;65000;1;"s";0;1;1;12289;2
+5;;0;;"1";0;0;0;;0;0;0;0;0
+6;"BrushOpenLoadThres";3;"Überlastgrenze der Bürste.";"0,1";0;50;1;"A";0;1;1;12289;3
+7;;0;;"1";0;0;0;;0;0;0;0;0
+8;"BrushDelayOpenLoad";3;"Verzögerung zur Open Load Erkennung der Bürste.";"0,001";0;65000;1;"s";0;1;1;12289;4
+9;;0;;"1";0;0;0;;0;0;0;0;0
+10;"BrushAccelRamp";1;"Beschleunigungsrampe der Bürste.";"1";1;100;1;"%/100ms";0;1;1;12288;3
+11;"BrushDecelRamp";1;"Verzögerungsrampe der Bürste.";"1";1;100;1;"%/100ms";0;1;1;12288;4
+12;"BrushPCurrCtrl";3;"P Anteil des Stromreglers der Bürste.";"1";5;50;1;"%";0;1;1;12289;5
+13;;0;;"1";0;0;0;;0;0;0;0;0
+14;"BrushPICurrCtrl";3;"PI Anteil des Stromreglers der Bürste.";"1";15;60;1;"%";0;1;1;12289;6
+15;;0;;"1";0;0;0;;0;0;0;0;0
+16;"BrushPSpeedCtrl";3;"P Anteil des Geschwindigkeitsreglers der Bürste.";"1";100;500;1;"inc";0;1;1;12289;7
+17;;0;;"1";0;0;0;;0;0;0;0;0
+18;"BrushPISpeedCtrl";3;"PI Anteil des Geschwindigkeitsreglers der Bürste.";"1";200;700;1;"inc";0;1;1;12289;8
+19;;0;;"1";0;0;0;;0;0;0;0;0
+20;"TurbineRevPwr";1;"Turbinengeschwindigkeit im Power-Modus in %. Für 100% Drehzahl, Parameter auf 101 setzen.";"1";10;101;1;"%";0;1;1;12288;5
+21;"TurbineRevEco";1;"Turbinengeschwindigkeit im Eco-Modus in %. Für 100% Drehzahl, Parameter auf 101 setzen.";"1";10;101;1;"%";0;1;1;12288;6
+22;"TurbineFollowUpTime";3;"Nachlaufzeit der Turbine nach dem Abschalten der Bürste.";"0,001";0;65000;1;"s";0;1;1;12289;9
+23;;0;;"1";0;0;0;;0;0;0;0;0
+24;"TurbineMaxI";3;"Maximaler Turbinenstrom";"0,1";50;230;1;"A";0;1;1;12289;10
+25;;0;;"1";0;0;0;;0;0;0;0;0
+26;"TurbineDelayILim";3;"Verzögerung zur Überstromerkennung der Turbine.";"0,001";0;65000;1;"s";0;1;1;12289;11
+27;;0;;"1";0;0;0;;0;0;0;0;0
+28;"TurbineOpenLoadThres";3;"Schwelle zur Open Load Erkennung des Turbinenausgangs.";"0,1";0;50;1;"A";0;1;1;12289;12
+29;;0;;"1";0;0;0;;0;0;0;0;0
+30;"TurbineDelayOpenLoad";3;"Verzögerung zur Open Load Erkennung des Turbineausgangs.";"0,001";0;65000;1;"s";0;1;1;12289;13
+31;;0;;"1";0;0;0;;0;0;0;0;0
+32;"TurbineAccelRamp";1;"Beschleunigungsrampe der Turbine.";"1";1;100;1;"%/100ms";0;1;1;12288;7
+33;"TurbineDecelRamp";1;"Verzögerungsrampe der Turbine.";"1";1;100;1;"%/100ms";0;1;1;12288;8
+34;"TurbinePCurrCtrl";3;"P Anteil des Stromreglers der Turbine.";"1";5;50;1;"%";0;1;1;12289;14
+35;;0;;"1";0;0;0;;0;0;0;0;0
+36;"TurbinePICurrCtrl";3;"PI Anteil des Stromreglers der Turbine.";"1";15;60;1;"%";0;1;1;12289;15
+37;;0;;"1";0;0;0;;0;0;0;0;0
+38;"TurbinePSpeedCtrl";3;"P Anteil des Geschwindigkeitsreglers der Turbine.";"1";100;500;1;"inc";0;1;1;12289;16
+39;;0;;"1";0;0;0;;0;0;0;0;0
+40;"TurbinePISpeedCtrl";3;"PI Anteil des Geschwindigkeitsreglers der Turbine.";"1";200;700;1;"inc";0;1;1;12289;17
+41;;0;;"1";0;0;0;;0;0;0;0;0
+42;"H2OWaterLevel1Pwr";3;"Wasserstufe 1 Pwr-Mod.Für Timer Konfig.Reduzieren des Wertes->Erhöhung der Wassmenge.N=1/(f*15,26us)";"1";1000;10000;1;"inc";0;1;1;12289;18
+43;;0;;"1";0;0;0;;0;0;0;0;0
+44;"H2OWaterLevel2Pwr";3;"Wasserstufe 2 Pwr-Mod.Für Timer Konfig.Reduzieren des Wertes->Erhöhung der Wassmenge.N=1/(f*15,26us)";"1";1000;10000;1;"inc";0;1;1;12289;19
+45;;0;;"1";0;0;0;;0;0;0;0;0
+46;"H2OWaterLevel3Pwr";3;"Wasserstufe 3 Pwr-Mod.Für Timer Konfig.Reduzieren des Wertes->Erhöhung der Wassmenge.N=1/(f*15,26us)";"1";1000;10000;1;"inc";0;1;1;12289;20
+47;;0;;"1";0;0;0;;0;0;0;0;0
+48;"H2OWaterLevel4Pwr";3;"Wasserstufe 4 Pwr-Mod.Für Timer Konfig.Reduzieren des Wertes->Erhöhung der Wassmenge.N=1/(f*15,26us)";"1";1000;10000;1;"inc";0;1;1;12289;21
+49;;0;;"1";0;0;0;;0;0;0;0;0
+50;"H2OWaterLevel1Eco";3;"Wasserstufe 1 Eco-Mod.Für Timer Konfig.Reduzieren des Wertes->Erhöhung der Wassmenge.N=1/(f*15,26us)";"1";1000;10000;1;"inc";0;1;1;12289;22
+51;;0;;"1";0;0;0;;0;0;0;0;0
+52;"H2OWaterLevel2Eco";3;"Wasserstufe 2 Eco-Mod.Für Timer Konfig.Reduzieren des Wertes->Erhöhung der Wassmenge.N=1/(f*15,26us)";"1";1000;10000;1;"inc";0;1;1;12289;23
+53;;0;;"1";0;0;0;;0;0;0;0;0
+54;"H2OWaterLevel3Eco";3;"Wasserstufe 3 Eco-Mod.Für Timer Konfig.Reduzieren des Wertes->Erhöhung der Wassmenge.N=1/(f*15,26us)";"1";1000;10000;1;"inc";0;1;1;12289;24
+55;;0;;"1";0;0;0;;0;0;0;0;0
+56;"H2OWaterLevel4Eco";3;"Wasserstufe 4 Eco-Mod.Für Timer Konfig.Reduzieren des Wertes->Erhöhung der Wassmenge.N=1/(f*15,26us)";"1";1000;10000;1;"inc";0;1;1;12289;25
+57;;0;;"1";0;0;0;;0;0;0;0;0
+58;"H2OMaxI";0;"Maximaler Wasserpumpenstrom";"0,1";20;100;1;"A";0;1;0;12289;26
+59;;0;;"1";0;0;0;;0;0;0;0;0
+60;"H2ODelayILim";0;"Verzögerung zur Überstromerkennung der Wasserpumpe.";"0,001";0;65000;1;"s";0;1;0;12289;27
+61;;0;;"1";0;0;0;;0;0;0;0;0
+62;"H2OOpenLoadThres";0;"Überlastgrenze der Wasserpumpe.";"0,1";0;20;1;"A";0;1;0;12289;28
+63;;0;;"1";0;0;0;;0;0;0;0;0
+64;"H2ODelayOpenLoad";0;"Verzögerung zur Überlasterkennung der Wasserpumpe.";"0,001";0;65000;1;"s";0;1;0;12289;29
+65;;0;;"1";0;0;0;;0;0;0;0;0
+66;"BMIDctDisch";3;"Stromgrenze zur Erkennung des Entladens der Maschine.";"0,1";0;50;1;"A";0;1;1;12289;30
+67;;0;;"1";0;0;0;;0;0;0;0;0
+68;"BMMaxIDiffFullPwr";3;"Maximale Entladestromdifferenz der Batterien im Power-Modus. I > x --> Red-Pwr-Mod.";"0,1";100;250;1;"A";0;1;1;12289;31
+69;;0;;"1";0;0;0;;0;0;0;0;0
+70;"BMMaxISingleFullPwr";3;"Maximaler Entladestrom einer einzelnen Batterie im Power-Modus, I > x --> Red-Pwr-Mod.";"0,1";150;300;1;"A";0;1;1;12289;32
+71;;0;;"1";0;0;0;;0;0;0;0;0
+72;"BMISingleQuitRedPwr";1;"Maximaler Entladestrom einer einzelnen Batterie, um vom Red-Pwr-Mod in den Pwr-Mod zu wechseln.";"0,1";100;250;1;"A";0;1;1;12288;9
+73;"BMIDiffQuitRedPwr";1;"Maximale Entladedifferenz der Batterien, um vom Red-Pwr-Mod in den Pwr-Mod zu wechseln.";"0,1";10;100;1;"A";0;1;1;12288;10
+74;"BMDetectChISingle";1;"Grenzwert zur Erkennung des Ladens einer einzelnen Batterie. I < x --> keine volle Ladefreigabe.";"0,1";0;30;1;"A";0;1;1;12288;11
+75;"BMDetectCHFinished";1;"Bei Unterschreitung dieses Ladestroms erkennt die Maschine das Ende des Ladevorgangs->Batt Led grün.";"0,1";0;5;1;"A";0;1;1;12288;12
+76;"RedPwrModeCntr";3;"Zählen der Starts im Reduced-Power-Modus.";"1";0;65535;1;;0;1;1;12289;33
+77;;0;;"1";0;0;0;;0;0;0;0;0
+78;"BMDelayToStartRedPwr";1;"Verzögerung zum Start des Red-Pwr-Mod.Transition muss für diese Zeit erfüllt sein.";"1";0;10;1;"s";0;1;1;12288;13
+79;"BatteryId";3;"Batterie Identifier der verbauten Battery.";"1";0;65535;1;;0;1;1;12289;34
+80;;0;;"1";0;0;0;;0;0;0;0;0
+81;"ChargingCycles";3;"Anzahl der Ladezyklen.";"1";0;65535;1;;0;1;1;12289;35
+82;;0;;"1";0;0;0;;0;0;0;0;0
+83;"BMChargeLevel";1;"Batterieladezustand der beim letzten Shutdown oder nach dem letzten Ladevorgang gespeichert wurde.";"1";0;100;1;"%";0;1;1;12288;14
+84;"BMUMaxChargeLevel";3;"Max. Spannung als Basis für die Batterieladezustandsberechnung.";"0,001";20000;30000;1;"V";0;1;1;12289;36
+85;;0;;"1";0;0;0;;0;0;0;0;0
+86;"BMDelayChargeLevel";1;"Verzögerung für die Änderung des Batterieladezustandes. 10% / X s";"1";1;30;1;"s";0;1;1;12288;15
+87;"BMVThreshForceLockFET";3;"Spannungsschwelle für Sperrfethandling beim Laden. Ist U>X, wird ein Sperrfet dauerhaft geschlossen.";"0,001";20000;30000;1;"V";0;1;1;12289;37
+88;;0;;"1";0;0;0;;0;0;0;0;0
+89;;1;;"1";0;0;0;;0;0;0;0;0
+90;;1;;"1";0;0;0;;0;0;0;0;0
+91;;1;;"1";0;0;0;;0;0;0;0;0
+92;;1;;"1";0;0;0;;0;0;0;0;0
+93;;1;;"1";0;0;0;;0;0;0;0;0
+94;"BS_SEC";1;"Betriebsstundenzähler, Sekunden";"1";0;59;0;"s";0;1;0;16386;1
+95;"BS_MIN";1;"Betriebsstundenzähler, Minuten";"1";0;59;0;"min";0;1;0;16386;1
+96;"BS_H_LOW";1;"Betriebsstundenzähler, Stunden (Byte 0)";"1";0;255;0;"h";0;1;0;16386;1
+97;"BS_H_HIGH";1;"Betriebsstundenzähler, Stunden (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;1
+98;"BS_BRUSH_SEC";1;"Betriebsstundenzähler - Bürste, Sekunden";"1";0;59;0;"s";0;1;0;16386;2
+99;"BS_BRUSH_MIN";1;"Betriebsstundenzähler - Bürste, Minuten";"1";0;59;0;"min";0;1;0;16386;2
+100;"BS_BRUSH_H_LOW";1;"Betriebsstundenzähler - Bürste, Stunden (Byte 0)";"1";0;255;0;"h";0;1;0;16386;2
+101;"BS_BRUSH_H_HIGH";1;"Betriebsstundenzähler - Bürste, Stunden (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;2
+102;"BS_TURBINE_SEC";1;"Betriebsstundenzähler - Turbine, Sekunden";"1";0;59;0;"s";0;1;0;16386;3
+103;"BS_TURBINE_MIN";1;"Betriebsstundenzähler - Turbine, Minuten";"1";0;59;0;"min";0;1;0;16386;3
+104;"BS_TURBINE_H_LOW";1;"Betriebsstundenzähler - Turbine, Stunden (Byte 0)";"1";0;255;0;"h";0;1;0;16386;3
+105;"BS_TURBINE_H_HIGH";1;"Betriebsstundenzähler - Turbine, Stunden (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;3
+106;"BS_WATER_PUMP_SEC";1;"Betriebsstundenzähler - Wasserpumpe, Sekunden";"1";0;59;0;"s";0;1;0;16386;4
+107;"BS_WATER_PUMP_MIN";1;"Betriebsstundenzähler - Wasserpumpe, Minuten";"1";0;59;0;"min";0;1;0;16386;4
+108;"BS_WATER_PUMP_H_LOW";1;"Betriebsstundenzähler - Wasserpumpe, Stunden (Byte 0)";"1";0;255;0;"h";0;1;0;16386;4
+109;"BS_WATER_PUMP_H_HIGH";1;"Betriebsstundenzähler - Wasserpumpe, Stunden (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;4
+110;;1;;"1";0;0;0;;0;0;0;0;0
+111;;1;;"1";0;0;0;;0;0;0;0;0
+112;;1;;"1";0;0;0;;0;0;0;0;0
+113;;1;;"1";0;0;0;;0;0;0;0;0
+114;;1;;"1";0;0;0;;0;0;0;0;0
+115;;1;;"1";0;0;0;;0;0;0;0;0
+116;;1;;"1";0;0;0;;0;0;0;0;0
+117;;1;;"1";0;0;0;;0;0;0;0;0
+118;;1;;"1";0;0;0;;0;0;0;0;0
+119;;1;;"1";0;0;0;;0;0;0;0;0
+120;;1;;"1";0;0;0;;0;0;0;0;0
+121;;1;;"1";0;0;0;;0;0;0;0;0
+122;;1;;"1";0;0;0;;0;0;0;0;0
+123;;1;;"1";0;0;0;;0;0;0;0;0
+124;;1;;"1";0;0;0;;0;0;0;0;0
+125;;1;;"1";0;0;0;;0;0;0;0;0
+126;;1;;"1";0;0;0;;0;0;0;0;0
+127;;1;;"1";0;0;0;;0;0;0;0;0

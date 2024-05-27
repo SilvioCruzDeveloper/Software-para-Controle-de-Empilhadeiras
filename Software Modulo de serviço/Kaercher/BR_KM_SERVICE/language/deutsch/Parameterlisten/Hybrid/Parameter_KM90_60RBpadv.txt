@@ -1,0 +1,76 @@
+0;"GASPOTI_MAX";3;"Kalibrierwert des Gaspedals an X3/9-11für max. Geschwindigkeitssollwert, i.d.R. bei Vorwärtsfahrt";"1";0;65535;1;"INC";0;1;0
+1;"GASPOTI_MIN";3;"Kalibrierwert des Gaspedals an X3/9-11für min. Geschwindigkeitssollwert, i.d.R. bei Rückwärtsfahrt";"1";0;65535;1;"INC";0;1;0
+2;"GASPOTI_ZERO";3;"Kalibrierwert des Gaspedals ian X3/9-11 in Ruhestellung";"1";0;65535;1;"INC";0;1;0
+3;"SAUG_NACHLAUF";3;"Nachlaufzeit Saugmotor (BR), Filterreinigungsmotor (KM), angeshlossen an A1-X15/X16";"1";0;50;1;"s";0;1;1
+4;"MAX_R_SITZ";3;"Widerstandssensorwert, unterhalb dem ein Sitz als belegt erkannt wird (A1-X4/3-4)";"1";0;65535;1;"Ohm";0;1;0
+5;"SITZ_TIMEOUT";3;"Verzögerung bis nach Verlassen des Sitzes das Gerät in den Stillstand bremst";"0.001";0;5000;1;"s";0;1;0
+6;"MAX_SROM_SAUG";3;"Strombegrenzung Saugmotor (BR), Filterreinigungsmotor (KM), angeschlossen an A1-X15/X16";"0.1";100;300;1;"A";0;1;1
+7;"R_SAUG";3;"Innenwiderstand Saug/Filterreinigungsmotor, angeschlossen an A1-X15/X16";"1";0;1000;1;"mOhm";0;1;0
+8;"R_BUERST";3;"Innenwiderstand Bürsten/Walzenmotor(en), angeschlossen an A1-X19/X20";"1";0;1000;1;"mOhm";0;1;0
+9;"MAX_STROM_BUERST";3;"Strombegrenzung Bürsten/Walzenmotor(en), angeschlossen an A1-X19/X20";"0.1";100;800;1;"A";0;1;1
+10;"MAX_SPEED_FORW";3;"Max. Vorwärtsgeschwindigkeit Fahrmotor bei 24V, angeschlossen an A1-X17/X18";"163840";0;6;1;"km/h";0;1;1
+11;"MAX_SPEED_BACK";3;"Max. Rückwärtsgeschwindigkeit Fahrmotor bei 24V, angeschlossen an A1-X17/X18";"163840";0;6;1;"km/h";0;1;1
+12;"CREEP_SPEED";3;"Schleichgeschwindigkeit Fahrmotor bei 24V an A1-X17/X18 bei Antasten des Gaspedals";"163840";0;6;1;"km/h";0;1;1
+13;"MAX_SPEED_WORK";3;"Max. Vorwärtsgeschwindigkeit Fahrmotor bei 24V, angeschlossen an A1-X17/X18 beim Reinigen";"163840";0;6;1;"km/h";0;1;1
+14;"RELEASE_BRAKING";3;"Bremsrampe des Fahrantriebs, angeschlossen an A1-X17/X18";"1";10;20;1;"%";0;1;1
+15;"ACCEL_RAMP";3;"Beschleunigungsrampe des Fahrantriebs, angeschlossen an A1-X17/X18";"1";0;20;1;"%";0;1;1
+16;"R_FAHR";3;"Innenwiderstand des Fahrmotors, angeschlossen an A1-X17/X18";"1";0;1000;1;"mOhm";0;1;0
+17;"MAX_STROM_FAHR";3;"Strombegrenzung des Fahrantriebs beim Anfahren, angeschlossen an A1-X17/X18";"0.1";100;800;1;"A";0;1;1
+18;"MAX_STROM_BRAKE";3;"Strombegrenzung des Fahrantriebs beim Bremsen, angeschlossen an A1-X17/X18";"0.1";100;800;1;"A";0;1;1
+19;"TIEFENTLADESCHUTZ";3;"Entladeschlußspannung der Batterie (Alle Lasten bis auf Fahrmotor aus, Anzeige: rot)";"0.01";2100;3000;1;"V";0;1;1
+20;"BAT_1";3;"Schwellspannung Ut zum Wechsel in Kapazitätsfenster 0%..20% (Anzeige: rot blinkend)";"0.01";2100;3000;1;"V";0;1;1
+21;"BAT_2";3;"Schwellspannung Ut zum Wechsel in Kapazitätsfenster 20%..40% (Anzeige: gelb)";"0.01";2100;3000;1;"V";0;1;1
+22;"BAT_3";3;"Schwellspannung Ut zum Wechsel in Kapazitätsfenster 40%..60% (Anzeige: grün)";"0.01";2100;3000;1;"V";0;1;1
+23;"BAT_4";3;"Schwellspannung Ut zum Wechsel in Kapazitätsfenster 60%..80% (Anzeige: grün)";"0.01";2100;3000;1;"V";0;1;1
+24;"BAT_FULL";3;"Rücksetzspannung Kapazitätsanzeige 100%, Freischaltung gesperrter Aggregate";"0.01";2100;3000;1;"V";0;1;1
+25;"DOSIERMENGE";3;"Dosiersollwert für Reinigungschemiepumpe (Option), angeschlossen an A1-X3/3-5";"0.00025";0;12000;1;"%";0;1;1
+26;"LADEZUSTAND";3;"Batterieladezustand (Anzahl der 20%-Fenster = Displaybalkenzahl)";"1";0;5;1;;0;1;0
+27;"SPANN_TIMEOUT";3;"Mindestzeit, bei der die Spannung unterhalb Ut ist, um in ein neues Kapazitätsfenster zu wechseln";"0.007";24;1429;1;"min";0;1;1
+28;"SPANN_TIMER";3;"Verbleibende Sekunden bis zum Wechsel in die nächste Ladephase";"0.04";0;1475;1;"s";0;1;0
+29;"BUERST_NACHLAUF";3;"Nachlaufzeit Bürsten/Walzenmotor, angeschlossen an A1-X19/X20";"1";0;10;1;"s";0;1;1
+30;"SPEED_REFERENZ";3;"Umrechnungsfaktor zur Berechnung der Fahrgeschwindigkeit im Display in km/h";"1";0;65535;1;"INC";0;1;0
+31;"MIN_SPEED_WORK";3;"Min. Vorwärtsgeschwindigkeit bei Vollgas im Reinigungsbetrieb";"163840";0;6;1;"km/h";0;1;1
+32;"UI_SPEED_WORK";3;"Vom Bediener eingestellte Vorwärtsgeschwindigkeit bei Vollgas im Reinigungsbetrieb";"163840";0;6;1;"km/h";0;1;1
+33;"U_FLAGS";3;"16bit-Steuerwort zur Menüführung (entwicklungsbegleitend!)";"1";0;65535;1;"INC";0;1;0
+34;"STANDBYTIME";3;"Zeit bis zur Selbstabschaltung der Maschine";"1";1;60;1;"min";0;1;1
+35;"LANGUAGE";3;"Aktuell eingestellte Displaytextsprache  (119=deutsch,120=englisch bis 136=türkisch)";"1";119;136;1;;0;1;1
+36;"BUERST_A_RAMPE";3;"Beschleunigung Bürsten/Walzenmotor(en), angeschlossen an A1-X19/X20";"1";0;20;1;"%";0;1;1
+37;"SAUG_A_RAMPE";3;"Beschleunigung Turbine/Filterreinigungsmotor, angeschlossen an A1-X15/X16";"1";0;20;1;"%";0;1;1
+38;"MAX_SPEED_BRUSH";3;"Max. Drehzahl Bürsten/Walzenmotor(en), angeschlossen an A1-X19/X20";"1";10;150;1;"% vma";0;1;1
+39;"MAX_SPEEDBRUSH_BD";3;"Max. Drehzahl Diskbürstenmotor(en), angeschlossen an A1-X19/X20";"1";10;150;1;"% vma";0;1;1
+40;"MAX_SPEED_BLOWER";3;"Max. Drehzahl Turbine/Filterreinigungsmotor, angeschlossen an A1-X15/X16";"1";10;150;1;"% vma";0;1;1
+41;"PROTOCOL_DELTA_T";3;"Zeitscheibe zur Speicherung von Protokolldaten (entwicklungsbegleitend!)";"1";1;3600;1;"s";0;1;0
+42;"ERROR_HISTORY_NR0";3;"Fehlerarchiv: Nummer des letzten Fehlerereignisses t-0";"1";0;65535;1;;0;1;1
+43;"ERROR_HISTORY_NR1";3;"Fehlerarchiv: Nummer des Fehlerereignisses t-1";"1";0;65535;1;;0;1;1
+44;"ERROR_HISTORY_NR2";3;"Fehlerarchiv: Nummer des Fehlerereignisses t-2";"1";0;65535;1;;0;1;1
+45;"ERROR_HISTORY_NR3";3;"Fehlerarchiv: Nummer des Fehlerereignisses t-3";"1";0;65535;1;;0;1;1
+46;"ERROR_HISTORY_OP0_L";3;"Fehlerarchiv: Betriebsminuten  des Fehlerereignisses t-0";"0.004";0;14750;1;"min";0;1;1
+47;"ERROR_HISTORY_OP0_H";3;"Fehlerarchiv: Betriebsstunden des Fehlerereignisses t-0";"1";0;65535;1;"h";0;1;1
+48;"ERROR_HISTORY_OP1_L";3;"Fehlerarchiv: Betriebsminuten des Fehlerereignisses t-1";"0.004";0;14750;1;"min";0;1;1
+49;"ERROR_HISTORY_OP1_H";3;"Fehlerarchiv: Betriebsstunden des Fehlerereignisses t-1";"1";0;65535;1;"h";0;1;1
+50;"ERROR_HISTORY_OP2_L";3;"Fehlerarchiv: Betriebsminuten des Fehlerereignisses t-2";"0.004";0;14750;1;"min";0;1;1
+51;"ERROR_HISTORY_OP2_H";3;"Fehlerarchiv: Betriebsstunden des Fehlerereignisses t-2";"1";0;65535;1;"h";0;1;1
+52;"ERROR_HISTORY_OP3_L";3;"Fehlerarchiv: Betriebsminuten des Fehlerereignisses t-3";"0.004";0;14750;1;"min";0;1;1
+53;"ERROR_HISTORY_OP3_H";3;"Fehlerarchiv: Betriebsstunden des Fehlerereignisses t-3";"1";0;65535;1;"h";0;1;1
+54;"FUELL_20";3;"Messwert eines Analogsensors an X4/10, dem ein Füllstand von 20% zugeordnet ist";"1";0;65535;1;"INC";0;1;0
+55;"FUELL_40";3;"Messwert eines Analogsensors an X4/10, dem ein Füllstand von 40% zugeordnet ist";"1";0;65535;1;"INC";0;1;0
+56;"FUELL_60";3;"Messwert eines Analogsensors an X4/10, dem ein Füllstand von 60% zugeordnet ist";"1";0;65535;1;"INC";0;1;0
+57;"FUELL_80";3;"Messwert eines Analogsensors an X4/10, dem ein Füllstand von 80% zugeordnet ist";"1";0;65535;1;"INC";0;1;0
+58;"FUELL_100";3;"Messwert eines Analogsensors an X4/10, dem ein Füllstand von 100% zugeordnet ist";"1";0;65535;1;"INC";0;1;0
+59;"BRUSH_OVERLOAD_TIME";3;"Max. Dauer der Bürsten/Walzenmotorüberlast an A1-X19/X20";"0.005";0;12000;1;"s";0;1;1
+60;"SAUG_OVERLOAD_TIME";3;"Max. Dauer der Turbinen/Filterreinigungsmotorüberlast an A1-X15/X16";"0.005";0;12000;1;"s";0;1;1
+61;"FAHR_KI_KP";3;"Summe I- und P-Anteil für Geschwindigkeitsregler Fahrantrieb an A1-X17/X18";"1";0;65535;1;"INC";0;1;0
+62;"FAHR_KP";3;"P-Anteil für Geschwindigkeitsregler Fahrantrieb an A1-X17/X18";"1";0;65535;1;"INC";0;1;0
+63;"BUERST_KI_KP";3;"Summe I- und P-Anteil für Geschwindigkeitsregler Bürstenmotoren an A1-X19/X20";"1";0;65535;1;"INC";0;1;0
+64;"BUERST_KP";3;"P-Anteil für Geschwindigkeitsregler Bürstenmotoren an A1-X19/X20";"1";0;65535;1;"INC";0;1;0
+65;"BAT_KAPAZITAET";3;"5-stündige Batterienennkapazität (wird derzeit nicht ausgewertet)";"1";10;255;1;"Ah";0;1;0
+66;"VALVE_NACHLAUF";3;"Verzögerungszeit für Pneumatikventile Besenanhebung bei KM, angeschlossen an X2/6-7";"1";0;10;1;"s";0;1;0
+67;"FAHR_OVERLOAD_TIME";3;"Max. Dauer der Fahrmotorüberlast an A1-X17/X18";"0.005";0;18000;1;"s";0;1;1
+68;"U_DOD_MIN";3;"Entladeschlußspannung der Batterie, bei der Fahrmotor abgeschaltet wird";"0.01";1800;3000;1;"V";0;1;1
+69;"WHISPER_SPEED_BRUSH";3;"Drehzahl der Bürste/Walze an A1-X19/X20 im Flüsterbetrieb";"1";10;150;1;"% vma";0;1;1
+70;"FINE_SPEED_BRUSH";3;"Drehzahl der Bürste/Walze an A1-X19/X20 zur Reinigung von Feinoberflächen";"1";10;150;1;"% vma";0;1;1
+71;"LOW_NOISE_SPEED_BLOWER";3;"Drehzahl der Saugturbine an A1-X15/X16 im Flüsterbetrieb";"1";10;150;1;"% vma";0;1;1
+72;"GELB_ABGLEICH";4;"Anpassung des Gelbtons der Batterie-LED von rötlich (negativ) bis grünlich (positiv)";"1";240;16;1;;0;1;1
+73;"BRUSH_SPEED_FILTER_CLEAN";3;"Walzendrehzahl während Filterreinigung bezogen auf 24V (nur KM!)";"1";10;150;1;"% vma";0;1;0
+74;"ARBEITSBREITE";3;"Arbeitsbreite des Bodenreinigers für Modellanzeige im Display";"1";30;150;1;"cm";0;1;1
+75;"RUETTELAUTOM_TRP";3;"Filterreinigungspause (nur KM!)  (0= Filterreinigungsautomatik ist abgeschaltet)";"0.017";0;3471;1;"min";0;1;1

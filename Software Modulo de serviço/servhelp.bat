@@ -1,0 +1,1 @@
+@%windir%\winhlp32.exe \Kaercher\BR_KM_Service\Hilfe\language\englisch\servicehelp.hlp

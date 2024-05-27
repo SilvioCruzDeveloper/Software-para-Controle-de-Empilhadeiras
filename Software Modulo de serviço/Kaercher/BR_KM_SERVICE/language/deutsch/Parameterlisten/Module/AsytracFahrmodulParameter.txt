@@ -1,0 +1,265 @@
+0;"MAX_SPEED_FWD";1;"Max. Vorwärtsgeschw. Fahrantrieb, angeschlossen an A2.1-U1/V1/W1 (Maxwert abhängig von MOTOR_CONST!)";"0.1";10;80;1;"km/h";;1;1
+1;"MAX_SPEED_REV";1;"Max. Rückwärtsgeschw. Fahrantrieb, angeschlossen an A2.1-U1/V1/W1 (Maxwert abhängig von MOTORCONST!)";"0.1";10;60;1;"km/h";;1;1
+2;"FCREEP";1;"Schleichgeschw. Fahrantriebs an A2.1-U1/V1/W1 (Maxwert abhängig von MOTOR-CONST!)";"0.1";3;20;1;"km/h";;1;1
+3;"ACCEL0";1;"Beschleunigungsrampe des Fahrantriebs, angeschlossen an A2.1-U1/V1/W1";"0.1";3;100;1;"INC";;1;1
+4;"ACCEL0_INV";1;"Beschleunigunsgrampe bei Richtungswechsel des Fahrantriebs, angeschlossen an A2.1-U1/V1/W1";"0.1";3;100;1;"INC";;1;1
+5;"INV_BRAKING";1;"Bremsrampe bei Richtungswechsel des Fahrantriebs, angeschlossen an A2.1-U1/V1/W1";"0.1";3;100;1;"INC";;1;1
+6;"DEC_BRAKING";1;"Bremsrampe des Fahrantriebs bei Verringerung des Gaspedalsollwerts";"0.1";3;100;1;"INC";;1;1
+7;"CB_BRAKING";0;"Bremsrampe des Fahrantriebs bei Verringerung des Gaspedalsollwerts während der Reinigung";"0.1";3;100;1;"INC";;1;0
+8;"REL_BRAKING";1;"Bremsrampe des Fahrantriebs beim Loslassen des Gaspedals";"0.1";3;50;1;"INC";;1;1
+9;"TREL_BRAKING";1;"Bremsrampe des Fahrantriebs bei Öffnen des Sitzkontakts während der Fahrt";"0.1";3;50;1;"INC";;1;0
+10;"SMOOT_BRK";0;"Parabolische Bremsrampe für sanftes Abbremsen in den Stillstand (Hoher Wert = Sanft)";"0.1";10;50;1;"INC";;1;0
+11;"SMOOT_END_BRK";0;"Motorfrequenz bei der lineare Bremsrampe in parabolische Bremsrampe übergeht";"1";3;20;1;"Hz";;1;0
+12;"O_STOP";1;"ON=1 Magnetbremse schließt nach Stillstandszeit; OFF=0 Magnetbremse schließt nach Bremsrampenzeit";"1";0;1;1;"0/1";;1;0
+13;"AUX_TIME";1;"Zeit bevor Magnetbremse schließt, wenn O_STOP = 1";"0.1";0;20;1;"s";;1;0
+14;"DELAY_OPEN_SEAT";1;"Verzögerungszeit bis ein geöffneter Sitzkontakt während der Fahrt erkannt wird";"0.01";0;255;1;"s";;1;0
+15;"TIPOBAT";1;"Batterienennspannung: 0=24V; 1= 36V";"1";0;1;1;"0/1";;1;0
+16;"TIPOPED";1;"Pedaltyp: 0=Richtungsinfo via Bus, 1=Richtungsinfo über Mikroschalter, angeschlossen an A2.1-X4/2,3";"1";0;1;1;"0/1";;1;0
+17;"POT_SUPPLY";1;"Versorgungsspannung am Ausgang A2.1-X5/1 für Gaspedalsensor";"0.1";30;100;1;"V";;1;1
+18;"THROT0";1;"0-Gaspedaleinstellpunkt, unterhalb dem Fahrantrieb stehen bleibt";"1";0;100;1;"%";;1;1
+19;"THROTX";1;"X-Gaspedaleinstellpunkt für progressive/lineare/degressive Charakteristik";"1";0;100;1;"%";;1;1
+20;"THROTY";1;"Y-Gaspedaleinstellpunkt für progressive/lineare/degressive Charakteristik";"1";0;100;1;"%";;1;1
+21;"GAS_ZERO";1;"Kalibrierwert des Gaspedals in Ruhestellung";"1";0;255;1;"INC";;1;0
+22;"GAS_MAX";1;"Kalibrierwert des Gaspedals bei Vorwärtsfahrt mit max. Geschwindigkeit";"1";0;255;1;"INC";;1;0
+23;"GAS_MIN";1;"Kalibrierwert des Gaspedals bei Rückwärtsfahrt mit max. Geschwindigkeit";"1";0;255;1;"INC";;1;0
+24;"I_MAX";1;"Strombegrenzung im Fahr- und Bremsbetrieb für Fahrantrieb, angeschlossen an A2.1-U1/V1/W1";"1.5";14;100;1;"A";;1;1
+25;"MOTOR_CONST";1;"Motorkonstante zur Errechnung der Fahrgeschwindigkeiten";"1";25;50;1;"INC";;0;0
+26;"THMOT_TYPE";1;"Temperatursensortyp zwischen A2.1-X4/7,14; 0 = kein Sensor; 1 = Digitalsensor; 2 = Analogsensor";"1";0;2;1;"0/1/2";;1;0
+27;"VOLT_EB";1;"Auf Batterienennspannung bezogene Anzugsspannung der Magnetbremse an A2.1-X3/1,3 für 2s";"1";33;100;1;"V";;1;0
+28;"PWM_EF_RID";1;"Auf Batterienennspannung bezogene Haltespannung der Magnetbremse an A2.1-X3/1,3";"1";33;100;1;"V";;1;1
+29;"GAS_DE_FORW";1;"Kalibrierwert des Gaspedals zum Auslösezeitpunkt des Pedalmicroschalters bei Vorwärtsfahrt";"1";0;255;1;"INC";;1;0
+30;"GAS_DE_BACK";1;"Kalibrierwert des Gaspedals zum Auslösezeitpunkt des Pedalmicroschalters bei Rückwärtsfahrt";"1";0;255;1;"INC";;1;0
+31;"NOT_USED";0;"HINWEIS: Zellen 27 und 28 werden im Access in % angegeben, Spannung im VISUAL BASIC!!";"1";0;0;1;;;1;0
+32;"CRC";0;;;0;0;0;;0;0;0
+33;"Offset33";1;"Parameter Offset 33";"1";0;255;0;;0;0;0
+34;"Offset34";1;"Parameter Offset 34";"1";0;255;0;;0;0;0
+35;"Offset35";1;"Parameter Offset 35";"1";0;255;0;;0;0;0
+36;"Offset36";1;"Parameter Offset 36";"1";0;255;0;;0;0;0
+37;"Offset37";1;"Parameter Offset 37";"1";0;255;0;;0;0;0
+38;"Offset38";1;"Parameter Offset 38";"1";0;255;0;;0;0;0
+39;"Offset39";1;"Parameter Offset 39";"1";0;255;0;;0;0;0
+40;"Offset40";1;"Parameter Offset 40";"1";0;255;0;;0;0;0
+41;"Offset41";1;"Parameter Offset 41";"1";0;255;0;;0;0;0
+42;"Offset42";1;"Parameter Offset 42";"1";0;255;0;;0;0;0
+43;"Offset43";1;"Parameter Offset 43";"1";0;255;0;;0;0;0
+44;"Offset44";1;"Parameter Offset 44";"1";0;255;0;;0;0;0
+45;"Offset45";1;"Parameter Offset 45";"1";0;255;0;;0;0;0
+46;"Offset46";1;"Parameter Offset 46";"1";0;255;0;;0;0;0
+47;"Offset47";1;"Parameter Offset 47";"1";0;255;0;;0;0;0
+48;"Offset48";1;"Parameter Offset 48";"1";0;255;0;;0;0;0
+49;"Offset49";1;"Parameter Offset 49";"1";0;255;0;;0;0;0
+50;"Offset50";1;"Parameter Offset 50";"1";0;255;0;;0;0;0
+51;"Offset51";1;"Parameter Offset 51";"1";0;255;0;;0;0;0
+52;"Offset52";1;"Parameter Offset 52";"1";0;255;0;;0;0;0
+53;"Offset53";1;"Parameter Offset 53";"1";0;255;0;;0;0;0
+54;"Offset54";1;"Parameter Offset 54";"1";0;255;0;;0;0;0
+55;"Offset55";1;"Parameter Offset 55";"1";0;255;0;;0;0;0
+56;"Offset56";1;"Parameter Offset 56";"1";0;255;0;;0;0;0
+57;"Offset57";1;"Parameter Offset 57";"1";0;255;0;;0;0;0
+58;"Offset58";1;"Parameter Offset 58";"1";0;255;0;;0;0;0
+59;"Offset59";1;"Parameter Offset 59";"1";0;255;0;;0;0;0
+60;"Offset60";1;"Parameter Offset 60";"1";0;255;0;;0;0;0
+61;"Offset61";1;"Parameter Offset 61";"1";0;255;0;;0;0;0
+62;"Offset62";1;"Parameter Offset 62";"1";0;255;0;;0;0;0
+63;"Offset63";1;"Parameter Offset 63";"1";0;255;0;;0;0;0
+64;"Offsetxx";0;"Parameter Offset 64";;0;255;0;;0;0;0
+65;"Offsetxx";0;"Parameter Offset 65";;0;255;0;;0;0;0
+66;"Offsetxx";0;"Parameter Offset 66";;0;255;0;;0;0;0
+67;"Offsetxx";0;"Parameter Offset 67";;0;255;0;;0;0;0
+68;"Offsetxx";0;"Parameter Offset 68";;0;255;0;;0;0;0
+69;"Offsetxx";0;"Parameter Offset 69";;0;255;0;;0;0;0
+70;"Offsetxx";0;"Parameter Offset 70";;0;255;0;;0;0;0
+71;"Offsetxx";0;"Parameter Offset 71";;0;255;0;;0;0;0
+72;"Offsetxx";0;"Parameter Offset 72";;0;255;0;;0;0;0
+73;"Offsetxx";0;"Parameter Offset 73";;0;255;0;;0;0;0
+74;"Offsetxx";0;"Parameter Offset 74";;0;255;0;;0;0;0
+75;"Offsetxx";0;"Parameter Offset 75";;0;255;0;;0;0;0
+76;"Offsetxx";0;"Parameter Offset 76";;0;255;0;;0;0;0
+77;"Offsetxx";0;"Parameter Offset 77";;0;255;0;;0;0;0
+78;"Offsetxx";0;"Parameter Offset 78";;0;255;0;;0;0;0
+79;"Offsetxx";0;"Parameter Offset 79";;0;255;0;;0;0;0
+80;"Offsetxx";0;"Parameter Offset 80";;0;255;0;;0;0;0
+81;"Offsetxx";0;"Parameter Offset 81";;0;255;0;;0;0;0
+82;"Offsetxx";0;"Parameter Offset 82";;0;255;0;;0;0;0
+83;"Offsetxx";0;"Parameter Offset 83";;0;255;0;;0;0;0
+84;"Offsetxx";0;"Parameter Offset 84";;0;255;0;;0;0;0
+85;"Offsetxx";0;"Parameter Offset 85";;0;255;0;;0;0;0
+86;"Offsetxx";0;"Parameter Offset 86";;0;255;0;;0;0;0
+87;"Offsetxx";0;"Parameter Offset 87";;0;255;0;;0;0;0
+88;"Offsetxx";0;"Parameter Offset 88";;0;255;0;;0;0;0
+89;"Offsetxx";0;"Parameter Offset 89";;0;255;0;;0;0;0
+90;"Offsetxx";0;"Parameter Offset 90";;0;255;0;;0;0;0
+91;"Offsetxx";0;"Parameter Offset 91";;0;255;0;;0;0;0
+92;"Offsetxx";0;"Parameter Offset 92";;0;255;0;;0;0;0
+93;"Offsetxx";0;"Parameter Offset 93";;0;255;0;;0;0;0
+94;"Offsetxx";0;"Parameter Offset 94";;0;0;0;;0;0;0
+95;"Offsetxx";0;"Parameter Offset 95";;0;0;0;;0;0;0
+96;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+97;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+98;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+99;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+100;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+101;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+102;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+103;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+104;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+105;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+106;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+107;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+108;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+109;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+110;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+111;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+112;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+113;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+114;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+115;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+116;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+117;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+118;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+119;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+120;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+121;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+122;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+123;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+124;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+125;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+126;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+127;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+128;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+129;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+130;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+131;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+132;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+133;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+134;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+135;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+136;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+137;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+138;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+139;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+140;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+141;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+142;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+143;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+144;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+145;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+146;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+147;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+148;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+149;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+150;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+151;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+152;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+153;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+154;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+155;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+156;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+157;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+158;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+159;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+160;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+161;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+162;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+163;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+164;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+165;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+166;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+167;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+168;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+169;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+170;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+171;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+172;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+173;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+174;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+175;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+176;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+177;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+178;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+179;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+180;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+181;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+182;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+183;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+184;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+185;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+186;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+187;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+188;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+189;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+190;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+191;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+192;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+193;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+194;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+195;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+196;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+197;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+198;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+199;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+200;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+201;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+202;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+203;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+204;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+205;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+206;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+207;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+208;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+209;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+210;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+211;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+212;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+213;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+214;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+215;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+216;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+217;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+218;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+219;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+220;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+221;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+222;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+223;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+224;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+225;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+226;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+227;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+228;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+229;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+230;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+231;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+232;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+233;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+234;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+235;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+236;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+237;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+238;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+239;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+240;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+241;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+242;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+243;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+244;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+245;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+246;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+247;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+248;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+249;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+250;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+251;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+252;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+253;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+254;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+255;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+256;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+257;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+258;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+259;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+260;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+261;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+262;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+263;"Offsetxx";0;"Parameter Offset xx";;0;0;0;;0;0;0
+999;"21.0001.00";1;"Version KSIP: Liste Modul-ID .Version KSIP-Liste .Reserve  (Hexdarstellung , Offset 999 geswitcht)";;0;0;0;;0;0;0

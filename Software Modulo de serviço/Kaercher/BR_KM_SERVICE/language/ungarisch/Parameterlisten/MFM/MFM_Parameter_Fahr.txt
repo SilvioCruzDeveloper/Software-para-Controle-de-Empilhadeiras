@@ -1,0 +1,140 @@
+0;"ACCELRAMP";1;"maximale Beschleunigungsrampe";"1";0;10;2;;0;0;1
+1;"RELEASE_BRAKING";1;"maximale Bremsrampe";"1";0;10;2;;0;0;1
+2;"MAXSPEED_FORW";1;"maximale Vorwärtsfahrgeschwindigkeit";"1";0;255;2;"km/h";0;0;1
+3;"MAXSPEED_BACKW";1;"maximale Rückwärtsfahrgeschwindigkeit";"1";0;255;2;"km/h";0;0;1
+4;"RESERVE_04";1;;"1";0;255;2;;0;0;1
+5;"CREEP_SPEED";1;"Schleichgeschwindigkeit";"1";0;255;2;"km/h";0;0;1
+6;"MAX_CURRENT";1;"max. Beschleunigungsstrom";"1";0;255;2;"A";0;0;1
+7;"MIN_CURRENT";1;"max. Bremsstrom";"1";0;255;2;"A";0;0;1
+8;"CURENT_PROT";1;"Permitted current based on a sliding average";"1";0;255;2;"A";0;0;0
+9;"RESERVE_09";0;;"1";0;255;2;;0;0;0
+10;"SEAT_DELAY";1;"Zeit bis Motor bei unbetätigten Sitzschalter stoppt";"0.1";0;15;2;"s";0;0;1
+11;"MOTOR_RESISTANCE";1;"Fahrmotor Innenwiderstand";"1";0;255;2;"mR";0;0;1
+12;"MOTOR_U_KONST";1;"Motorkonstante";"1";0;255;2;;0;0;1
+13;"RESERVE_13";0;;"1";0;255;2;;0;0;0
+14;"RESERVE_14";0;;"1";0;255;2;;0;0;0
+15;"RESERVE_15";0;;"1";0;255;2;;0;0;0
+16;"THROTTLE_MAX_FWD";1;"Gaspotiwert für Pedal vorwärts durchgetreten";"1";0;255;2;"INC";0;0;0
+17;"THROTTLE_SW_FWD";1;"Schaltpunkt Fahrgeberschalter bei Betätigen Gaspedal vorwärts";"1";0;255;2;"INC";0;0;0
+18;"THROTTLE_MAX_BWD";1;"Gaspotiwert für Pedal rückwärts durchgetreteng";"1";0;255;2;"INC";0;0;0
+19;"THROTTLE_SW_BWD";1;"Schaltpunkt Fahrgeberschalter bei Betätigen Gaspedal rückwärts";"1";0;255;2;"INC";0;0;0
+20;"RESERVE_20";0;;"1";0;255;2;;0;0;0
+21;"RESERVE_21";0;;"1";0;255;2;;0;0;0
+22;"RESERVE_22";0;;"1";0;255;2;;0;0;0
+23;"CONTROLLER_STEEPNESS";0;"reserviert für Zukunft";"1";0;255;2;;0;0;0
+24;"THROTTLE_TYPE";0;"reserviert für Zukunft";"1";0;255;2;;0;0;0
+25;"MAX_R_SITZ";1;"max. Widerstandswert bei dem Sitzschalter als geschlossen detektiert wird";"1";0;255;2;;0;0;0
+26;"RESERVE_26";0;;"0";0;255;2;;0;0;0
+27;"RESERVE_27";0;;"0";0;255;2;;0;0;0
+28;"RESERVE_28";0;;"0";0;255;2;;0;0;0
+29;"RESERVE_29";0;;"0";0;255;2;;0;0;0
+30;"RESERVE_30";0;;"0";0;255;2;;0;0;0
+31;"RESERVE_31";0;;"0";0;255;2;;0;0;0
+32;"CRC";1;"CRC Prüfsumme";"1";0;255;3;;0;0;0
+33;"RESERVED";0;;"0";0;255;3;;0;0;0
+34;"RESERVED";0;;"0";0;255;3;;0;0;0
+35;"RESERVED";0;;"0";0;255;3;;0;0;0
+36;"MIN_COUNTER_SEC";0;"Betriebssekunden der Last A2-1/X10 (KM: Generator / AnlassermotorM1)";"1";0;255;1;;0;0;1
+37;"MIN_COUNTER_MIN";1;"Betriebsminuten der Last A2-1/X10 (KM: Generator / AnlassermotorM1)";"1";0;255;1;;0;0;1
+38;"MIN_COUNTER_STD";3;"Betriebsstunden der Last A2-1/X10 (KM: Generator / AnlassermotorM1)";"1";0;65535;1;;0;0;1
+39;;0;;"1";0;255;1;;0;0;0
+40;"RESERVED";0;;"1";0;255;3;;0;0;0
+41;"RESERVED";0;;"1";0;255;3;;0;0;0
+42;"RESERVED";0;;"1";0;255;3;;0;0;0
+43;"RESERVED";0;;"1";0;255;3;;0;0;0
+44;"RESERVED";0;;"1";0;255;3;;0;0;0
+45;"RESERVED";0;;"1";0;255;3;;0;0;0
+46;"RESERVED";0;;"1";0;255;3;;0;0;0
+47;"RESERVED";0;;"1";0;255;3;;0;0;0
+48;"RESERVED";0;;"1";0;255;3;;0;0;0
+49;"RESERVED";0;;"1";0;255;3;;0;0;0
+50;"RESERVED";0;;"1";0;255;3;;0;0;0
+51;"RESERVED";0;;"1";0;255;3;;0;0;0
+52;"RESERVED";0;;"1";0;255;3;;0;0;0
+53;"RESERVED";0;;"1";0;255;3;;0;0;0
+54;"RESERVED";0;;"1";0;255;3;;0;0;0
+55;"RESERVED";0;;"1";0;255;3;;0;0;0
+56;"RESERVED";0;;"1";0;255;3;;0;0;0
+57;"RESERVED";0;;"1";0;255;3;;0;0;0
+58;"RESERVED";0;;"1";0;255;3;;0;0;0
+59;"RESERVED";0;;"1";0;255;3;;0;0;0
+60;"RESERVED";0;;"1";0;255;3;;0;0;0
+61;"RESERVED";0;;"1";0;255;3;;0;0;0
+62;"RESERVED";0;;"1";0;255;3;;0;0;0
+63;"RESERVED";0;;"1";0;255;3;;0;0;0
+64;"RESERVED";0;;"1";0;255;3;;0;0;0
+65;"RESERVED";0;;"1";0;255;3;;0;0;0
+66;"RESERVED";0;;"1";0;255;3;;0;0;0
+67;"RESERVED";0;;"1";0;255;3;;0;0;0
+68;"RESERVED";0;;"1";0;255;3;;0;0;0
+69;"RESERVED";0;;"1";0;255;3;;0;0;0
+70;"RESERVED";0;;"1";0;255;3;;0;0;0
+71;"RESERVED";0;;"1";0;255;3;;0;0;0
+72;"RESERVED";0;;"1";0;255;3;;0;0;0
+73;"RESERVED";0;;"1";0;255;3;;0;0;0
+74;"RESERVED";0;;"1";0;255;3;;0;0;0
+75;"RESERVED";0;;"1";0;255;3;;0;0;0
+76;"RESERVED";0;;"1";0;255;3;;0;0;0
+77;"RESERVED";0;;"1";0;255;3;;0;0;0
+78;"RESERVED";0;;"1";0;255;3;;0;0;0
+79;"RESERVED";0;;"1";0;255;3;;0;0;0
+80;"RESERVED";0;;"1";0;255;3;;0;0;0
+81;"RESERVED";0;;"1";0;255;3;;0;0;0
+82;"RESERVED";0;;"1";0;255;3;;0;0;0
+83;"RESERVED";0;;"1";0;255;3;;0;0;0
+84;"RESERVED";0;;"1";0;255;3;;0;0;0
+85;"RESERVED";0;;"1";0;255;3;;0;0;0
+86;"RESERVED";0;;"1";0;255;3;;0;0;0
+87;"RESERVED";0;;"1";0;255;3;;0;0;0
+88;"RESERVED";0;;"1";0;255;3;;0;0;0
+89;"RESERVED";0;;"1";0;255;3;;0;0;0
+90;"RESERVED";0;;"1";0;255;3;;0;0;0
+91;"RESERVED";0;;"1";0;255;3;;0;0;0
+92;"RESERVED";0;;"1";0;255;3;;0;0;0
+93;"RESERVED";0;;"1";0;255;3;;0;0;0
+94;"RESERVED";0;;"1";0;255;3;;0;0;0
+95;"RESERVED";0;;"1";0;255;3;;0;0;0
+96;"RESERVED";0;;"1";0;255;3;;0;0;0
+97;"RESERVED";0;;"1";0;255;3;;0;0;0
+98;"RESERVED";0;;"1";0;255;3;;0;0;0
+99;"RESERVED";0;;"1";0;255;3;;0;0;0
+100;"I_DRIVE";4;"Fahrmotor-Strom";"1";-200;200;3;"A";0;0;0
+101;;0;;"1";0;255;3;;0;0;0
+102;"RESERVE_102";4;;"1";0;65535;3;;0;0;0
+103;;0;;"1";0;255;3;;0;0;0
+104;"I_BAT_CURRENT";4;"Starterbatteriestrom >0: Laden; <0: Entladen";"1";-300;30;3;"A";0;0;0
+105;;0;;"1";0;255;3;;0;0;0
+106;"U_DRIVE";4;"Spannung Fahrmotor";"0.01";-50;50;3;"V";0;0;0
+107;;0;;"1";0;255;3;;0;0;0
+108;"U_BATT";3;"Batteriespannung";"0.01";0;2550;3;"V";0;0;0
+109;;0;;"1";0;255;3;;0;0;0
+110;"RESERVED";0;"RESERVED";"1";0;100;3;;0;0;0
+111;;0;;"1";0;255;3;;0;0;0
+112;"SPEED";4;"Fahrgeschwindigkeit";"1";0;5000;3;"km/h";0;0;0
+113;;0;;"1";0;255;3;;0;0;0
+114;"RESERVED_114";0;;"1";0;255;3;;0;0;0
+115;"RESERVED_115";0;;"1";0;255;3;;0;0;0
+116;"POWER_UNIT_TEMP";2;"PCB Temperatur";"1";-20;127;3;"°C";0;0;0
+117;"RESERVED";0;;"1";0;255;3;;0;0;0
+118;"U_LOGIC";4;"Busspannung";"0.01";1;50;3;"V";0;0;0
+119;;0;;"1";0;255;3;;0;0;0
+120;"U_HFET";4;"Hilfsspannung für H-FETs";"0.01";0;50;3;"V";0;0;0
+121;;0;;"1";0;255;3;;0;0;0
+122;"THROTTLE_VALUE";1;"aktuelle Gaspotiwert";"1";0;255;3;;0;0;0
+123;"THROTTLE_SW_FWD";1;"Schaltpunkt Fahrgeberschalter bei Betätigen Gaspedal vorwärts für Kalibrierung";"1";0;255;3;;0;0;0
+124;"THROTTLE_SW_BWD";1;"Schaltpunkt Fahrgeberschalter bei Betätigen Gaspedal rückwärts für Kalibrierung";"1";0;255;3;;0;0;0
+125;"RESERVED";0;;"1";0;255;3;;0;0;0
+126;"RESERVED";0;;"1";0;255;3;;0;0;0
+127;"RESERVED";0;;"1";0;255;3;;0;0;0
+128;"RESERVED";0;;"1";0;255;3;;0;0;0
+129;"RESERVED";0;;"1";0;255;3;;0;0;0
+130;"RESERVED";0;;"1";0;255;3;;0;0;0
+131;"RESERVED";0;;"1";0;255;3;;0;0;0
+132;"RESERVED";0;;"1";0;255;3;;0;0;0
+133;"RESERVED";0;;"1";0;255;3;;0;0;0
+134;"RESERVED";0;;"1";0;255;3;;0;0;0
+135;"RESERVED";0;;"1";0;255;3;;0;0;0
+136;"RESERVED";0;;"1";0;255;3;;0;0;0
+137;"RESERVED";0;;"1";0;255;3;;0;0;0
+138;"RESERVED";0;;"1";0;255;3;;0;0;0
+139;"RESERVED";0;;"1";0;255;3;;0;0;0

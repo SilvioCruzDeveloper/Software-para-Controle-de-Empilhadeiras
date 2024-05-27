@@ -1,0 +1,86 @@
+0;"ACCELRAMP_BRUSH";1;"Acceleration ramp of brush motor connected to A1-X9";"1";0;9;1;"%";0;1;1
+1;"MAXSPEED_BRUSH";1;"Max. speed of brush motor connected to A1-X9";"1";10;100;1;"% vmax";0;1;1
+2;"CURRENTCTRL_BRUSH";1;"Current limitation on A1-X9 during operation";"1";10;60;1;"A";0;1;1
+3;"ACCELRAMP_SAUG";1;"Acceleration ramp of vacuum motor connected to A1-X13/X15";"1";0;9;1;"%";0;1;0
+4;"MAXSPEED_SAUG";1;"Max. speed of vacuum motor connected to A1-X13/X15";"1";10;100;1;"% vmax";0;1;1
+5;"CURRENTCTRL_SAUG";1;"Current limitation on A1-X13/X15 during operation";"1";10;30;1;"A";0;1;1
+6;"ACCELRAMP_FAHR";1;"Acceleration ramp of optional traction motor connected to A1-X8/X14";"1";0;20;1;"%";0;1;1
+7;"MAXSPEED_FAHR";1;"Max. speed of optional traction motor connected to A1-X8/X14";"1";10;100;1;"% vmax";0;1;1
+8;"MAXSPEED_FAHR_REIN";1;"Max. cleaning speed of optional traction motor connected to A1-X8/X14";"1";10;100;1;"% vmax";0;1;1
+9;"CURRENTCTRL_FAHR";1;"Current limitation on A1-X8/X14 during operation";"1";5;15;1;"A";0;1;1
+10;"MOTORWIDERSTAND_BRUSH";1;"Resistance of brush motor connected to A1-X9";"0.01";0;255;2;"Ohm";0;1;0
+11;"MOTORWIDERSTAND_SAUG";1;"Resistance of vacuum motor connected to A1-X13/X15";"0.01";0;255;2;"Ohm";0;1;0
+12;"MOTORWIDERSTAND_FAHR";1;"Resistance of optional traction motor connected to A1-X8/X14";"0.01";0;255;2;"Ohm";0;1;0
+13;"OVERLOAD_TIME_BR";1;"Max. duration of overload condition on A1-X9 before turning off load";"1";3;15;2;"s";0;1;1
+14;"OVERLOAD_TIME_BL";1;"Max. duration of overload condition on  A1-X13/X15 before turning off load";"1";3;15;2;"s";0;1;1
+15;"OVERLOAD_TIME_FA";1;"Max. duration of overload condition on  A1-X8/X14 before turning off load";"1";3;30;2;"s";0;1;1
+16;"SAUG_NACHLAUF";1;"Lag time of vacuum motor connected to A1-X8/X14";"1";0;50;2;"s";0;1;1
+17;"TIEFENTLADESCHUTZ";1;"Depth of discharge voltage (All loads are switched off, Battery-LED: red)";"0.1";110;200;2;"V";-100;1;1
+18;"BAT_1";1;"Ubatt < Ut20%40% sets battery capacity to 0%..20% (Battery-LED: red flashing)";"0.1";110;200;2;"V";-100;1;0
+19;"BAT_2";1;"Ubatt < Ut40%60% sets battery capacity to 20%..40% (Battery-LED: yellow)";"0.1";110;200;2;"V";-100;1;0
+20;"BAT_3";1;"Ubatt < Ut60%80% sets battery capacity to 40%..60% (Battery-LED: green)";"0.1";110;200;2;"V";-100;1;0
+21;"BAT_4";1;"Ubatt < Ut80%100% sets battery capacity to 60%..80% (Battery-LED: green)";"0.1";110;200;2;"V";-100;1;0
+22;"BAT_FULL";1;"Minimum voltage to reset battery capacity to 100% (all loads can be switched on)";"0.1";110;200;2;"V";-100;1;1
+23;"SPANN_TIMEOUT";1;"Minimum time Ubatt must remain below Utx to set battery capacity to corresponding window";"0.42";1;3;2;"min";0;1;1
+24;"BAT_KAPAZITAET";1;"Nominal battery capacity in terms of C5 (5h discharge current) - CURRENTLY NOT USED";"1";10;255;2;"Ah";0;1;0
+25;"LADESTROM";1;"Constant current during bulk charging phase (I-phase)";"0.125";0;128;2;"A";0;1;0
+26;"U_LADESCHLUSS";1;"Constant voltage during absorption charging phase (U-phase)";"0.1";80;200;2;"V";-100;1;0
+27;"UMAX_IA_PHASE";1;"Permissible gasing voltage during finish charging phase (Ia-phase)";"0.1";80;255;2;"V";-100;1;0
+28;"IA_STROM";1;"Charging current during finish charging phase (Ia-phase)";"0.125";0;128;2;"A";0;1;0
+29;"MAX_HL_DAUER";1;"Maximum duration of bulk and absorption charging phases (I+U-phase)";"0.056";0;250;2;"h";0;1;0
+30;"MIN_NL_DAUER";1;"Minimum duration of finish charging phase (Ia-phase)";"0.056";0;250;2;"h";0;1;0
+31;"MAX_NL_DAUER";1;"Maximum duration of finish charging phase (Ia-phase)";"0.056";0;250;2;"h";0;1;0
+32;"MAX_STROM_E_PHASE";1;"Permissible trickle charge current in charge maintaining phase";"0.125";0;128;2;"A";0;1;0
+33;"MAXSPEED_BRUSH_DI";1;"Max. speed of brush motor connected to A1-X9 if a disc brush is used";"1";75;100;1;"% vmax";0;1;1
+34;"U_ERHALT";1;"Constant voltage during charge maintaining phase";"0.1";100;200;2;"V";-100;1;0
+35;"ZL_WIDERSTAND";1;"Compensation of wiring resistance between charger and battery";"1";0;255;2;"mOhm";0;1;0
+36;"STANDBYTIME";1;"Standby timer to switch off machine if no load is active";"0.42";0;255;2;"min";0;1;1
+37;;0;;"0";0;0;0;;0;0;0
+38;"GELB_ABGLEICH";2;"Adapting saturation and color of YELLOW battery-LED (+ = more green, - = more red)";"1";240;16;2;;0;1;1
+39;"MAXSPEED_BRUSH_WHI";1;"Max. speed of brush motor connected to A1-X9 in WHISPER mode";"1";10;85;2;"% vmax";0;1;1
+40;"MAXSPEED_SAUG_WHI";1;"Max. speed of vacuum motor connected to A1-X13/X15 in WHISPER mode";"1";10;85;2;"% vmax";0;0;1
+41;"U_DOD_min";1;"Minimum depth of discharge voltage to shut off traction motor";"0.1";80;200;2;"V";-100;0;0
+42;"CRC";1;"Checksum (CRC) of parameters 0..41";"1";0;254;3;"INC";0;0;0
+43;"TEMP";2;"Current temperature of motor controller board";"1";236;100;2;"°C";0;0;0
+44;"OP_TIME_BRUSH_SEC";0;"Operating seconds of brush motor connected to A1-X9";"1";0;59;2;"s";0;0;1
+45;"OP_TIME_BRUSH_MIN";1;"Operating minutes of brush motor connected to A1-X9";"1";0;59;2;"min";0;0;1
+46;"OP_TIME_BRUSH_HOUR";3;"Operating hours of brush motor connected to A1-X9";"1";0;65535;2;"h";0;0;1
+47;;0;;;0;0;0;;0;0;0
+48;"OP_TIME_SAUG_SEC";0;"Operating seconds of vacuum motor connected to A1-X13/X15";"1";0;59;2;"s";0;0;1
+49;"OP_TIME_SAUG_MIN";1;"Operating minutes of vacuum motor connected to A1-X13/X15";"1";0;59;2;"min";0;0;1
+50;"OP_TIME_SAUG_HOUR";3;"Operating hours of vacuum motor connected to A1-X13/X15";"1";0;65535;2;"h";0;0;1
+51;;0;;;0;0;0;;0;0;0
+52;"LADEZUSTAND";1;"Charging state of battery";"20";0;5;3;"%";0;0;0
+53;"SPANN_TIMER";1;"Time remaining until new charging phase will be set";"1";0;255;3;"s";0;0;0
+54;"ERROR_CNT_BRUSH_OVR";1;"Number of overloads of brush motor connected to A1-X9";"1";0;255;2;;0;0;1
+55;"ERROR_CNT_SAUG_OVER";1;"Number of overloads of vacuum motor connected to A1-X13/X15";"1";0;255;2;;0;0;1
+56;"ERROR_CNT_FAHR_OVER";1;"Number of overloads of optional traction motor connected to A1-X8/X14";"1";0;255;2;;0;0;1
+57;"CHARGER_PHASE";1;"Id-code of current charging phase";"1";0;7;3;;0;0;0
+58;"BRUSH_OVER_TIME_SEC";0;"Operating seconds last overload of brush motor connected to A1-X9 occurred";"1";0;59;2;"s";0;0;1
+59;"BRUSH_OVER_TIME_MIN";1;"Operating minutes last overload of brush motor connected to A1-X9 occurred";"1";0;59;2;"min";0;0;1
+60;"BRUSH_OVER_TIME_HOUR";3;"Operating hours last overload of brush motor connected to A1-X9 occurred";"1";0;65535;2;"h";0;0;1
+61;;0;;;0;0;0;;0;0;0
+62;"AKKU_BILANZ_L";0;"Internal prescaler for calculated capacity (NOT OF INTEREST)";"1";0;65535;2;"INC";0;0;0
+63;;0;;;0;0;0;;0;0;0
+64;"AKKU_BILANZ_H_L";1;"Calculated battery capacity (1/256 Ah-increments)";"1";0;255;2;"Ah/256";0;0;0
+65;"AKKU_BILANZ_H_H";1;"Calculated battery capacity (Ah-increments)";"1";0;255;2;"Ah";0;0;0
+66;"FAHR_OVER_TIME_SEC";0;"Operating seconds last overload of optional traction motor connected to A1-X8/X14 occurred";"1";0;59;2;"s";0;0;1
+67;"FAHR_OVER_TIME_MIN";1;"Operating minutes last overload of optional traction motor connected to A1-X8/X14 occurred";"1";0;59;2;"min";0;0;1
+68;"FAHR_OVER_TIME_HOUR";3;"Operating hours last overload of optional traction motor connected to A1-X8/X14 occurred";"1";0;65535;2;"h";0;0;1
+69;;0;;;0;0;0;;0;0;0
+70;"CHARGE_TIMER";3;"Cummulated time in current charging phase";"0.007";0;14286;3;"h";0;0;0
+71;;0;;;0;0;0;;0;0;0
+72;"CHARGE_HL_TIMER";3;"Duration of (last) bulk and absorption phase (I+U-phase)";"0.007";0;14286;3;"h";0;0;0
+73;;0;;;0;0;0;;0;0;0
+74;"ERROR_CNT_HL";3;"Cummulated errors ""Max. time of U+I-phase exceeded""";"1";0;65535;2;;0;0;1
+75;;0;;;0;0;0;;0;0;0
+76;"ERROR_CNT_REFRESH";3;"Cummulated errors ""Max. time of refresh phase exceeded""";"1";0;65535;2;;0;0;1
+77;;0;;;0;0;0;;0;0;0
+78;"ERROR_CNT_U_GAS";3;"Cummulated errors ""Max. gasing voltage during Ia-phase exceeded""";"1";0;65535;2;;0;0;1
+79;;0;;;0;0;0;;0;0;0
+80;"ERROR_CNT_UMAINTAIN";3;"Cummulated errors ""Max. trickle current exceeded""";"1";0;65535;2;;0;0;1
+81;;0;;;0;0;0;;0;0;0
+82;"OP_TIME_ALL_SEC";0;"Operating seconds of machine (counting starts if one load is switched on)";"1";0;59;2;"s";0;0;1
+83;"OP_TIME_ALL_MIN";1;"Operating minutes of machine (counting starts if one load is switched on)";"1";0;59;2;"min";0;0;1
+84;"OP_TIME_ALL_HOUR";3;"Operating hours of machine (counting starts if one load is switched on)";"1";0;65535;2;"h";0;0;1
+85;;0;;;0;0;0;;0;0;0

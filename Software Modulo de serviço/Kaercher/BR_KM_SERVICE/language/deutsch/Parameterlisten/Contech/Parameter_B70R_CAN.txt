@@ -1,0 +1,159 @@
+0;"DEVICE_OPTION";5;"Bit0: REVERSE_CLEAN; Bit1: Rundumleuchte während Fahren";"1";0;136;1;;0;1;1;12290;1
+1;;0;;;;;;;;;;;
+2;;0;;;;;;;;;;;
+3;;0;;;;;;;;;;;
+4;"LANGUAGE";1;"Sprache im Maschinendisplay";"1";0;1;0;;0;1;0;12288;1
+5;"LK";1;"Eingestellte Ladekennlinie der Batterie";"1";0;20;0;;0;1;0;12288;2
+6;"V_MIN";1;"Minimale Reinigungsgeschwindigkeit";"1";0;6;1;"km/h";0;1;0;12288;3
+7;"Vubat";1;"Transportgeschwindigkeit bei 36V Motorspannung";"0.1";50;200;1;"km/h";0;1;0;12288;4
+8;;0;;;;;;;;;;;
+9;;0;;;;;;;;;;;
+10;;0;;;;;;;;;;;
+11;;0;;;;;;;;;;;
+12;;0;;;;;;;;;;;
+13;"BRUSH_DELAY";1;"Nachlaufzeit der Bürste bei Fahrzeugstop";"1";1;6;1;"s";0;1;1;12288;5
+14;"I_BUERSTE_MAX";1;"Maximal zulässiger Dauerstrom der Bürste";"1";20;80;1;"A";0;1;1;12288;6
+15;"I_BUERSTE_BOOST";1;"Maximal zulässiger Booststrom der Bürste";"1";20;200;1;"A";0;1;1;12288;7
+16;"TIME_OC_BUERSTE_OFF";1;"Verzögerungszeit, bis Bürstenmotorüberlast erkannt wird";"25";1;250;1;"ms";0;1;1;12288;8
+17;"I_TURBINE_MAX";1;"Maximal zulässiger Dauerstrom der Turbine";"1";10;35;1;"A";0;1;1;12288;9
+18;"I_TURBINE_BOOST";1;"Maximal zulässiger Anlaufstrom der Turbine";"1";10;200;1;"A";0;1;1;12288;10
+19;"TIME_OC_TURBINE_OFF";1;"Verzögerungszeit, bis Turbinenmotorüberlast erkannt wird";"25";1;250;1;"ms";0;1;1;12288;11
+20;"V_KI";3;"Verstärkungsfaktor, Integralanteil des Geschwindigkeitsreglers";"1";1;100;1;"INC";0;1;0;12289;1
+21;;0;;;;;;;;;;;
+22;"V_KP";3;"Verstärkungsfaktor, Proportionalanteil des Geschwindigkeitsreglers";"1";1;10;1;"IINC";0;1;0;12289;2
+23;;0;;;;;;;;;;;
+24;"V_RAMP_INC";3;"Beschleunigungsrampe Fahrantrieb";"1";1;100;1;"%";0;1;0;12289;3
+25;;0;;;;;;;;;;;
+26;"V_RAMP_DEC";3;"Bremsrampe Fahrantrieb";"1";1;100;1;"%";0;1;0;12289;4
+27;;0;;;0;;;;;;;;
+28;"RI_MOTOR";1;"Innenwiderstand des Fahrmotors";"0.001";1;250;1;"Ohm";0;1;0;12288;12
+29;"IFmMax";1;"Maximaler Fahrmotorstrom";"1";0;100;1;"A";0;1;0;12288;13
+30;"IFmRed";1;"Reduzierter Fahrmotorstrom";"1";0;100;1;"A";0;1;0;12288;14
+31;;0;;;;;;;;;;;
+32;"CRC";1;"CRC über Parameter 0-31";"1";0;3;3;"INC";0;0;0;0;0
+33;"CRC_USP";1;"CRC über Parameter 34-127 (Unprotected Parameter)";"1";0;3;3;"INC";0;0;0;0;0
+34;"vMaxForward";1;"Maximalgeschwindigkeit Vorwärtsfahrt";"0.1";20;70;1;"km/h";0;1;0;12288;18
+35;"vMaxReverse";1;"Maximalgeschwindigkeit Rückwärtsfahrt";"0.1";10;60;1;"km/h";0;1;0;12288;19
+36;"BrakeDelay";3;"Abschaltverzögerung der Magnetbremse";"1";0;1500;1;"ms";0;1;0;12289;7
+37;;0;;;;;;;;;;;
+38;"TimeHornOn";3;"Zeit Hupe an beim Rückwärtsfahren";"0,1";1;20;1;"s";0;1;0;12289;8
+39;;0;;;;;;;;;;;
+40;"TimeHornOff";3;"Zeit Hupe aus beim Rückwärtsfahren";"0,1";0;20;1;"s";0;1;0;12289;9
+41;;0;;;;;;;;;;;
+42;;0;;;;;;;;;;;
+42;;0;;;;;;;;;;;
+43;;0;;;;;;;;;;;
+43;;0;;;;;;;;;;;
+44;;0;;;;;;;;;;;
+45;;0;;;;;;;;;;;
+46;;0;;;;;;;;;;;
+47;;0;;;;;;;;;;;
+48;;0;;;;;;;;;;;
+49;;0;;;;;;;;;;;
+50;;0;;;;;;;;;;;
+51;;0;;;;;;;;;;;
+52;;0;;;;;;;;;;;
+53;;0;;;;;;;;;;;
+54;;0;;;;;;;;;;;
+55;;0;;;;;;;;;;;
+56;;0;;;;;;;;;;;
+57;;0;;;;;;;;;;;
+58;;0;;;;;;;;;;;
+59;;0;;;;;;;;;;;
+60;;0;;;;;;;;;;;
+61;;0;;;;;;;;;;;
+62;;0;;;;;;;;;;;
+63;;0;;;;;;;;;;;
+64;;0;;;;;;;;;;;
+65;;0;;;;;;;;;;;
+66;;0;;;;;;;;;;;
+67;;0;;;;;;;;;;;
+68;;0;;;;;;;;;;;
+69;;0;;;;;;;;;;;
+70;;0;;;;;;;;;;;
+71;"IRegBKboost[0]";1;"Boost Bürstenkopfstrom (D-Kopf)";"1";5;120;1;"A";0;1;0;12288;15
+72;;0;;;;;;;;;;;
+73;;0;;;;;;;;;;;
+74;"IRegBKmax[0]";1;"Maximaler Bürstenkopfstrom (D-Kopf)";"1";5;80;1;"A";0;1;0;12288;16
+75;;0;;;;;;;;;;;
+76;;0;;;;;;;;;;;
+77;;0;;;;;;;;;;;
+78;"NlzTurbine";1;"Nachlaufzeit der Turbine";"1";1;100;1;"s";0;1;0;12288;17
+79;;0;;;;;;;;;;;
+80;;0;;;;;;;;;;;
+81;;0;;;;;;;;;;;
+82;;0;;;;;;;;;;;
+83;;0;;;;;;;;;;;
+84;;0;;;;;;;;;;;
+85;;0;;;;;;;;;;;
+86;;0;;;;;;;;;;;
+87;;0;;;;;;;;;;;
+88;;0;;;;;;;;;;;
+89;;0;;;;;;;;;;;
+90;;0;;;;;;;;;;;
+91;;0;;;;;;;;;;;
+92;"vRegTime";3;"Zyklischer Aufruf der Geschwindigkeitsregelung";"1";1;100;1;"ms";0;1;0;12289;9
+93;;0;;"1";;;;;;;;;
+94;"BS_SEC";1;"Betriebsstundenzähler, Sekunden";"1";0;59;0;"s";0;1;0;16386;1
+95;"BS_MIN";1;"Betriebsstundenzähler, Minuten";"1";0;59;0;"min";0;1;0;16386;1
+96;"BS_H_LOW";1;"Betriebsstundenzähler, Stunden  (Byte 0)";"1";0;255;0;"h";0;1;0;16386;1
+97;"BS_H_HIGH";1;"Betriebsstundenzähler, Stunden  (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;1
+98;"BS_BRUSH_SEC";1;"Betriebsstundenzähler - Bürste, Sekunden";"1";0;59;0;"s";0;1;0;16386;3
+99;"BS_BRUSH_MIN";1;"Betriebsstundenzähler - Bürste, Minuten";"1";0;59;0;"min";0;1;0;16386;3
+100;"BS_BRUSH_H_LOW";1;"Betriebsstundenzähler - Bürste, Stunden (Byte 0)";"1";0;255;0;"h";0;1;0;16386;3
+101;"BS_BRUSH_H_HIGH";1;"Betriebsstundenzähler - Bürste, Stunden (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;3
+102;"BS_TURBINE_SEC";1;"Betriebsstundenzähler - Turbine, Sekunden";"1";0;59;0;"s";0;1;0;16386;2
+103;"BS_TURBINE_MIN";1;"Betriebsstundenzähler - Turbine, Minuten";"1";0;59;0;"min";0;1;0;16386;2
+104;"BS_TURBINE_H_LOW";1;"Betriebsstundenzähler - Turbine, Stunden (Byte 0)";"1";0;255;0;"h";0;1;0;16386;2
+105;"BS_TURBINE_H_HIGH";1;"Betriebsstundenzähler - Turbine, Stunden (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;2
+106;"SERV_COUNTER_SEC";1;"Servicezähler, Sekunden";"1";0;59;0;"s";0;1;0;16386;4
+107;"SERV_COUNTER_MIN";1;"Servicezähler, Minuten";"1";0;59;0;"min";0;1;0;16386;4
+108;"SERV_COUNTER_H_LOW";1;"Servicezähler, Stunden (Byte 0)";"1";0;255;0;"h";0;1;0;16386;4
+109;"SERV_COUNTER_H_HIGH";1;"Servicezähler, Stunden (Byte 1)";"1";0;255;0;"*256h";0;1;0;16386;4
+110;"RiLeitung";3;"Widerstand der Zuleitung von der Batterie";"1";0;10000;1;"mOhm";0;1;1;12289;6
+111;;0;;;;;;;;;;;
+112;;0;;;;;;;;;;;
+113;"Reserve";0;;;;;;;;;;;
+114;"Reserve";0;;;;;;;;;;;
+115;"MIN_PROZENT_POTI_SPEED";3;"Eingelernter linker Anschlag vom Potentiometer GESCHWINDIGKEIT";"1";0;255;1;"%";0;1;0;12289;5
+116;;0;;"1";0;0;0;;0;0;0;0;0
+117;"MAX_PROZENT_POTI_SPEED";3;"Eingelernter rechter Anschlag vom Potentiometer GESCHWINDIGKEIT";"1";0;255;1;"%";0;1;0;12289;6
+118;;0;;"1";0;0;0;;0;0;0;0;0
+119;"MIN_PROZENT_POTI_WATER";3;"Eingelernter linker Anschlag vom Potentiometer WASSERMENGE";"1";0;255;1;"%";0;1;0;12289;7
+120;;0;;"1";0;0;0;;0;0;0;0;0
+121;"MAX_PROZENT_POTI_WATER";3;"Eingelernter rechter Anschlag vom Potentiometer WASSERMENGE";"1";0;255;1;"%";0;1;0;12289;8
+122;;0;;"1";0;0;0;;0;0;0;0;0
+123;"SERV_RELOAD";5;"Servicezähler - Reloadwert, Stunden";"1";0;400;0;"h";0;1;1;12290;3
+124;;0;;"1";0;0;0;;0;0;0;0;0
+125;;0;;"1";0;0;0;;0;0;0;0;0
+126;;0;;"1";0;0;0;;0;0;0;0;0
+127;;0;;"1";0;0;0;;0;0;0;0;0
+128;;0;;"1";0;0;0;;0;0;0;0;0
+129;;0;;"1";0;0;0;;0;0;0;0;0
+130;;0;;"1";0;0;0;;0;0;0;0;0
+131;;0;;"1";0;0;0;;0;0;0;0;0
+132;;0;;"1";0;0;0;;0;0;0;0;0
+133;;0;;"1";0;0;0;;0;0;0;0;0
+134;;0;;"1";0;0;0;;0;0;0;0;0
+135;;0;;"1";0;0;0;;0;0;0;0;0
+136;;0;;"1";0;0;0;;0;0;0;0;0
+137;;0;;"1";0;0;0;;0;0;0;0;0
+138;;0;;"1";0;0;0;;0;0;0;0;0
+139;;0;;"1";0;0;0;;0;0;0;0;0
+140;;0;;"1";0;0;0;;0;0;0;0;0
+141;;0;;"1";0;0;0;;0;0;0;0;0
+142;;0;;"1";0;0;0;;0;0;0;0;0
+143;;0;;"1";0;0;0;;0;0;0;0;0
+144;;0;;"1";0;0;0;;0;0;0;0;0
+145;;0;;"1";0;0;0;;0;0;0;0;0
+146;;0;;"1";0;0;0;;0;0;0;0;0
+147;;0;;"0";0;0;0;;0;0;0;0;0
+148;;0;;"0";0;0;0;;0;0;0;0;0
+149;;0;;"0";0;0;0;;0;0;0;0;0
+150;;0;;"0";0;0;0;;0;0;0;0;0
+151;;0;;"0";0;0;0;;0;0;0;0;0
+152;;0;;"0";0;0;0;;0;0;0;0;0
+153;;0;;"0";0;0;0;;0;0;0;0;0
+154;;0;;"0";0;0;0;;0;0;0;0;0
+155;;0;;"0";0;0;0;;0;0;0;0;0
+156;;0;;"0";0;0;1;;0;0;0;0;0

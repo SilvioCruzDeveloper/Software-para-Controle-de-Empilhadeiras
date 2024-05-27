@@ -1,0 +1,120 @@
+0;"SAUG_A_RAMPE";1;"Anlauframpe Saugantrieb";"1";0;20;1;;;1;1
+1;"MAX_SPEED_BLOWER";1;"max Sauggeschwindigkeit in % (100%=24V Leerlaufgeschw.)";"1";0;150;1;"%";;1;1
+2;"MAX_STROM_SAUG";1;"Maximalstrom der Turbine";"1";1;30;1;"A";;1;1
+3;"SAUG_OVERLOAD_TIME";1;"Zeit in Überlast bis Abschaltung";"1";0;255;1;"s";;1;1
+4;"R_SAUG";3;"Motorwiderstand der Turbine";"1";20;65535;1;"mOhm";;1;1
+5;;0;;;0;;;;;;0
+6;"BUERST_A_RAMP";1;"Anlauframpe Bürstenantrieb";"1";0;20;1;;;1;1
+7;"MAX_SPEED_BRUSH";1;"max. Bürstengeschwindigkeit in % (100%=24V Leerlaufgeschw.)";"1";0;150;1;"%";;1;1
+8;"MAX_STROM_BUERST";1;"Maximalstrom Bürstenantrieb";"1";1;30;1;"A";;1;1
+9;"BRUSH_OVERLOAD_TIME";1;"Zeit in Überlast bis Abschaltung";"1";0;255;1;"s";;1;1
+10;"R_BUERST";3;"Motorwiderstand der Bürste";"1";0;65535;1;"mOhm";;1;1
+11;;0;;"1";0;;0;;;;0
+12;;1;;"1";0;255;0;;;;0
+13;;1;;"1";0;255;0;;;;0
+14;;1;;"1";0;255;0;;;;0
+15;;1;;"1";0;255;0;;;;0
+16;;1;;"1";0;255;0;;;;0
+17;;1;;"1";0;255;0;;;;0
+18;;1;;"1";0;255;0;;;;0
+19;;1;;"1";0;255;0;;;;0
+20;;1;;"1";0;255;0;;;;0
+21;;1;;"1";0;255;0;;;;0
+22;;1;;"1";0;255;0;;;;0
+23;;1;;"1";0;255;0;;;;0
+24;;1;;"1";0;255;0;;;;0
+25;;1;;"1";0;255;0;;;;0
+26;;1;;"1";0;255;0;;;;0
+27;;1;;"1";0;255;0;;;;0
+28;;1;;"1";0;255;0;;;;0
+29;;1;;"1";0;255;0;;;;0
+30;;1;;"1";0;255;0;;0;0;0
+31;;1;;"1";0;255;0;;0;0;0
+32;"CRC";1;;"1";0;255;0;;0;0;0
+33;"KOPF_CPU_BMIN";1;"Red. Betriebsstundenzähler";"1";0;255;0;;0;0;0
+34;"KOPF_CPU_BSTDL";1;"Red. Betriebsstundenzähler";"1";0;255;0;;0;0;0
+35;"KOPF_CPU_BSTDL";1;"red. Betriebsstundenzähler";"1";0;255;0;;0;0;0
+36;"v_saug";1;"Eistellung Soll-Sauggeschwindigkeit in % vom Maximum";"1";0;100;0;;0;0;0
+37;"v_buerst";1;"Eistellung Soll-Buesrtgeschwindigkeit in % vom Maximum";"1";0;100;0;;0;0;0
+38;"Dosiermenge";3;"Dosiermenge in 0.00025%, 1%=4000 Einheiten";"1";0;40000;0;;0;0;0
+39;;0;;"1";0;;0;;0;0;0
+40;"ventil_1_pwm";3;"PWM für Ventil 1; 0=0V, max=Batteriespannung";"1";0;1024;0;;0;0;0
+41;;0;;"1";0;;0;;0;0;0
+42;"INFO_BYTE";1;"Info Kopf CPU über eine unkommandierte Abschaltung eines Cleanmodul-Aggregates";"1";0;255;0;;0;0;0
+43;"INPUT_BYTE";1;"Abbild der Eingänge am Cleanmodul";"1";0;255;0;;0;0;0
+44;"OP_HOURS_SAUG_L";3;"Betriebszeit Minuten Saugturbine";"1";0;65535;0;;0;0;0
+45;;0;;"1";0;;0;;0;0;0
+46;"OP_HOURS_SAUG_H";3;"Betriebszeit Stunden Saugturbine";"1";0;65535;0;;0;0;0
+47;;0;;"1";0;;0;;0;0;0
+48;"OP_HOURS_BRUSH_L";3;"Betriebszeit Minuten Bürste";"1";0;65535;0;;0;0;0
+49;;0;;"1";0;;0;;0;0;0
+50;"OP_HOURS_BRUSH_H";3;"Betriebszeit Stunden Bürste";"1";0;65535;0;;0;0;0
+51;;0;;"1";0;;0;;0;0;0
+52;"I_SOLL_SAUG";4;"Sollstrom Turbine in 0.1A";"1";0;300;0;;0;0;0
+53;;0;;"1";0;;0;;0;0;0
+54;"I_IST_SAUG";4;"Iststrom Turbine in 0.1A";"1";0;300;0;;0;0;0
+55;;0;;"1";0;;0;;0;0;0
+56;"U_IST_SAUG";4;"Istspannung Turbine in 0.001V";"1";0;5000;0;;0;0;0
+57;;0;;"1";0;;0;;0;0;0
+58;"V_SOLL_SAUG";4;"Sollgeschwindigkeit Turbine in %";"1";0;150;0;;0;0;0
+59;;0;;"1";0;;0;;0;0;0
+60;"V_IST_SAUG";4;"Istgeschwindigkeit Turbine in %";"1";0;150;0;;0;0;0
+61;;0;;"1";0;;0;;0;0;0
+62;"I_SOLL_BUERST";4;"Sollstrom Bürste in 0.1A";"1";0;300;0;;0;0;0
+63;;0;;"1";0;;0;;0;0;0
+64;"I_IST_BUERST";4;"Iststrom Bürste in 0.1A";"1";0;300;0;;0;0;0
+65;;0;;"1";0;;0;;0;0;0
+66;"U_IST_BUERST";4;"Istspannung Bürste in 0.01V";"1";0;5000;0;;0;0;0
+67;;0;;"1";0;;0;;0;0;0
+68;"V_SOLL_BUERST";4;"Sollgeschwindigkeit Bürste in %";"1";0;150;0;;0;0;0
+69;;0;;"1";0;;0;;0;0;0
+70;"V_IST_BUERST";4;"Istgeschwindigkeit Bürste in %";"1";0;150;0;;0;0;0
+71;;0;;"1";0;;0;;0;0;0
+72;"Fuellstand_ROH";3;"Rohspannung Füllstand";"1";0;65535;0;;0;0;0
+73;;0;;"1";0;;0;;0;0;0
+74;"Fuellstand";3;"Füllstand gemittelt";"1";0;65535;0;;0;0;0
+75;;0;;"1";0;;0;;0;0;0
+76;"TEMPERATUR";1;"Temperatur in °C";"1";0;100;0;;0;0;0
+77;"WIDE_INFO_RESERVIERT";1;"kein Funktion";"1";0;255;0;;0;0;0
+78;"UBAT";3;"Batteriespannung in 0.01V";"1";0;5000;0;;0;0;0
+79;;0;;"1";0;;0;;0;0;0
+80;"U_TREIBER";3;"Treiberspannung in 0.01V";"1";0;5000;0;;0;0;0
+81;;0;;"1";0;;0;;0;0;0
+82;"U_5V";3;"5V Spannung in 0.01V";"1";0;5000;0;;0;0;0
+83;;0;;"1";0;;0;;0;0;0
+84;"U_3V3";3;"3,3V Spannung in 0.01V";"1";0;5000;0;;0;0;0
+85;;0;;"1";0;;0;;0;0;0
+86;"U_1V8";3;"1,8V Spannung in 0.01V";"1";0;5000;0;;0;0;0
+87;;0;;"1";0;;0;;0;0;0
+88;;1;;"1";0;255;0;;0;0;0
+89;;1;;"1";0;255;0;;0;0;0
+90;;1;;"1";0;255;0;;0;0;0
+91;;1;;"1";0;255;0;;0;0;0
+92;;1;;"1";0;255;0;;0;0;0
+93;;1;;"1";0;255;0;;0;0;0
+94;;1;;"1";0;255;0;;0;0;0
+95;;1;;"1";0;255;0;;0;0;0
+96;;1;;"1";0;255;0;;0;0;0
+97;;1;;"1";0;255;0;;0;0;0
+98;;1;;"1";0;255;0;;0;0;0
+99;;1;;"1";0;255;0;;0;0;0
+100;;1;;"1";0;255;0;;0;0;0
+101;;1;;"1";0;255;0;;0;0;0
+102;;1;;"1";0;255;0;;0;0;0
+103;;1;;"1";0;255;0;;0;0;0
+104;;1;;"1";0;255;0;;0;0;0
+105;;1;;"1";0;255;0;;0;0;0
+106;;1;;"1";0;255;0;;0;0;0
+107;;1;;"1";0;255;0;;0;0;0
+108;;1;;"1";0;255;0;;0;0;0
+109;;1;;"1";0;255;0;;0;0;0
+110;;1;;"1";0;255;0;;0;0;0
+111;;1;;"1";0;255;0;;0;0;0
+112;;1;;"1";0;255;0;;0;0;0
+113;;1;;"1";0;255;0;;0;0;0
+114;;1;;"1";0;255;0;;0;0;0
+115;;1;;"1";0;255;0;;0;0;0
+116;;1;;"1";0;255;0;;0;0;0
+117;;1;;"1";0;255;0;;0;0;0
+118;;1;;"1";0;255;0;;0;0;0
+119;;1;;"1";0;255;0;;0;0;0

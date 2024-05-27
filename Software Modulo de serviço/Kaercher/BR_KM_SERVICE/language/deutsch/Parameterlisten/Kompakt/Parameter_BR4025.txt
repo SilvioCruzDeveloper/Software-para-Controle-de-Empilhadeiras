@@ -1,0 +1,67 @@
+0;"ACCELRAMP_BRUSH";1;"Beschleunigung Bürstenmotor, angeschlossen an A1-X6/X7";"1";0;10;1;"%";0;1;1
+1;"MAXSPEED_BRUSH";1;"Max. Geschwindigkeit Bürstenmotor, angeschlossen an A1-X6/X7";"1";10;100;1;"% vmax";0;1;1
+2;"CURRENTCTRL_BRUSH";1;"Strombegrenzung Bürstenmotor, angeschlossen an A1-X6/X7";"1";10;45;1;"A";0;1;1
+3;"CURRENTCTRL_SAUG";1;"Strombegrenzung Saugmotor, angeschlossen an A1-X8/X11";"1";10;30;1;"A";0;1;1
+4;"MOTORWIDERSTAND_BRUSH";1;"Innenwiderstand Bürstenmotor, angeschlossen an A1-X6/X7";"0.01";0;255;2;"Ohm";0;1;0
+5;"MOTORWIDERSTAND_SAUG";1;"Innenwiderstand Saugmotor, angeschlossen an A1-X8/X11";"0.01";0;255;2;"Ohm";0;1;0
+6;"OVERLOAD_TIME";1;"Max. Dauer der Bürstenmotorüberlast an A1-X6/X7";"1";3;15;2;"s";0;1;1
+7;"SAUG_NACHLAUF";1;"Nachlaufzeit  Saugmotor an A1-X8/X11";"1";0;50;2;"s";0;1;1
+8;"TIEFENTLADESCHUTZ";1;"Entladeschlußspannung der Batterie (Alle Lasten aus, Anzeige: rot)";"0.1";110;200;2;"V";-100;1;1
+9;"BAT_1";1;"Schwellspannung Ut zum Wechsel in Kapazitätsfenster 0%..20% (Anzeige rot blinkend)";"0.1";110;200;2;"V";-100;1;0
+10;"BAT_2";1;"Schwellspannung Ut zum Wechsel in Kapazitätsfenster 20%..40% (Anzeige gelb)";"0.1";110;200;2;"V";-100;1;0
+11;"BAT_3";1;"Schwellspannung Ut zum Wechsel in Kapazitätsfenster 40%..60% (Anzeige grün)";"0.1";110;200;2;"V";-100;1;0
+12;"BAT_4";1;"Schwellspannung Ut zum Wechsel in Kapazitätsfenster 60%..80% (Anzeige grün)";"0.1";110;200;2;"V";-100;1;0
+13;"BAT_FULL";1;"Rücksetzspannung Kapazitätsanzeige 100%, Freischaltung gesperrter Signale";"0.1";110;200;2;"V";-100;1;1
+14;"SPANN_TIMEOUT";1;"Mindestzeit bei der die Spannung unterhalb Ut ist, um in neues Kapazitätsfenster zu wechseln";"0.42";1;3;2;"min";0;1;1
+15;"BAT_KAPAZITAET";1;"5-stündige Batterienennkapazität (wird derzeit nicht verarbeitet!)";"1";10;255;2;"Ah";0;1;0
+16;"LADESTROM";1;"Ladestrom in der I-Phase";"0.125";0;96;2;"A";0;1;0
+17;"REFRESH_LADE";1;"Mindestspannung, ab der Lader eine tiefenladene Batterie versucht zu reformieren";"0.1";50;100;2;"V";-100;1;0
+18;"U_LADESCHLUSS";1;"Ladekonstantspannung in der U-Phase";"0.1";80;200;2;"V";-100;1;0
+19;"UMAX_IA_PHASE";1;"Zulässige Gasungsspannung in der Ia-Phase";"0.1";80;255;2;"V";-100;1;0
+20;"IA_STROM";1;"Ladestrom in der Ia Phase";"0.125";0;96;2;"A";0;1;0
+21;"MAX_REFRESH_DAUER";1;"Maximale Dauer der Reformierladung";"0.056";0;250;2;"h";0;1;0
+22;"MAX_HL_DAUER";1;"Maximale Dauer der Hauptladung (U+I-Phase)";"0.056";0;250;2;"h";0;1;0
+23;"MIN_NL_DAUER";1;"Minimale Dauer der Nachladung (Ia-Phase)";"0.056";0;250;2;"h";0;1;0
+24;"MAX_NL_DAUER";1;"Maximale Dauer der Nachladung (Ia-Phase)";"0.056";0;250;2;"h";0;1;0
+25;"MAX_STROM_E_PHASE";1;"Maximaler Ladestrom in der Erhaltungsladung";"0.125";0;96;2;"A";0;1;0
+26;"TMIN_FEHLER";1;"Zeit, bis in der Erhaltungsladung ein Akkufehler erkannt wird";"0.056";0;250;2;"h";0;1;0
+27;"U_ERHALT";1;"Erhaltungsladespannung";"0.1";100;200;2;"V";-100;1;0
+28;"ZL_WIDERSTAND";1;"Kompensation des Leitungswiderstands zur Batterie";"1";0;255;2;"mOhm";0;1;0
+29;"STANDBYTIME";1;"Zeit bis zur Selbstabschaltung der Maschine";"3.333";0;255;2;"min";0;1;1
+30;"GELB_ABGLEICH";2;"Anpassung des Gelbtons der Batterie-LED von rötlich (negativ) bis grünlich (positiv)";"1";240;16;2;"INC";0;1;1
+31;;0;;"0";0;0;0;;0;0;0
+32;"CRC";1;"Checksumme der Parameter 0-31";"1";0;254;3;"INC";0;0;0
+33;"TEMP";2;"Steuerungstemperatur";"1";236;100;3;"°C";0;0;0
+34;"OP_TIME_BRUSH_MIN";3;"Betriebsminuten Bürstenmotor, angeschlossen an A1-X6/X7";"0.017";0;3530;2;"min";0;0;1
+35;;0;;;0;0;0;;0;0;0
+36;"OP_TIME_BRUSH_HOUR";3;"Betriebsstunden Bürstenmotor, angeschlossen an A1-X6/X7";"1";0;65535;2;"h";0;0;1
+37;;0;;;0;0;0;;0;0;0
+38;"OP_TIME_SAUG_MIN";3;"Betriebsminuten Saugmotor, angeschlossen an A1-X8/X11";"0.017";0;3530;2;"min";0;0;1
+39;;0;;;0;0;0;;0;0;0
+40;"OP_TIME_SAUG_HOUR";3;"Betriebsstunden Saugmotor, angeschlossen an A1-X8/X11";"1";0;65535;2;"h";0;0;1
+41;;0;;;0;0;0;;0;0;0
+42;"LADEZUSTAND";1;"Batterieladezustand";"20";0;5;3;"%";0;0;0
+43;"SPANN_TIMER";1;"Verbleibende Sekunden bis zum Wechsel in die nächste Ladephase";"1";0;255;3;"s";0;0;0
+44;"ERROR_CNT_BRUSH_OVR";1;"Anzahl der Überlastungen des Bürstenmotors, angeschlossen an A1-X6/X7";"1";0;255;2;;0;0;1
+45;"ERROR_CNT_SAUG_OVER";1;"Anzahl der Überlastungen des Saugmotors, angeschlossen an A1-X8/X11";"1";0;255;2;;0;0;1
+46;"BRUSH_OVER_TIME_MIN";3;"Betriebsminuten mit letzter Bürstenmotorüberlastung";"0.017";0;3530;2;"min";0;0;1
+47;;0;;;0;0;0;;0;0;0
+48;"BRUSH_OVER_TIME_HOUR";3;"Betriebsstunden mit letzter Bürstenmotorüberlastung";"1";0;65535;2;"h";0;0;1
+49;;0;;;0;0;0;;0;0;0
+50;"SAUG_OVER_TIME_MIN";3;"Betriebsminuten mit letzter Saugmotorüberlastung";"0.017";0;3530;2;"min";0;0;1
+51;;0;;;0;0;0;;0;0;0
+52;"SAUG_OVER_TIME_HOUR";3;"Betriebsstunden mit letzter Saugmotorüberlastung";"1";0;65535;2;"h";0;0;1
+53;;0;;;0;0;0;;0;0;0
+54;"CHARGE_TIMER";3;"Verweilzeit in der aktuellen Ladephase";"0.007";0;14286;3;"h";0;0;0
+55;;0;;;0;0;0;;0;0;0
+56;"CHARGE_HL_TIMER";3;"Dauer der (letzten) Hauptladung";"0.007";0;14286;3;"h";0;0;0
+57;;0;;;0;0;0;;0;0;0
+58;"ERROR_CNT_HL";3;"Anzahl Fehler ""Hauptladezeit überschritten""";"1";0;65535;2;;0;0;1
+59;;0;;;0;0;0;;0;0;0
+60;"ERROR_CNT_REFRESH";3;"Anzahl Fehler ""Reformierungszeit überschritten""";"1";0;65535;2;;0;0;1
+61;;0;;;0;0;0;;0;0;0
+62;"ERROR_CNT_U_GAS";3;"Anzahl Fehler ""Gasungsspannung in Ia-Phase überschritten""";"1";0;65535;2;;0;0;1
+63;;0;;;0;0;0;;0;0;0
+64;"ERROR_CNT_UMAINTAIN";3;"Anzahl Fehler ""Erhaltungsladestrom zu hoch""";"1";0;65535;2;;0;0;1
+65;;0;;;0;0;0;;0;0;0
+66;"CHARGER_PHASE";1;"Nummer der aktuellen Ladephase";"1";0;7;3;;0;0;0

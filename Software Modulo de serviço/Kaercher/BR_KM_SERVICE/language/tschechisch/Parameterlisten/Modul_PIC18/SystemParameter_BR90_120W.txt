@@ -1,0 +1,32 @@
+0;"LANGUAGE";1;"Ab Kopf-CPU-Firmwareversion V3.0: Länder-Code (0-18) zur Auswahl der Displaysprache";"1";0;1;1;;;1;1
+1;"MODELL";1;"Maschinenmodell: 0=B 120W R90, 1=B 120 W D90";"1";0;3;1;;;1;1
+2;"RUND_ON";1;"Einschalten der Rundumleuchte bei Rückwärtsfahrt";"1";0;1;1;;;1;1
+3;"STANDBY_TIME";1;"Ausschaltverzögerung bei Stillstand der Maschine";"1";0;240;1;"min";;1;1
+4;"LADE_SCHLUSS";1;"Entladeschlußspannung  (pro Zelle)";"0.01";165;195;1;"V/Zelle";;;1
+5;"LADE_RUECK";1;"Laderücksetzspannung (pro Zelle)";"0.01";150;220;1;"V/Zelle";;;1
+6;"LADE_KRITISCH";1;"krit. Entladespannung; Einleiten Abschaltprogramm";"0.01";145;165;1;"V/Zelle";;;0
+7;"ISTOP_BASIS";1;"Bürstenstrom für minimalen Anpreßdruck in 10A-Schritten";"1";20;50;1;"A";0;10;1
+8;"BRUSH_MODE";1;"Betriebsart Hubmotor Bürste: 0=Endschaltermode, 1=Blockmode";"1";0;1;1;;0;0;1
+9;"FILTER_TIME";1;"Filterrüttelzeit Vorkehreinheit in 5s Schritten";"1";5;120;1;"s";0;5;1
+10;"FILTER_PAUSE";1;"Filterpausenzeit Vorkehreinheit in 5s Schritten";"1";5;200;1;"s";0;5;1
+11;"VK_NACHLAUF";1;"Nachlaufzeit der Vorkehrwerkaggregate in 1s Schritten";"0.1";0;50;1;"s";0;10;1
+12;"SGBL_NACHLAUF";1;"Nachlaufzeit Sauggebläse in 1s Schritten";"0.1";0;200;1;"s";0;10;1
+13;"WARN_MELD";1;"1 = Warnungen werden unterdrückt";"1";0;1;1;;;1;1
+14;"RMDOSI";1;"1 = Freischalten der Reinigungsmitteldosierung";"1";0;1;1;;;1;1
+15;"IHYSTERESE";1;"Toleranzband der Bürstenstromregelung";"1";5;10;1;"A";;1;0
+16;;0;;;0;0;0;;;;0
+17;;0;;;0;0;0;;;;0
+18;;0;;;0;0;0;;;;0
+19;;0;;;0;0;0;;;;0
+20;;0;;;0;0;0;;;;0
+21;;0;;;0;0;0;;;;0
+22;;0;;;0;0;0;;;;0
+23;;0;;;0;0;0;;;;0
+24;;0;;;0;0;0;;;;0
+25;;0;;;0;0;0;;;;0
+26;;0;;;0;0;0;;;;0
+27;;0;;;0;0;0;;;;0
+28;;0;;;0;0;0;;;;0
+29;;0;;;0;0;0;;;;0
+30;;0;;;0;0;0;;;;0
+31;;0;;;0;0;0;;;;0
